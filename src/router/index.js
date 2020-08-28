@@ -8,22 +8,91 @@ Vue.use(VueRouter)
   {
     path: '/',
     name: 'Home',
-    component: Home
+    component: Home,
+    meta: {
+      title: 'Home | Web Dev LIVE India',
+      color: 'white'
+    }
   },
   {
     path: '/about',
     name: 'About',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue'),
+    meta: {
+      title: 'About | Web Dev LIVE India',
+      color: 'white'
+    }
+  },
+  {
+    path: '/agenda',
+    name: 'Agenda',
+    component: () => import(/* webpackChunkName: "agenda" */ '../views/Agenda.vue'),
+    meta: {
+      title: 'Agenda | Web Dev LIVE India',
+      color: 'white'
+    }
+  },
+  {
+    path: '/community-guidelines',
+    name: 'Community Guidelines',
+    component: () => import(/* webpackChunkName: "Community Guidelines" */ '../views/CommunityGuidelines.vue'),
+    meta: {
+      title: 'Community Guidelines | Web Dev LIVE India',
+      color: 'white'
+    }
+  },
+  {
+    path: '/partners',
+    name: 'Partners',
+    component: () => import(/* webpackChunkName: "partners" */ '../views/Partners.vue'),
+    meta: {
+      title: 'Partners | Web Dev LIVE India',
+      color: 'white'
+    }
+  },
+  {
+    path: '/registration',
+    name: 'Registration',
+    component: () => import(/* webpackChunkName: "registration" */ '../views/Registration.vue'),
+    meta: {
+      title: 'Registeration | Web Dev LIVE India',
+      color: 'white'
+    }
+  },
+  {
+    path: '/speakers',
+    name: 'Speakers',
+    component: () => import(/* webpackChunkName: "speakers" */ '../views/Speakers.vue'),
+    meta: {
+      title: 'Speakers | Web Dev LIVE India',
+      color: 'white'
+    }
+  },
+  {
+    path: '/team',
+    name: 'Team',
+    component: () => import(/* webpackChunkName: "team" */ '../views/Team.vue'),
+    meta: {
+      title: 'Team | Web Dev LIVE India',
+      color: 'white'
+    }
   }
 ]
 
 const router = new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,
-  routes
+  routes,
+  scrollBehavior() {
+    return { x: 0, y: 0 };
+  },
+})
+
+router.beforeEach((to, from, next) => {
+  if (to.meta.title) {
+    document.title = to.meta.title
+  }
+  next()
 })
 
 export default router
