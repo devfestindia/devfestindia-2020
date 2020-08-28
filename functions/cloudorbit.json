@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "cloudorbit",
+  "private_key_id": "a2e1f34fd3c3711b2c5a01eb791b5e2a11a09b18",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCqEGWaoCSLV1bT\n3gjU3FTu6e9xMzoiBv9EggfnmfqAy7hP7A+kPKEwj8oBm5cebH1SmFXQ6uVnnZE+\nlVvTmhhZdXvrz9r+AkxyyMNbvmdLg+50MSSkHod1Hh66h932lg6LhhuGa8MUyXSj\nNyMItsqr+9eXMZYFRgueTMbz4uiACO1A5Zp4is7JQq9CxkC4C7RcrLXXh2tg3Kkh\n7k/7Ti6wyizXQyDDVw5y0AtfhEn1LIvVGF9KLgZ2xLMFgFMgLnD94yPQ2ySFZ/74\n2Es5rM4ug+T1IezDRJBIkY3RPcP2Rk+vW7Br66rEvkg5HwKOrBzu5cz1BLZL4zZj\nyfSyTdqbAgMBAAECggEABhQEnaHVod6i7Xrvvok1cT3j30bhGrA8qrp/BSm9XfcU\nr6k/PIkniwXInDAZwZjyYw5WGtvFC+QCJJt6pwsd4wH48N+tSGDVUfuXnTgmlviw\ngBn1i6Fvs/bkoEQU4dL70sQd8xBM7k7uSpsWNyHZXTY+FAWjWALojWWEbYO8TZR1\nGyehFY7xqmvUeX7hd+CT3+xwhMMDtbg4jgrR8NSMuHWea+Qbh22F+8NoS/fbsIRp\nX8hgoHwHQ7e+DNw4YkUQqFN45ZSq77cQ4l2W6+LHwjjshDPz3kiE95AODHmfj7GA\nuUZ/su+8kNEfb6axlXPhxLQBKIv0gFjrNI7VBabUyQKBgQDm5ccr70hv7M0U8/0m\nYpTqGOFRMBhrnh5obOxsNKSCNVXmOkOskDAMkzLf1RMG6bQOjJZrxNU226Rz1pHD\nBU4hsiz84o5upE25WtzbP+MG/H2lpo5iiSjj085I1IqdcqCm6o4qFRvPvTLGKo4b\nm3ecYzKlcAwZQNhLYzSQJuUFjQKBgQC8jYggzvwkyWy5mk3vFJNXtStpxM++lBUu\n77q99mgTCMTfv+CWYuhWb0qJyG5P3SfqhK6kxbi5e9TAOoYWvItAY6Hol373DH3Y\nUEvPHiR1AcnDnDIdrGwfRwDOrKkXbwUsBGMKPomr08+Ih6Xu/Dm5WbR7JBbF4rRC\n5PcAKTUyxwKBgEIjBw3amFEW7xdVW+mmyyjSv5dVw2jv/Z3DtWS5H3X8eQJdJg1D\nr7+qWiQrECwmvOB9/IgZ9UilWVGk4FOQLXURaDl3W3ztqyWwlRpoDktt/z93mck3\nqHK5tJi/6IR41PN6tAXxzemPM//3KIVX3sb40wT4Nz70h//wBppTyb3xAoGBAIaC\nrUdCgiw4KcEqrEhPtGFQlHzq840wlQAb82uLOmnByrkYaD7ApqDq2hD7FH8S9WPf\nbbuMdiCUj4zm8zuLHAg+S4XjdacGmUxU1BAYn8d9FBPg/PugQq35eED4edSG1fi1\n1HW9cXdMLnRm2OBpvUBWF2P1te1Lsm86al8KBrKHAoGBAJMpldxaPp/9f+baknxh\nRVftQE3btnC+CzQHOiAdGxBjvR+oWIrBuWQhz53pTp/K9twoRGrsiX4FL/mLZlOV\nTf1L63ojw8WOZqyOg3H4U0YarFmZabWBcbJPlJub4AFjqOxl+TdOuXegjufqj24Z\nyW8F36VuILVCh0Fwq3YLXgnN\n-----END PRIVATE KEY-----\n",
+  "client_email": "mailservice@cloudorbit.iam.gserviceaccount.com",
+  "client_id": "100576669381828397684",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/mailservice%40cloudorbit.iam.gserviceaccount.com"
+}

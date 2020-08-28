@@ -58,6 +58,7 @@
         >{{ link.text }}</v-tab
       >
     </v-tabs>
+    <v-btn dark color="indigo" class="ml-4" to="/registration" depressed>Registration</v-btn>
 
     <v-btn
       aria-label="Share Button"

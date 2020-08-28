@@ -1,10 +1,20 @@
 const functions = require('firebase-functions');
 const admin = require('firebase-admin');
 const nodemailer = require('nodemailer');
+const key = require('./cloudorbit.json');
+// import * as key from './cloudorbit.json';
 admin.initializeApp();
 
 const transporter = nodemailer.createTransport({
-    service: 'smtp.gmail.com',
+    service: 'gmail',
+    port: 465,
+    secure: true,
+    auth: {
+        type: 'OAuth2',
+        user: "no-reply@devfestindia.com",
+        serviceClient: key.client_id,
+        privateKey: key.private_key
+    }
     // auth: {
     //     user: "no-reply@devfestindia.com",
     //     pass: ``
@@ -42,6 +52,6 @@ const sendGmailConf = async (snap) => {
     }
 }
 
-exports.sendEmail = functions.firestore.document('edata/{id}').onCreate((snap, context) => {
+exports.sendEmail2 = functions.firestore.document('edata/{id}').onCreate((snap, context) => {
     sendGmailConf(snap);
 });
