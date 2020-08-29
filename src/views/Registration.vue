@@ -25,6 +25,7 @@
           </p>
 
           <v-container fluid>
+            <!-- Google Sign In -->
             <v-row>
               <v-col md="2" cols="2">
                 <v-avatar color="#0005DF">
@@ -69,7 +70,9 @@
                 >
               </v-col>
             </v-row>
+            <!-- Google Sign In -->
 
+            <!-- Form -->
             <v-row v-if="userForm && userLoginIn">
               <v-col md="2" cols="2">
                 <v-avatar color="#0005DF">
@@ -81,18 +84,182 @@
                 <p class=" mb-10">
                   Required fields are marked with an asterisk
                 </p>
+
+                <v-text-field
+                  label="Email"
+                  v-model="response.email"
+                  placeholder="Email"
+                  outlined
+                  disabled
+                ></v-text-field>
+
                 <v-text-field
                   label="Your Name"
                   v-model="response.name"
                   placeholder="Your Name"
                   outlined
                 ></v-text-field>
+
                 <v-text-field
-                  label="Email"
-                  v-model="response.email"
-                  placeholder="Email"
+                  label="Your City"
+                  v-model="response.city"
+                  placeholder="Your City"
                   outlined
                 ></v-text-field>
+
+                <v-text-field
+                  label="Your Country"
+                  v-model="response.country"
+                  placeholder="Your Country"
+                  outlined
+                ></v-text-field>
+
+                <v-text-field
+                  label="Your Company/Institute Name"
+                  v-model="response.org"
+                  placeholder="Your Company/Institute Name"
+                  outlined
+                ></v-text-field>
+
+                <v-text-field
+                  label="Your Role"
+                  v-model="response.role"
+                  placeholder="Your Role"
+                  outlined
+                ></v-text-field>
+
+                <!-- Gender -->
+                <!-- v-on:change="validateForm()"
+                    :rules="[rules.required]" -->
+                <v-radio-group v-model="response.gender" class="mb-3">
+                  
+                    <div
+                      class="google-font mb-3"
+                      style="font-size:120%;color:black !important"
+                    >
+                      How would you like to identify yourself as?
+                      <span style="color:#ff5252;">*</span>
+                      <br />
+                      <span
+                        style="color:#ff5252;font-size:70%"
+                        v-if="response.gender === 0"
+                      >This field is required.</span>
+                    </div>
+
+                    <v-radio value="Male" v-slot:label>
+                      <div>Male</div>
+                    </v-radio>
+                    <v-radio value="Female" v-slot:label>
+                      <div>Female</div>
+                    </v-radio>
+                    <v-radio value="Prefer not to say" v-slot:label>
+                      <div>Prefer not to say</div>
+                    </v-radio>
+                </v-radio-group>
+                <!-- Gender -->
+
+
+                <!-- Experience -->
+                <!-- v-on:change="validateForm()"
+                    :rules="[rules.required]" -->
+                <v-radio-group v-model="response.experience" class="mb-3">
+                  
+                    <div
+                      class="google-font mb-3"
+                      style="font-size:120%;color:black !important"
+                    >
+                      Years of experience
+                      <span style="color:#ff5252;">*</span>
+                      <br />
+                      <span
+                        style="color:#ff5252;font-size:70%"
+                        v-if="response.experience === 0"
+                      >This field is required.</span>
+                    </div>
+
+                    <v-radio value="0 - 5 years" v-slot:label>
+                      <div>0 - 5 years</div>
+                    </v-radio>
+                    <v-radio value="6 - 10 years" v-slot:label>
+                      <div>6 - 10 years</div>
+                    </v-radio>
+                    <v-radio value="11 - 20 years" v-slot:label>
+                      <div>11 - 20 years</div>
+                    </v-radio>
+                    <v-radio value="21+ years" v-slot:label>
+                      <div>21+ years</div>
+                    </v-radio>
+                </v-radio-group>
+                <!-- Experience -->
+
+                <!-- Coupen Code -->
+                <v-text-field
+                  label="Enter the coupon code for the event"
+                  v-model="response.code"
+                  placeholder="Enter the coupon code for the event"
+                  hint="Enter NA in case you don't have a coupon code"
+                  outlined
+                ></v-text-field>
+                <!-- Cooupen Code -->
+
+                <!-- Experience -->
+                <!-- v-on:change="validateForm()"
+                :rules="[rules.required]" -->
+                <v-radio-group v-model="response.knowAbout" class="mb-3">
+                    <div
+                      class="google-font mb-3"
+                      style="font-size:120%;color:black !important"
+                    >
+                      How did you get to know about this event?
+                      <span style="color:#ff5252;">*</span>
+                      <br />
+                      <span
+                        style="color:#ff5252;font-size:70%"
+                        v-if="response.knowAbout === 0"
+                      >This field is required.</span>
+                    </div>
+
+                    <v-radio value="Women Techmakers" v-slot:label>
+                      <div>Women Techmakers</div>
+                    </v-radio>
+                    <v-radio value="Google Developer Groups" v-slot:label>
+                      <div>Google Developer Groups</div>
+                    </v-radio>
+                    <v-radio value="Developer Student Clubs" v-slot:label>
+                      <div>Developer Student Clubs</div>
+                    </v-radio>
+                    <v-radio value="Other Communities" v-slot:label>
+                      <div>Other Communities</div>
+                    </v-radio>
+                    <v-radio value="Through your company/colleague" v-slot:label>
+                      <div>Through your company/colleague</div>
+                    </v-radio>
+                    <v-radio value="Friends" v-slot:label>
+                      <div>Friends</div>
+                    </v-radio>
+                    <v-radio value="Twitter" v-slot:label>
+                      <div>Twitter</div>
+                    </v-radio>
+                    <v-radio value="Facebook" v-slot:label>
+                      <div>Facebook</div>
+                    </v-radio>
+                    <v-radio value="LinkedIn" v-slot:label>
+                      <div>LinkedIn</div>
+                    </v-radio>
+                    <v-radio value="Other" v-slot:label>
+                      <div>Other</div>
+                    </v-radio>
+                </v-radio-group>
+                <!-- Experience -->
+
+                <!-- Share -->
+                <v-textarea
+                    outlined
+                    label="Anything else you want to share with us?"
+                    v-model="response.share"
+                  ></v-textarea>
+                <!-- Share -->
+                
                 <v-btn
                   depressed
                   dark
@@ -104,7 +271,9 @@
                 >
               </v-col>
             </v-row>
+            <!-- Form -->
 
+            <!-- Registration Success -->
             <v-row v-if="userSuccess && userLoginIn">
               <v-col md="2" cols="2">
                 <v-avatar color="#0005DF">
@@ -129,14 +298,17 @@
                   rel="noreferrer"
                   dark
                   color="#4285F4"
-                  class="mt-2 google-font"
+                  class="mt-3 google-font"
                 >
                   <v-icon size="20px" left>mdi-twitter</v-icon>
                   <b>Share your excitement</b>
                 </v-btn>
+                <v-btn outlined color="#0005DF" style="text-transform: capitalize;border-radius:5px;" class="google-font ">Generate your Profile Badge</v-btn>
               </v-col>
             </v-row>
-
+            <!-- Registration Success -->
+            
+            <!-- Already Registerd -->
             <v-row v-if="userSubmitedAlready && userLoginIn">
               <v-col md="2" cols="2">
                 <!-- <h2 class="google-font">Step 3</h2> -->
@@ -160,15 +332,16 @@
                   rel="noreferrer"
                   dark
                   depressed
-                  flat
                   color="#4285F4"
-                  class="mt-1 mb-4 google-font"
+                  class=" google-font mr-3"
                 >
                   <v-icon size="20px" left>mdi-twitter</v-icon>
                   <b>Share your excitement</b>
                 </v-btn>
+                <v-btn outlined color="#0005DF" style="text-transform: capitalize;border-radius:5px;" class="google-font ">Generate your Profile Badge</v-btn>
               </v-col>
             </v-row>
+            <!-- Already Registerd -->
           </v-container>
         </v-col>
       </v-row>
@@ -196,6 +369,15 @@ export default {
     response: {
       name: "",
       email: "",
+      city:"",
+      country:"",
+      org:"",
+      role:"",
+      gender:"",
+      experience:"",
+      code:"",
+      knowAbout:"",
+      share:""
     },
   }),
   components: {
@@ -283,6 +465,15 @@ export default {
           name: this.response.name,
           email: this.response.email,
           image: this.user.photoURL,
+          city: this.response.city,
+          country: this.response.country,
+          gender: this.response.gender,
+          experience: this.response.experience,
+          share: this.response.share,
+          knowAbout: this.response.knowAbout,
+          code: this.response.code,
+          role: this.response.role,
+          org: this.response.org,
           date: new Date(),
         })
         .then(() => {
