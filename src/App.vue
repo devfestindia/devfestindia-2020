@@ -68,11 +68,6 @@ export default {
       window.location.reload();
     });
   },
-  beforeCreate() {
-    localStorage.getItem("darkMode") == "true"
-      ? (this.$vuetify.theme.dark = true)
-      : (this.$vuetify.theme.dark = false);
-  },
   methods:{
     showRefreshUI(e) {
       this.registration = e.detail;
