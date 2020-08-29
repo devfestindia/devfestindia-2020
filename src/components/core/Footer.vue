@@ -1,5 +1,5 @@
 <template>
-  <v-footer class="ma-0">
+  <v-footer class="ma-0" >
     <v-container
       fluid
       class="grey lighten-4"
@@ -52,16 +52,18 @@
             style="text-decoration:none;"
           >FAQ</router-link> -->
           <br class="hidden-md-and-up">
-            <a href="https://www.womentechmakers.com" target="_blank"
+          <router-link
+            to="/faq"
             rel="noreferrer"
-            :class="
-                $vuetify.theme.dark == true
-                  ? 'white--text'
-                  : 'grey--text text--darken-3'
-              "
-            class="mr-4 google-font"
+            class="mr-3 google-font grey--text text--darken-3"
             style="text-decoration:none;"
-          >Link 2</a>
+          >FAQ</router-link>
+
+            <!-- <a href="https://www.womentechmakers.com" target="_blank"
+            rel="noreferrer"
+            class="mr-4 google-font grey--text text--darken-3"
+            style="text-decoration:none;"
+          >FAQ</a> -->
           <br class="hidden-md-and-up">
           <a href="https://developers.google.com/community-guidelines" target="_blank"
             rel="noreferrer"

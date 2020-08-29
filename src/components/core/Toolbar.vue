@@ -95,7 +95,7 @@ export default {
       this.$vuetify.goTo(item.href);
     },
     getRouteName() {
-      if (this.$route.name === "Register" || this.$route.name === "FAQ") {
+      if (this.$route.name === "Registration" || this.$route.name === "FAQ") {
         return true;
       } else {
         return false;
@@ -105,8 +105,8 @@ export default {
       if (navigator.share) {
         navigator
           .share({
-            title: "web.dev LIVE India",
-            url: "",
+            title: "DevFest India India",
+            url: "https://devfestindia.com",
           })
           .then(() => {
             console.log("Thanks for sharing");

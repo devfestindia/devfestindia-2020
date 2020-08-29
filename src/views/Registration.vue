@@ -1,6 +1,13 @@
 <template>
   <v-main>
-    <v-container fluid>
+    <Snakebar
+      :message="snakeBarMessage"
+      :isShow.sync="isSnakeBarVisible"
+      :color="snakeBarColor"
+      :timeout="snakeBarTimeOut"
+    />
+
+    <v-container fluid class="mt-4">
       <v-row justify="center" align="center">
         <v-col md="7" sm="8" lg="5">
           <h1 class="google-font">DevFest India: Registration</h1>
@@ -19,11 +26,16 @@
 
           <v-container fluid>
             <v-row>
-              <v-col md="2">
-                <h2 class="google-font">Step 1</h2>
+              <v-col md="2" cols="2">
+                <v-avatar color="indigo">
+                  <v-icon dark>mdi-account-circle</v-icon>
+                </v-avatar>
+                <!-- 
+                <h2 class="google-font">Step 1</h2> -->
               </v-col>
-              <v-col md="10" class="google-font">
-                <h2 class="google-font">Login with your Google Account</h2>
+              <v-col md="10" class="google-font" cols="10">
+                <h3 class="google-font">Login with your Google Account</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto, dolores iusto mollitia nisi quibusdam accusantium</p>
 
                 <v-list-item v-if="userLoginIn" class="ml-0 pl-0">
                   <v-list-item-avatar size="65">
@@ -46,18 +58,26 @@
                   </v-list-item-content>
                 </v-list-item>
 
-                <v-btn v-if="showLoginBtn" outlined class="mt-3" v-on:click="signIn"
-                  >Sign In with Google</v-btn
+                <v-btn
+                  v-if="showLoginBtn"
+                  outlined
+                  class="mt-3"
+                  v-on:click="signIn"
+                  >
+                  <v-icon size="20px" left>mdi-google</v-icon>
+                  Sign In with Google</v-btn
                 >
               </v-col>
             </v-row>
 
             <v-row v-if="userForm && userLoginIn">
-              <v-col md="2">
-                <h2 class="google-font">Step 2</h2>
+              <v-col md="2" cols="2">
+                <v-avatar color="indigo">
+                  <v-icon dark>mdi-format-align-justify</v-icon>
+                </v-avatar>
               </v-col>
-              <v-col md="10" class="google-font">
-                <h2 class="google-font">Your details</h2>
+              <v-col md="10" class="google-font" cols="10">
+                <h3 class="google-font">Your details</h3>
                 <p class=" mb-10">
                   Required fields are marked with an asterisk
                 </p>
@@ -86,26 +106,65 @@
             </v-row>
 
             <v-row v-if="userSuccess && userLoginIn">
-              <v-col md="2">
-                <h2 class="google-font">Step 3</h2>
+              <v-col md="2" cols="2">
+                <v-avatar color="indigo">
+                  <v-icon dark>mdi-playlist-check</v-icon>
+                </v-avatar>
               </v-col>
-              <v-col md="10" class="google-font">
-                <h2 class="google-font">Thank you!</h2>
-                <p class=" mb-10">
-                  Required fields are marked with an asterisk
-                </p>
+              <v-col md="10" class="google-font" cols="10">
+                <h3 class="google-font">
+                  Thank you for registering for
+                  <a
+                    href="https://twitter.com/DevFestIndia"
+                    rel="noreferrer"
+                    target="_blank"
+                    style="text-decoration:none"
+                  >
+                    <b>#DevFestIndia</b> </a
+                  >.
+                </h3>
+                <v-btn
+                  href="https://twitter.com/intent/tweet?text=console.log('Hi%20%23WebDevs');%0A%0AI%20have%20registered%20for%20%23DevFestIndia%20to%20attend%20many%20amazing%20sessions.%0AHave%20you?%0A%0AIf%20not,%20register%20yourself%20at%20devfestindia.com%0A%0A%23DevFestIndia%20%23DevFest%20%20@DevFestIndia"
+                  target="_blank"
+                  rel="noreferrer"
+                  dark
+                  color="#4285F4"
+                  class="mt-2 google-font"
+                >
+                  <v-icon size="20px" left>mdi-twitter</v-icon>
+                  <b>Share your excitement</b>
+                </v-btn>
               </v-col>
             </v-row>
 
             <v-row v-if="userSubmitedAlready && userLoginIn">
-              <v-col md="2">
-                <h2 class="google-font">Step 3</h2>
+              <v-col md="2" cols="2">
+                <!-- <h2 class="google-font">Step 3</h2> -->
+                <v-avatar color="indigo">
+                  <v-icon dark>mdi-playlist-check</v-icon>
+                </v-avatar>
               </v-col>
-              <v-col md="10" class="google-font">
-                <h2 class="google-font">You have already submitted this form</h2>
+              <v-col md="10" class="google-font" cols="10">
+                <h3 class="google-font">
+                  You have already submitted this form
+                </h3>
                 <p class=" mb-10">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, iste vel laboriosam assumenda labore tempora? Magni aperiam atque doloremque itaque quis possimus voluptatum cumque, numquam ab nesciunt quos libero vero.xz
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Numquam, iste vel laboriosam assumenda labore tempora? Magni
+                  aperiam atque doloremque itaque quis possimus voluptatum
+                  cumque, numquam ab nesciunt quos libero vero.xz
                 </p>
+                <v-btn
+                  href="https://twitter.com/intent/tweet?text=console.log('Hi%20%23WebDevs');%0A%0AI%20have%20registered%20for%20%23DevFestIndia%20to%20attend%20many%20amazing%20sessions.%0AHave%20you?%0A%0AIf%20not,%20register%20yourself%20at%20devfestindia.com%0A%0A%23DevFestIndia%20%23DevFest%20%20@DevFestIndia"
+                  target="_blank"
+                  rel="noreferrer"
+                  dark
+                  color="#4285F4"
+                  class="mt-1 mb-4 google-font"
+                >
+                  <v-icon size="20px" left>mdi-twitter</v-icon>
+                  <b>Share your excitement</b>
+                </v-btn>
               </v-col>
             </v-row>
           </v-container>
@@ -119,6 +178,12 @@
 import FDK from "../config/firebase";
 export default {
   data: () => ({
+    // Snackebar
+    snakeBarMessage: "",
+    isSnakeBarVisible: false,
+    snakeBarColor: "green",
+    snakeBarTimeOut: 5000,
+    //
     showLoginBtn: true,
     userLoginIn: false,
     userForm: false,
@@ -131,32 +196,39 @@ export default {
       email: "",
     },
   }),
+  components: {
+    Snakebar: () => import("@/components/common/Snackebar"),
+  },
   mounted() {
     this.checkAuth();
   },
   methods: {
     checkAuth() {
-      var self = this
+      var self = this;
       FDK.auth.onAuthStateChanged(function(user) {
         if (user) {
-          self.showLoginBtn = false
+          self.showLoginBtn = false;
           self.userLoginIn = true;
           self.user = user;
+          self.response.email = user.email;
+          self.response.name = user.displayName;
+
+          // Snackebar
+          self.snakeBarMessage = "Sign In with " + user.email;
+          self.isSnakeBarVisible = true;
 
           FDK.firestore
             .collection("edata")
             .doc(user.uid)
             .get()
             .then((res) => {
-              console.log(res.data());
+              // console.log(res.data());
               if (res.data()) {
                 self.userForm = false;
                 self.userSuccess = false;
-                self.userSubmitedAlready = true
-                console.log("record hai");
+                self.userSubmitedAlready = true;
               } else {
                 self.userForm = true;
-                console.log("record nahi hai");
               }
             })
             .catch((e) => {
@@ -171,8 +243,6 @@ export default {
     signIn() {
       var self = this;
       var provider = new FDK.firebase.auth.GoogleAuthProvider();
-      console.log(FDK.auth);
-      console.log(provider);
 
       FDK.firebase
         .auth()
@@ -187,7 +257,9 @@ export default {
           self.response.email = user.email;
           self.response.name = user.displayName;
           self.user = user;
-          // console.log(self.user)
+          // Snackebar
+          self.snakeBarMessage = "Sign In with " + user.email;
+          self.isSnakeBarVisible = true;
         })
         .catch(function(error) {
           var errorCode = error.code;
@@ -200,8 +272,8 @@ export default {
     },
     saveData() {
       this.saveloading = true;
-      console.log("asdfas");
-      console.log(this.user.uid);
+      // console.log("asdfas");
+      // console.log(this.user.uid);
       FDK.firestore
         .collection("edata")
         .doc(this.user.uid)
@@ -214,6 +286,9 @@ export default {
           this.userSuccess = true;
           this.saveloading = false;
           this.userForm = false;
+
+          // self.snakeBarMessage = "Re"+ self.user.email
+          // self.isSnakeBarVisible = true
         })
         .catch((e) => {
           console.log(e);
@@ -228,8 +303,9 @@ export default {
           self.userLoginIn = false;
           self.userForm = false;
           self.userSuccess = false;
-          console.log("User Logged Out!");
-          self.showLoginBtn = true
+          self.showLoginBtn = true;
+          self.snakeBarMessage = "User logged out with " + self.user.email;
+          self.isSnakeBarVisible = true;
         })
         .catch(function(error) {
           // An error happened.

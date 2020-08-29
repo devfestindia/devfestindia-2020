@@ -69,6 +69,15 @@ Vue.use(VueRouter)
     }
   },
   {
+    path: '/faq',
+    name: 'FAQ',
+    component: () => import(/* webpackChunkName: "speakers" */ '../views/FAQ.vue'),
+    meta: {
+      title: 'FAQ | Web Dev LIVE India',
+      color: 'white'
+    }
+  },
+  {
     path: '/team',
     name: 'Team',
     component: () => import(/* webpackChunkName: "team" */ '../views/Team.vue'),
