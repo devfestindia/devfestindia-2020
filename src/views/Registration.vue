@@ -27,7 +27,7 @@
           <v-container fluid>
             <v-row>
               <v-col md="2" cols="2">
-                <v-avatar color="indigo">
+                <v-avatar color="#0005DF">
                   <v-icon dark>mdi-account-circle</v-icon>
                 </v-avatar>
                 <!-- 
@@ -72,7 +72,7 @@
 
             <v-row v-if="userForm && userLoginIn">
               <v-col md="2" cols="2">
-                <v-avatar color="indigo">
+                <v-avatar color="#0005DF">
                   <v-icon dark>mdi-format-align-justify</v-icon>
                 </v-avatar>
               </v-col>
@@ -99,7 +99,7 @@
                   class="mt-3"
                   :loading="saveloading"
                   v-on:click="saveData"
-                  color="indigo"
+                  color="#0005DF"
                   >Submit</v-btn
                 >
               </v-col>
@@ -107,7 +107,7 @@
 
             <v-row v-if="userSuccess && userLoginIn">
               <v-col md="2" cols="2">
-                <v-avatar color="indigo">
+                <v-avatar color="#0005DF">
                   <v-icon dark>mdi-playlist-check</v-icon>
                 </v-avatar>
               </v-col>
@@ -140,7 +140,7 @@
             <v-row v-if="userSubmitedAlready && userLoginIn">
               <v-col md="2" cols="2">
                 <!-- <h2 class="google-font">Step 3</h2> -->
-                <v-avatar color="indigo">
+                <v-avatar color="#0005DF">
                   <v-icon dark>mdi-playlist-check</v-icon>
                 </v-avatar>
               </v-col>
@@ -159,6 +159,8 @@
                   target="_blank"
                   rel="noreferrer"
                   dark
+                  depressed
+                  flat
                   color="#4285F4"
                   class="mt-1 mb-4 google-font"
                 >
@@ -214,8 +216,8 @@ export default {
           self.response.name = user.displayName;
 
           // Snackebar
-          self.snakeBarMessage = "Sign In with " + user.email;
-          self.isSnakeBarVisible = true;
+          // self.snakeBarMessage = "Sign In with " + user.email;
+          // self.isSnakeBarVisible = true;
 
           FDK.firestore
             .collection("edata")
@@ -280,6 +282,7 @@ export default {
         .set({
           name: this.response.name,
           email: this.response.email,
+          image: this.user.photoURL,
           date: new Date(),
         })
         .then(() => {

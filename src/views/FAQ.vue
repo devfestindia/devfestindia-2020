@@ -8,7 +8,7 @@
           <p class="google-font my-0">Find them here.</p>
         </v-col>
         <v-col md="8" lg="8" sm="11" cols="12">
-          <v-expansion-panels accordion>
+          <v-expansion-panels accordion flat class="elevation-0" style="border:1px solid #e0e0e0">
             <v-expansion-panel v-for="(item,i) in faqData" :key="i">
               <v-expansion-panel-header class="google-font">{{item.name}}</v-expansion-panel-header>
               <v-expansion-panel-content 

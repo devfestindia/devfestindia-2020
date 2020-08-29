@@ -35,22 +35,11 @@
       </v-row>
       <v-row justify="center" align="center">
         <v-col md="10" sm="11" xl="10" cols="12" class="">
-       <a href="https://gdg.community.dev/gdg-jalandhar/" target="_blank"
+       <a href="https://developers.google.com/community/gdg" target="_blank"
             rel="noreferrer"
             class="grey--text text--darken-3 mr-4 google-font"
             style="text-decoration:none;"
-          >Link 1</a>
-          <!-- <router-link
-            to="/faq"
-            rel="noreferrer"
-            :class="
-                $vuetify.theme.dark == true
-                  ? 'white--text'
-                  : 'grey--text text--darken-3'
-              "
-            class="mr-3 google-font"
-            style="text-decoration:none;"
-          >FAQ</router-link> -->
+          >About GDG Program</a>
           <br class="hidden-md-and-up">
           <router-link
             to="/faq"
@@ -58,21 +47,10 @@
             class="mr-3 google-font grey--text text--darken-3"
             style="text-decoration:none;"
           >FAQ</router-link>
-
-            <!-- <a href="https://www.womentechmakers.com" target="_blank"
-            rel="noreferrer"
-            class="mr-4 google-font grey--text text--darken-3"
-            style="text-decoration:none;"
-          >FAQ</a> -->
           <br class="hidden-md-and-up">
           <a href="https://developers.google.com/community-guidelines" target="_blank"
             rel="noreferrer"
-            :class="
-                $vuetify.theme.dark == true
-                  ? 'white--text'
-                  : 'grey--text text--darken-3'
-              "
-            class="mr-4 google-font"
+            class="mr-4 google-font grey--text text--darken-3"
             style="text-decoration:none;"
           >Community Guidelines</a>
         </v-col>

@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "devfestindia2020",
     "public": "dist",
     "ignore": [
       "firebase.json",

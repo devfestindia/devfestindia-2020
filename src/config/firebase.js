@@ -3,13 +3,13 @@ import 'firebase/auth';
 import 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyA9g_lhixwvpGFwxOCSJkuUlbxlbFjM_Oc",
-  authDomain: "cloudorbit.firebaseapp.com",
-  databaseURL: "https://cloudorbit.firebaseio.com",
-  projectId: "cloudorbit",
-  storageBucket: "cloudorbit.appspot.com",
-  messagingSenderId: "387433358364",
-  appId: "1:387433358364:web:fafd08a64d30a21b5aabd9"
+  apiKey: "AIzaSyA6qChimnN-IuqH--uKK09_Xhg38EP0YBg",
+  authDomain: "devfestindia2020.firebaseapp.com",
+  databaseURL: "https://devfestindia2020.firebaseio.com",
+  projectId: "devfestindia2020",
+  storageBucket: "devfestindia2020.appspot.com",
+  messagingSenderId: "394032196909",
+  appId: "1:394032196909:web:e9bcb020572abcd64e77a4"
 };
 
 firebase.initializeApp(firebaseConfig);

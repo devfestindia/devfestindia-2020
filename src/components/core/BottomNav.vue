@@ -3,7 +3,7 @@
     grow
     app
     background-color="white"
-    color="primary"
+    color="indigo"
     class="hidden-md-and-up"
     style="overflow-x: hidden;"
   >

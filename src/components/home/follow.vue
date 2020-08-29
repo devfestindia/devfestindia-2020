@@ -4,26 +4,16 @@
       <v-col>
         <h1 class="google-font">Follow Us</h1>
         <p class="google-font">
-          Follow us on Social Media and keep an eye on #DevFestIndia for the
-          latest updates and news about the event.
+          Follow us on Social Media and keep an eye on
+          <a
+            href="https://twitter.com/DevFestIndia"
+            rel="noreferrer"
+            target="_blank"
+            style="text-decoration:none"
+          >#DevFestIndia
+          </a>
+          for the latest updates and news about the event.
         </p>
-        <v-tooltip bottom>
-          <template v-slot:activator="{ on }">
-            <v-btn
-              text
-              icon
-              x-large
-              v-on="on"
-              rel="noreferrer"
-              href="#"
-              target="_blank"
-              slot="activator"
-            >
-              <v-icon>mdi-facebook</v-icon>
-            </v-btn>
-          </template>
-          <span>Facebook</span>
-        </v-tooltip>
 
         <v-tooltip bottom>
           <template v-slot:activator="{ on }">
@@ -55,7 +45,7 @@
               target="_blank"
               slot="activator"
             >
-              <v-icon>mdi-linkedin</v-icon>
+              <v-icon>mdi-youtube</v-icon>
             </v-btn>
           </template>
           <span>LinkedIn</span>
