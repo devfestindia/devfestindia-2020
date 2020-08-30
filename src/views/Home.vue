@@ -25,7 +25,11 @@
                     </v-row>
                   </template>
                 </v-img>
-                <p class="devfest-font mt-4 mb-3" style="font-size:150%">October 16-18, 2020 | Online</p>
+                <p class="devfest-font mt-4 mb-3" style="font-size:120%">October 16-18, 2020 | Online</p>
+
+                <!-- For Mobile -->
+                <Timer deadline="October 16, 2020" class="hidden-md-and-up"/>
+
                 <p class="google-font mt-4 mb-3">
                   DevFest India - India's biggest developer conclave with 40+ GDG communities. Separated by distance, united by passion.
                 </p>
@@ -56,19 +60,10 @@
                   >#DevFestIndia</v-btn
                 >
 
-                
-                <!-- <v-btn
-                  depressed
-                  color="white"
-                  style="text-transform: capitalize;border-radius:5px;border:1px solid #e0e0e0;color:#0005DF;background-color:white"
-                  href=""
-                  class="google-font mb-3 ml-3"
-                  >#DevFestIndia</v-btn
-                > -->
-                <!-- <FollowUs /> -->
               </v-col>
               <v-col md="6" cols="12" class="text-center" order-md="2" order="1">
-                <Timer/>
+                <!-- For Desktop -->
+                <Timer deadline="October 16, 2020" class="hidden-sm-and-down"/>
               </v-col>
             </v-row>
 

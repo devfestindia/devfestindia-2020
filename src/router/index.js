@@ -88,10 +88,10 @@ Vue.use(VueRouter)
   },
   {
     path: '/tc',
-    name: 'Terms & Conditions',
+    name: 'Participation Terms & Privacy Policy',
     component: () => import(/* webpackChunkName: "team" */ '../views/TC.vue'),
     meta: {
-      title: 'Terms & Conditions | DevFest India',
+      title: 'Participation Terms & Privacy Policy | DevFest India',
       color: 'white'
     }
   }

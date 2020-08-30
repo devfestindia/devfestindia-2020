@@ -4,7 +4,6 @@
         v-model="snackWithButtons"
         :timeout="timeout"
         bottom
-        left
         class="snack"
       >
         {{ snackWithBtnText }}

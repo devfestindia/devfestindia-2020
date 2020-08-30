@@ -24,9 +24,9 @@ let Template = {
                     <a href="https://devfestindia.com/" style="background:#0005DF;color:white;padding: 8px 15px;cursor: pointer;text-decoration:none;margin-right:8px">See More</a>  
                     
                     <a href="https://badge.devfestindia.com/" style="border:1px solid #0005DF;color:#0005DF;padding: 7px 15px;cursor: pointer;text-decoration:none;margin-right:8px">Generate Profile Badge</a> 
-                   
-                    <a href="#" style="color:#0005DF;padding: 7px 15px;cursor: pointer;text-decoration:none;margin-top:25px">Add to Calendar</a> 
-                    
+                    <br>
+                    <p>You may add the event details to your Google Calender, <a href="https://devfestindia.com" style="color:#0005DF;text-decoration:none">here</a>.</p>
+
                     <br><br>
                     <p>Follow us on <a style="color:#0005DF;text-decoration:none" href="https://twitter.com/DevFestIndia">Twitter</a> and keep an eye on <a style="color:#0005DF;text-decoration:none" href="https://twitter.com/hashtag/DevFestIndia">#DevFestIndia</a> for the latest updates and news about the event.</p>
                     <p>Regards,</p>
@@ -56,3 +56,4 @@ let Template = {
 };
 
 module.exports = Template
+// <a href="#" style="color:#0005DF;padding: 7px 15px;cursor: pointer;text-decoration:none;margin-top:25px">Add to Calendar</a> 

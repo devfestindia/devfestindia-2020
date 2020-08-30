@@ -3,7 +3,7 @@
     <v-container fluid class="my-0 py-0 mt-5 mb-8">
       <v-row align="start" justify="center" class="my-0 py-0">
         <v-col md="10" lg="10" sm="11" cols="12" class="mt-8">
-            <h3 class="google-font">Terms & Conditions | Privacy Policy</h3>
+            <h3 class="google-font">Participation Terms & Privacy Policy</h3>
             <ul class="mt-3">
                 <li>
                     <p class="google-font">I agree to let DevFest India Organisers use the information collected in this form to be used for my participation in "DevFest India 2020 Event". This information and any information that the organisers collects from me during my participation in this program will be maintained in accordance with Conference Privacy Policy </p>
