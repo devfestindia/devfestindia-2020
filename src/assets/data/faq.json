@@ -1,26 +1,34 @@
 [
     {
-        "name": "What is the purpose of this event?",
-        "des": "This event is to celebrate and recognize the web development updates who have influenced the tech industry and beyond."
+        "name": "What is DevFest?",
+        "des": "DevFests are community led developer events hosted by Google Developers Groups around the globe."
     },
     {
-        "name": "Who is the audience for the event?",
-        "des": "Anyone can attend. We welcome everyone to attend the event. Also, we would require your cooperation in adhering to our Community Guidelines."
+        "name": "What are GDGs?",
+        "des": "GDGs are focused on community building and learning about Google’s technologies.  "
     },
     {
-        "name": "What are the event charges?",
-        "des": "This event is completely free of charge."
+        "name": "Who can register for DevFest?",
+        "des": "Beginners, experts, literally everyone. Anyone with the passion of learning, who’s fond of technology, passionate programmers , everybody can register and attend."
     },
     {
-        "name": "Will there be moderation?",
-        "des": "Yes! We have dedicated volunteers who will moderate all the sessions. If you witness any attendee breaching the code of conduct, please reach out to us at webdevliveindia@gmail.com."
+        "name": "Is it mandatory to register to participate in the event?",
+        "des": "Yes. Each individual may register for only one ticket. You may not register on behalf of anyone else."
     },
     {
-        "name": "Will I need to be on video?",
-        "des": "It is not necessary that you be on video. However, please participate in discussions while the event session is in progress."
+        "name": "I’m a beginner in programming. Can I still register?",
+        "des": "Yes. Anybody with the zeal in technology can register. We have special tracks especially for beginners."
     },
     {
-        "name": "Will the sessions be recorded?",
-        "des": "Yes! The sessions will be recorded and would live on this website for you to access the content."
+        "name": "What will attendees get by participating in the event?",
+        "des": "We have a plethora of AMAZING perks awaiting for you!"
+    },
+    {
+        "name": "How can I become a member of GDG?",
+        "des": "Head to Google developers group website (https://gdg.community.dev/) and find the nearest GDG in your location."
+    },
+    {
+        "name": "How can I communicate my queries?",
+        "des": "Reach out to us at devfestindia@gmail.com"
     }
 ]

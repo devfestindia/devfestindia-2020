@@ -7,21 +7,15 @@
       :timeout="snakeBarTimeOut"
     />
 
-    <v-container fluid class="mt-4">
+    <v-container fluid class="mt-4 mb-10">
       <v-row justify="center" align="center">
         <v-col md="7" sm="8" lg="5">
-          <h1 class="google-font">DevFest India: Registration</h1>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil
-            dolores dolorum deleniti quos magnam? Molestiae quidem tempora
-            reprehenderit laudantium? Deleniti consequatur aperiam eveniet
-            voluptates reiciendis. Debitis blanditiis cumque deleniti quas!
+          <h2 class="google-font">DevFest India: Registration</h2>
+          <p class="google-font">
+            DevFest India - India's biggest developer conclave with 40+ GDG communities. Separated by distance, united by passion.
           </p>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil
-            dolores dolorum deleniti quos magnam? Molestiae quidem tempora
-            reprehenderit laudantium? Deleniti consequatur aperiam eveniet
-            voluptates reiciendis. Debitis blanditiis cumque deleniti quas!
+          <p class="google-font">
+            The DevFest India 2020 will be held on Oct 16th, 17th, 18th. A great line-up of speakers, multiple tracks, fun engagements is on the cards for you!
           </p>
 
           <v-container fluid>
@@ -36,7 +30,7 @@
               </v-col>
               <v-col md="10" class="google-font" cols="10">
                 <h3 class="google-font">Login with your Google Account</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto, dolores iusto mollitia nisi quibusdam accusantium</p>
+                <p class="google-font">Sign in and register to reserve seats.</p>
 
                 <v-list-item v-if="userLoginIn" class="ml-0 pl-0">
                   <v-list-item-avatar size="65">
@@ -84,55 +78,28 @@
                 <p class=" mb-10">
                   Required fields are marked with an asterisk
                 </p>
+                <v-form ref="form"> 
+                <!-- Email Id -->
+                <v-text-field label="Email" v-model="response.email" placeholder="Email" outlined disabled></v-text-field>
 
-                <v-text-field
-                  label="Email"
-                  v-model="response.email"
-                  placeholder="Email"
-                  outlined
-                  disabled
+                <!-- Full Name -->
+                <v-text-field label="Name" v-model="response.name" placeholder="Name" :rules="[rules.required]" outlined
                 ></v-text-field>
+              
+                <!-- City -->
+                <v-text-field label="City" v-model="response.city" placeholder="City" :rules="[rules.required]" outlined></v-text-field>
 
-                <v-text-field
-                  label="Your Name"
-                  v-model="response.name"
-                  placeholder="Your Name"
-                  outlined
-                ></v-text-field>
+                <!-- Country -->
+                <v-text-field label="Country" v-model="response.country" placeholder="Country" :rules="[rules.required]" outlined></v-text-field>
 
-                <v-text-field
-                  label="Your City"
-                  v-model="response.city"
-                  placeholder="Your City"
-                  outlined
-                ></v-text-field>
+                <!-- Organization -->
+                <v-text-field label="Company/Institute Name" v-model="response.org" placeholder="Company/Institute Name" :rules="[rules.required]" outlined ></v-text-field>
 
-                <v-text-field
-                  label="Your Country"
-                  v-model="response.country"
-                  placeholder="Your Country"
-                  outlined
-                ></v-text-field>
-
-                <v-text-field
-                  label="Your Company/Institute Name"
-                  v-model="response.org"
-                  placeholder="Your Company/Institute Name"
-                  outlined
-                ></v-text-field>
-
-                <v-text-field
-                  label="Your Role"
-                  v-model="response.role"
-                  placeholder="Your Role"
-                  outlined
-                ></v-text-field>
+                <!-- Role -->
+                <v-text-field label="Role/Designation" v-model="response.role" placeholder="Role/Designation" :rules="[rules.required]" outlined ></v-text-field>
 
                 <!-- Gender -->
-                <!-- v-on:change="validateForm()"
-                    :rules="[rules.required]" -->
-                <v-radio-group v-model="response.gender" class="mb-3">
-                  
+                <v-radio-group :rules="[v => !!v || 'This field is required.']"  v-model="response.gender" class="mb-3">
                     <div
                       class="google-font mb-3"
                       style="font-size:120%;color:black !important"
@@ -142,28 +109,82 @@
                       <br />
                       <span
                         style="color:#ff5252;font-size:70%"
-                        v-if="response.gender === 0"
+                        v-show="response.gender === 0"
                       >This field is required.</span>
                     </div>
 
-                    <v-radio value="Male" v-slot:label>
+                    <v-radio color="#0005DF" value="Male" v-slot:label>
                       <div>Male</div>
                     </v-radio>
-                    <v-radio value="Female" v-slot:label>
+                    <v-radio color="#0005DF" value="Female" v-slot:label>
                       <div>Female</div>
                     </v-radio>
-                    <v-radio value="Prefer not to say" v-slot:label>
+                    <v-radio color="#0005DF" value="Prefer not to say" v-slot:label>
                       <div>Prefer not to say</div>
                     </v-radio>
                 </v-radio-group>
                 <!-- Gender -->
 
+                <!-- Area of Interest -->
+                <div
+                    class="google-font"
+                    style="font-size:120%;color:black"
+                  >
+                    Tracks / themes you are interested to attend.
+                    <span style="color:#ff5252;">*</span>
+                    <br />
+                    <span style="font-size:80%;color:black">You can choose more than 1 area of interests</span>
+                  </div>
+                  <v-checkbox
+                    class="mb-0"
+                    v-model="response.theme"
+                    color="#0005DF"
+                    hide-details="false" 
+                    :rules="[rules.checkboxbtn]"
+                    label="Mobile"
+                    value="Mobile"
+                  ></v-checkbox>
+                  <v-checkbox
+                    class="my-0"
+                    v-model="response.theme"
+                    color="#0005DF"
+                    hide-details="false"
+                    :rules="[rules.checkboxbtn]"
+                    label="Cloud"
+                    value="Cloud"
+                  ></v-checkbox>
+                  <v-checkbox
+                    class="my-0"
+                    v-model="response.theme"
+                    color="#0005DF"
+                    hide-details="false"
+                    :rules="[rules.checkboxbtn]"
+                    label="Web"
+                    value="Web"
+                  ></v-checkbox>
+                  <v-checkbox
+                    class="my-0"
+                    v-model="response.theme"
+                    color="#0005DF"
+                    hide-details="false"
+                    :rules="[rules.checkboxbtn]"
+                    label="Machine Learning"
+                    value="Machine Learning"
+                  ></v-checkbox>
+                  <v-checkbox
+                    class="my-0"
+                    v-model="response.theme"
+                    color="#0005DF"
+                    hide-details="false"
+                    :rules="[rules.checkboxbtn]"
+                    label="Design [UI/UX]"
+                    value="Design [UI/UX]"
+                  ></v-checkbox>
+                <!-- Area of Interest -->
+
 
                 <!-- Experience -->
-                <!-- v-on:change="validateForm()"
-                    :rules="[rules.required]" -->
-                <v-radio-group v-model="response.experience" class="mb-3">
-                  
+                <v-radio-group v-model="response.experience" :rules="[v => !!v || 'This field is required.']"  class="mb-10">
                     <div
                       class="google-font mb-3"
                       style="font-size:120%;color:black !important"
@@ -177,16 +198,16 @@
                       >This field is required.</span>
                     </div>
 
-                    <v-radio value="0 - 5 years" v-slot:label>
+                    <v-radio color="#0005DF" value="0 - 5 years" v-slot:label>
                       <div>0 - 5 years</div>
                     </v-radio>
-                    <v-radio value="6 - 10 years" v-slot:label>
+                    <v-radio color="#0005DF" value="6 - 10 years" v-slot:label>
                       <div>6 - 10 years</div>
                     </v-radio>
-                    <v-radio value="11 - 20 years" v-slot:label>
+                    <v-radio color="#0005DF" value="11 - 20 years" v-slot:label>
                       <div>11 - 20 years</div>
                     </v-radio>
-                    <v-radio value="21+ years" v-slot:label>
+                    <v-radio color="#0005DF" value="21+ years" v-slot:label>
                       <div>21+ years</div>
                     </v-radio>
                 </v-radio-group>
@@ -196,65 +217,41 @@
                 <v-text-field
                   label="Enter the coupon code for the event"
                   v-model="response.code"
+                  class="mt-4"
                   placeholder="Enter the coupon code for the event"
                   hint="Enter NA in case you don't have a coupon code"
                   outlined
                 ></v-text-field>
                 <!-- Cooupen Code -->
 
-                <!-- Experience -->
-                <!-- v-on:change="validateForm()"
-                :rules="[rules.required]" -->
-                <v-radio-group v-model="response.knowAbout" class="mb-3">
-                    <div
-                      class="google-font mb-3"
-                      style="font-size:120%;color:black !important"
-                    >
-                      How did you get to know about this event?
-                      <span style="color:#ff5252;">*</span>
-                      <br />
-                      <span
-                        style="color:#ff5252;font-size:70%"
-                        v-if="response.knowAbout === 0"
-                      >This field is required.</span>
-                    </div>
+                <!-- KnowAbout -->
+                <div
+                    class="google-font mt-3"
+                    style="font-size:120%;color:black"
+                  >
+                    How did you get to know about this event?
+                    <span style="color:#ff5252;">*</span>
+                    <br />
+                    <span style="font-size:80%;color:black">Check all that apply</span>
+                  </div>
+                  <v-checkbox class="mb-0" :rules="[rules.checkboxbtn]" hide-details="false" color="#0005DF" v-model="response.knowAbout" label="Women Techmakers" value="Women Techmakers"></v-checkbox>
+                  <v-checkbox class="my-1" hide-details="false" :rules="[rules.checkboxbtn]" color="#0005DF" v-model="response.knowAbout" label="Google Developer Groups" value="Google Developer Groups" ></v-checkbox>
+                  <v-checkbox class="my-1" hide-details="false" :rules="[rules.checkboxbtn]" color="#0005DF" v-model="response.knowAbout" label="Developer Student Clubs" value="Developer Student Clubs" ></v-checkbox>
+                  <v-checkbox class="my-1" hide-details="false" :rules="[rules.checkboxbtn]" color="#0005DF" v-model="response.knowAbout" label="Other Communities" value="Other Communities"></v-checkbox>
 
-                    <v-radio value="Women Techmakers" v-slot:label>
-                      <div>Women Techmakers</div>
-                    </v-radio>
-                    <v-radio value="Google Developer Groups" v-slot:label>
-                      <div>Google Developer Groups</div>
-                    </v-radio>
-                    <v-radio value="Developer Student Clubs" v-slot:label>
-                      <div>Developer Student Clubs</div>
-                    </v-radio>
-                    <v-radio value="Other Communities" v-slot:label>
-                      <div>Other Communities</div>
-                    </v-radio>
-                    <v-radio value="Through your company/colleague" v-slot:label>
-                      <div>Through your company/colleague</div>
-                    </v-radio>
-                    <v-radio value="Friends" v-slot:label>
-                      <div>Friends</div>
-                    </v-radio>
-                    <v-radio value="Twitter" v-slot:label>
-                      <div>Twitter</div>
-                    </v-radio>
-                    <v-radio value="Facebook" v-slot:label>
-                      <div>Facebook</div>
-                    </v-radio>
-                    <v-radio value="LinkedIn" v-slot:label>
-                      <div>LinkedIn</div>
-                    </v-radio>
-                    <v-radio value="Other" v-slot:label>
-                      <div>Other</div>
-                    </v-radio>
-                </v-radio-group>
-                <!-- Experience -->
+                  <v-checkbox class="my-1" hide-details="false" :rules="[rules.checkboxbtn]" color="#0005DF" v-model="response.knowAbout" label="Through your company/colleague" value="Through your company/colleague"></v-checkbox>
+                  <v-checkbox class="my-1" hide-details="false" :rules="[rules.checkboxbtn]" color="#0005DF" v-model="response.knowAbout" label="Friends" value="Friends"></v-checkbox>
+                  <v-checkbox class="my-1" hide-details="false" :rules="[rules.checkboxbtn]" color="#0005DF" v-model="response.knowAbout" label="Twitter" value="Twitter"></v-checkbox>
+                  <v-checkbox class="my-1" hide-details="false" :rules="[rules.checkboxbtn]" color="#0005DF" v-model="response.knowAbout" label="Facebook" value="Facebook"></v-checkbox>
+                  <v-checkbox class="my-1" hide-details="false" :rules="[rules.checkboxbtn]" color="#0005DF" v-model="response.knowAbout" label="LinkedIn" value="LinkedIn"></v-checkbox>
+                  <v-checkbox class="my-1" hide-details="false" :rules="[rules.checkboxbtn]" color="#0005DF" v-model="response.knowAbout" label="Others" value="Others"></v-checkbox>
+                
+                <!-- KnowAbout -->
 
                 <!-- Share -->
                 <v-textarea
                     outlined
+                    class="mt-10"
                     label="Anything else you want to share with us?"
                     v-model="response.share"
                   ></v-textarea>
@@ -269,6 +266,7 @@
                   color="#0005DF"
                   >Submit</v-btn
                 >
+                </v-form>
               </v-col>
             </v-row>
             <!-- Form -->
@@ -287,23 +285,26 @@
                     href="https://twitter.com/DevFestIndia"
                     rel="noreferrer"
                     target="_blank"
-                    style="text-decoration:none"
+                    style="text-decoration:none;color:#0005DF"
                   >
                     <b>#DevFestIndia</b> </a
                   >.
                 </h3>
+                <p class="google-font">Thank you for registering for <b>#DevFestIndia</b> and giving us the honour to host you at India's biggest developer conclave. We highly appreciate your enthusiasm and energy and would love to see you onboard along with your friends and family. </p>
                 <v-btn
                   href="https://twitter.com/intent/tweet?text=console.log('Hi%20%23WebDevs');%0A%0AI%20have%20registered%20for%20%23DevFestIndia%20to%20attend%20many%20amazing%20sessions.%0AHave%20you?%0A%0AIf%20not,%20register%20yourself%20at%20devfestindia.com%0A%0A%23DevFestIndia%20%23DevFest%20%20@DevFestIndia"
                   target="_blank"
+                  depressed
                   rel="noreferrer"
                   dark
+                  style="text-transform: capitalize;"
                   color="#4285F4"
-                  class="mt-3 google-font"
+                  class="google-font mr-3 mt-2"
                 >
                   <v-icon size="20px" left>mdi-twitter</v-icon>
-                  <b>Share your excitement</b>
+                  Share your excitement
                 </v-btn>
-                <v-btn outlined color="#0005DF" style="text-transform: capitalize;border-radius:5px;" class="google-font ">Generate your Profile Badge</v-btn>
+                <v-btn outlined color="#0005DF" style="text-transform: capitalize;border-radius:5px;border-color:#e0e0e0" class="google-font mt-2">Generate your Profile Badge</v-btn>
               </v-col>
             </v-row>
             <!-- Registration Success -->
@@ -320,25 +321,23 @@
                 <h3 class="google-font">
                   You have already submitted this form
                 </h3>
-                <p class=" mb-10">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Numquam, iste vel laboriosam assumenda labore tempora? Magni
-                  aperiam atque doloremque itaque quis possimus voluptatum
-                  cumque, numquam ab nesciunt quos libero vero.xz
+                <p class=" mb-5">
+                  Thank you for registering for #DevFestIndia and giving us the honour to host you at India's biggest developer conclave. We highly appreciate your enthusiasm and energy and would love to see you onboard along with your friends and family.
                 </p>
                 <v-btn
                   href="https://twitter.com/intent/tweet?text=console.log('Hi%20%23WebDevs');%0A%0AI%20have%20registered%20for%20%23DevFestIndia%20to%20attend%20many%20amazing%20sessions.%0AHave%20you?%0A%0AIf%20not,%20register%20yourself%20at%20devfestindia.com%0A%0A%23DevFestIndia%20%23DevFest%20%20@DevFestIndia"
                   target="_blank"
                   rel="noreferrer"
+                  style="text-transform: capitalize;"
                   dark
                   depressed
                   color="#4285F4"
-                  class=" google-font mr-3"
+                  class=" google-font mr-3 mt-2"
                 >
                   <v-icon size="20px" left>mdi-twitter</v-icon>
-                  <b>Share your excitement</b>
+                  Share your excitement
                 </v-btn>
-                <v-btn outlined color="#0005DF" style="text-transform: capitalize;border-radius:5px;" class="google-font ">Generate your Profile Badge</v-btn>
+                <v-btn outlined color="#0005DF" style="text-transform: capitalize;border-radius:5px;border-color:#e0e0e0" class="google-font mt-2">Generate your Profile Badge</v-btn>
               </v-col>
             </v-row>
             <!-- Already Registerd -->
@@ -359,6 +358,14 @@ export default {
     snakeBarColor: "green",
     snakeBarTimeOut: 5000,
     //
+    rules: {
+      required: value => !!value || "This field is required.",
+      radiobtn: value => { 
+        console.log('calling')
+        return value.length>0 || "This field is required." 
+      },
+      checkboxbtn: value=> value.length > 0 || "At least one item should be selected"
+    },
     showLoginBtn: true,
     userLoginIn: false,
     userForm: false,
@@ -372,11 +379,12 @@ export default {
       city:"",
       country:"",
       org:"",
+      theme:[],
       role:"",
       gender:"",
       experience:"",
       code:"",
-      knowAbout:"",
+      knowAbout:[],
       share:""
     },
   }),
@@ -455,9 +463,8 @@ export default {
         });
     },
     saveData() {
-      this.saveloading = true;
-      // console.log("asdfas");
-      // console.log(this.user.uid);
+      if(this.$refs.form.validate()){
+        this.saveloading = true;
       FDK.firestore
         .collection("edata")
         .doc(this.user.uid)
@@ -480,14 +487,14 @@ export default {
           this.userSuccess = true;
           this.saveloading = false;
           this.userForm = false;
-
-          // self.snakeBarMessage = "Re"+ self.user.email
-          // self.isSnakeBarVisible = true
         })
         .catch((e) => {
           console.log(e);
           this.saveloading = false;
         });
+      }else{
+        alert('Some fields are required.')
+      }
     },
     logout() {
       var self = this;

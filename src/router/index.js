@@ -10,7 +10,7 @@ Vue.use(VueRouter)
     name: 'Home',
     component: Home,
     meta: {
-      title: 'Home | Web Dev LIVE India',
+      title: 'Home | DevFest India',
       color: 'white'
     }
   },
@@ -19,7 +19,7 @@ Vue.use(VueRouter)
     name: 'About',
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue'),
     meta: {
-      title: 'About | Web Dev LIVE India',
+      title: 'About | DevFest India',
       color: 'white'
     }
   },
@@ -28,7 +28,7 @@ Vue.use(VueRouter)
     name: 'Agenda',
     component: () => import(/* webpackChunkName: "agenda" */ '../views/Agenda.vue'),
     meta: {
-      title: 'Agenda | Web Dev LIVE India',
+      title: 'Agenda | DevFest India',
       color: 'white'
     }
   },
@@ -37,7 +37,7 @@ Vue.use(VueRouter)
     name: 'Community Guidelines',
     component: () => import(/* webpackChunkName: "Community Guidelines" */ '../views/CommunityGuidelines.vue'),
     meta: {
-      title: 'Community Guidelines | Web Dev LIVE India',
+      title: 'Community Guidelines | DevFest India',
       color: 'white'
     }
   },
@@ -46,7 +46,7 @@ Vue.use(VueRouter)
     name: 'Partners',
     component: () => import(/* webpackChunkName: "partners" */ '../views/Partners.vue'),
     meta: {
-      title: 'Partners | Web Dev LIVE India',
+      title: 'Partners | DevFest India',
       color: 'white'
     }
   },
@@ -55,7 +55,7 @@ Vue.use(VueRouter)
     name: 'Registration',
     component: () => import(/* webpackChunkName: "registration" */ '../views/Registration.vue'),
     meta: {
-      title: 'Registeration | Web Dev LIVE India',
+      title: 'Registeration | DevFest India',
       color: 'white'
     }
   },
@@ -64,7 +64,7 @@ Vue.use(VueRouter)
     name: 'Speakers',
     component: () => import(/* webpackChunkName: "speakers" */ '../views/Speakers.vue'),
     meta: {
-      title: 'Speakers | Web Dev LIVE India',
+      title: 'Speakers | DevFest India',
       color: 'white'
     }
   },
@@ -73,7 +73,7 @@ Vue.use(VueRouter)
     name: 'FAQ',
     component: () => import(/* webpackChunkName: "speakers" */ '../views/FAQ.vue'),
     meta: {
-      title: 'FAQ | Web Dev LIVE India',
+      title: 'FAQ | DevFest India',
       color: 'white'
     }
   },
@@ -82,7 +82,16 @@ Vue.use(VueRouter)
     name: 'Team',
     component: () => import(/* webpackChunkName: "team" */ '../views/Team.vue'),
     meta: {
-      title: 'Team | Web Dev LIVE India',
+      title: 'Team | DevFest India',
+      color: 'white'
+    }
+  },
+  {
+    path: '/tc',
+    name: 'Terms & Conditions',
+    component: () => import(/* webpackChunkName: "team" */ '../views/TC.vue'),
+    meta: {
+      title: 'Terms & Conditions | DevFest India',
       color: 'white'
     }
   }

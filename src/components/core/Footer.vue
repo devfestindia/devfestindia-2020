@@ -1,5 +1,5 @@
 <template>
-  <v-footer class="ma-0" >
+  <v-footer class="ma-0" app absolute>
     <v-container
       fluid
       class="grey lighten-4"

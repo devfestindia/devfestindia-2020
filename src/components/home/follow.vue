@@ -9,7 +9,7 @@
             href="https://twitter.com/DevFestIndia"
             rel="noreferrer"
             target="_blank"
-            style="text-decoration:none"
+            style="color:#0005DF;text-decoration:none"
           >#DevFestIndia
           </a>
           for the latest updates and news about the event.
@@ -41,7 +41,7 @@
               x-large
               v-on="on"
               rel="noreferrer"
-              href="#"
+              href="https://www.youtube.com/channel/UCJsZoFDt7rfxPBI1esak8JQ/"
               target="_blank"
               slot="activator"
             >

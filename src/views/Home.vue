@@ -1,53 +1,91 @@
 <template>
   <v-main class="">
-    <v-container fluid class="my-0 py-0">
-      <!-- :lazy-src="require('@/assets/img/main.png')" -->
-      <v-row align="center" justify="center" class="my-0 py-0">
-        <v-col md="10" lg="8" sm="12" class="text-center my-0 py-0 px-0">
-          <v-img
-            class="grey lighten-2 hidden-sm-and-down"
-            transition="fade-transition"
-            :src="require('@/assets/img/main.png')"
-            
-          >
-            <template v-slot:placeholder>
-              <v-row class="fill-height ma-0" align="center" justify="center">
-                <v-progress-circular
-                  indeterminate
-                  color="grey lighten-5"
-                ></v-progress-circular>
-              </v-row>
-            </template>
-          </v-img>
-          <!-- Mobile -->
-          <v-img
-            class="grey lighten-2 hidden-md-and-up"
-            transition="fade-transition"
-            :src="require('@/assets/img/mobile.png')"
-            
-          >
-            <template v-slot:placeholder>
-              <v-row class="fill-height ma-0" align="center" justify="center">
-                <v-progress-circular
-                  indeterminate
-                  color="grey lighten-5"
-                ></v-progress-circular>
-              </v-row>
-            </template>
-          </v-img>
-          <h1 class="google-font mt-4" style="color:#0005DF">DevFest India</h1>
-          <p class="google-font mt-4 mb-3">
-            DevFest is a community-led developer events hosted by Google
-            Developer Groups around the globe. GDGs are focused on community
-            building and learning about Google
-          </p>
+    <v-container fluid class="fill-height my-4">
+      <v-row align="center" justify="center">
+        <v-col md="10" lg="9" sm="12" class="">
+          <v-container fluid>
+            <v-row justify="center" align="center">
+              <v-col md="6" cols="12" class="text-center" order-md="1" order="2">
+                <v-img
+                  class="white"
+                  transition="fade-transition"
+                  style="width:90%;margin-left:auto;margin-right:auto"
+                  :src="require('@/assets/img/cover.png')"
+                >
+                  <template v-slot:placeholder>
+                    <v-row
+                      class="fill-height ma-0"
+                      align="center"
+                      justify="center"
+                    >
+                      <v-progress-circular
+                        indeterminate
+                        color="white"
+                      ></v-progress-circular>
+                    </v-row>
+                  </template>
+                </v-img>
+                <p class="devfest-font mt-4 mb-3" style="font-size:150%">October 16-18, 2020 | Online</p>
+                <p class="google-font mt-4 mb-3">
+                  DevFest India - India's biggest developer conclave with 40+ GDG communities. Separated by distance, united by passion.
+                </p>
 
-          <v-btn dark color="#0005DF" depressed style="text-transform: capitalize;border-radius:5px;" to="/registration" class="google-font mb-10"
-            >Registration</v-btn
-          >
-          <FollowUs />
+                <v-btn
+                  dark
+                  color="#0005DF"
+                  depressed
+                  style="text-transform: capitalize;border-radius:5px;"
+                  to="/registration"
+                  class="google-font mb-3"
+                  >Register</v-btn
+                >
+                <v-btn
+                  depressed
+                  style="text-transform: capitalize;border-radius:5px;border:1px solid #e0e0e0;color:#0005DF;background-color:white"
+                  href="https://badge.devfestindia.com/ "
+                  class="google-font mb-3 ml-3"
+                  target="_blank"
+                  >Get your Profile Badge</v-btn
+                >
+                <v-btn
+                  text
+                  style="text-transform: capitalize;border-radius:5px;color:#0005DF;background-color:white"
+                  href="https://twitter.com/hashtag/DevFestIndia"
+                  class="google-font mb-3 ml-3"
+                  target="_blank"
+                  >#DevFestIndia</v-btn
+                >
+
+                
+                <!-- <v-btn
+                  depressed
+                  color="white"
+                  style="text-transform: capitalize;border-radius:5px;border:1px solid #e0e0e0;color:#0005DF;background-color:white"
+                  href=""
+                  class="google-font mb-3 ml-3"
+                  >#DevFestIndia</v-btn
+                > -->
+                <!-- <FollowUs /> -->
+              </v-col>
+              <v-col md="6" cols="12" class="text-center" order-md="2" order="1">
+                <Timer/>
+              </v-col>
+            </v-row>
+
+            
+          </v-container>
+          
+          
+          <!-- 
           <br />
-          <br /><br />
+          <br /><br /> -->
+        </v-col>
+      </v-row>
+
+      <v-row align="center" justify="center">
+        <v-col md="10" lg="10" sm="10" class="text-center my-4">
+          <v-divider></v-divider>
+          <FollowUs />
         </v-col>
       </v-row>
     </v-container>
@@ -59,6 +97,7 @@ export default {
   name: "Home",
   components: {
     FollowUs: () => import("@/components/home/follow"),
+    Timer: ()=> import("@/components/home/Timer")
   },
 };
 </script>

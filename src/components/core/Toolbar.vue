@@ -64,8 +64,7 @@
     <v-spacer></v-spacer>
     
     <v-btn style="text-transform: capitalize;border-radius:5px;" v-if="!(this.$route.name === 'Registration')" dark color="#0005DF" class="ml-4 google-font hidden-md-and-down" to="/registration" depressed
-      >Registration</v-btn>
-
+      >Register</v-btn>
     <v-btn
       aria-label="Share Button"
       icon
