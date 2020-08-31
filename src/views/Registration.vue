@@ -85,6 +85,7 @@
                 </p>
                 <v-form ref="form">
                   <!-- Email Id -->
+                  <p style="font-size:105%;color:black">Email <span style="color:#ff5252;">*</span></p>
                   <v-text-field
                     label="Email"
                     v-model="response.email"
@@ -94,6 +95,7 @@
                   ></v-text-field>
 
                   <!-- Full Name -->
+                  <p style="font-size:105%;color:black">Name <span style="color:#ff5252;">*</span></p>
                   <v-text-field
                     label="Name"
                     v-model="response.name"
@@ -103,6 +105,7 @@
                   ></v-text-field>
 
                   <!-- City -->
+                  <p style="font-size:105%;color:black">City <span style="color:#ff5252;">*</span></p>
                   <v-text-field
                     label="City"
                     v-model="response.city"
@@ -112,6 +115,7 @@
                   ></v-text-field>
 
                   <!-- Country -->
+                  <p style="font-size:105%;color:black">Country <span style="color:#ff5252;">*</span></p>
                   <v-text-field
                     label="Country"
                     v-model="response.country"
@@ -121,6 +125,7 @@
                   ></v-text-field>
 
                   <!-- Organization -->
+                  <p style="font-size:105%;color:black">Company / Institute Name <span style="color:#ff5252;">*</span></p>
                   <v-text-field
                     label="Company / Institute Name *"
                     v-model="response.org"
@@ -130,6 +135,7 @@
                   ></v-text-field>
 
                   <!-- Role -->
+                  <p style="font-size:105%;color:black">Role / Designation <span style="color:#ff5252;">*</span></p>
                   <v-text-field
                     label="Role / Designation *"
                     v-model="response.role"
@@ -146,7 +152,7 @@
                   >
                     <div
                       class="google-font mb-3"
-                      style="font-size:120%;color:black !important"
+                      style="font-size:105%;color:black !important"
                     >
                       How would you like to identify yourself as?
                       <span style="color:#ff5252;">*</span>
@@ -175,7 +181,7 @@
                   <!-- Gender -->
 
                   <!-- Area of Interest -->
-                  <div class="google-font" style="font-size:120%;color:black">
+                  <div class="google-font" style="font-size:105%;color:black">
                     Tracks / themes you are interested to attend.
                     <span style="color:#ff5252;">*</span>
                     <br />
@@ -234,11 +240,11 @@
                   <v-radio-group
                     v-model="response.experience"
                     :rules="[(v) => !!v || 'This field is required.']"
-                    class="mb-10"
+                    class="mb-5"
                   >
                     <div
                       class="google-font mb-3"
-                      style="font-size:120%;color:black !important"
+                      style="font-size:105%;color:black !important"
                     >
                       Years of experience
                       <span style="color:#ff5252;">*</span>
@@ -266,23 +272,19 @@
                   <!-- Experience -->
 
                   <!-- Coupen Code -->
-                  <v-text-field
-                    label="Enter the coupon code for the event"
+                  <p style="font-size:105%;color:black">Which community are you associated with? <span style="color:#ff5252;">*</span></p>
+                  <v-combobox
                     v-model="response.code"
-                    class="mt-4"
-                    placeholder="Enter the coupon code; Enter 'NA' in case you don't have any"
-                    :rules="[rules.couponRules]"
+                    :items="gdgcommunities"
+                    :rules="[(v)=>!!v || 'Chouse others if the community is not in the list.']"
+                    label="Which community are you associated with?"
                     outlined
-                  ></v-text-field>
-                  
-                  <!--  -->
-                  <p style="color:#ff5252;font-size:80%" v-if="!ccvalid">Do you have valid coupon code? Enter <b>NA</b> in case you don't have a coupon code</p>
-                  <!-- Cooupen Code -->
+                  ></v-combobox>
 
                   <!-- KnowAbout -->
                   <div
                     class="google-font mt-5"
-                    style="font-size:120%;color:black"
+                    style="font-size:105%;color:black"
                   >
                     How did you get to know about this event?
                     <span style="color:#ff5252;">*</span>
@@ -567,13 +569,6 @@ export default {
       },
       checkboxbtn: (value) =>
         value.length > 0 || "At least one item should be selected",
-      couponRules:(value)=>{
-          if(value && value.toUpperCase() == "NA" ){
-            return (value && value.toUpperCase() == "NA") || "Enter 'NA' in case you don't have any"
-          }else{
-            return (value && value.length === 4) || "Coupon must be of 4 characters"
-          }   
-      }
     },
     tcstatus: false,
     showLoginBtn: true,
@@ -599,6 +594,7 @@ export default {
       knowAbout: [],
       share: "",
     },
+    gdgcommunities:['GDG Ahmedabad','GDG Bangalore','GDG Bhilai', 'GDG Bhopal (Google Developers Group Bhopal)','GDG Bhubaneswar','GDG Blrdroid - Bangalore Android Developers Group','GDG Chandigarh','GDG Chennai','GDG Cloud Ahmedabad','GDG Cloud Bengaluru','GDG Cloud Bhubaneswar','GDG Cloud Chennai','GDG Cloud Coimbatore','GDG Cloud Indore','GDG Cloud Mumbai','GDG Cloud New Delhi','GDG Cloud, Hyderabad','GDG Cloud, Pune','GDG Cochin','GDG Coimbatore : Google Developer Group, Coimbatore','GDG Gandhinagar','GDG Goa','GDG Gwalior','GDG Hubli','GDG Hyderabad','GDG Indore','GDG Jaipur','GDG Jalandhar','GDG Kolkata','GDG Kozhikode','GDG MAD','GDG Madurai','GDG Nagpur','GDG Nashik','GDG New Delhi','GDG Patna','GDG Rajkot','GDG Ranchi','GDG Siliguri','GDG Srinagar','GDG Thiruvananthapuram','GDG Udaipur','GDG-Mysuru','GDG-Vizag','Google  Developer  Group Cloud Community, Kolkata','Google Developer Group : GDG Surat','Google Developer Group Pune : GDG Pune','GDG Jodhpur','GDG Baroda','GDG Cloud Jaipur','GDG Salem', "Others" ]
   }),
   components: {
     Snakebar: () => import("@/components/common/Snackebar"),
@@ -730,11 +726,6 @@ export default {
           "DWQS",
           "NA",
         ];
-
-        if (cc.indexOf(this.response.code) == -1) {
-          this.ccvalid = false
-          alert("Do you have valid coupon code? Enter NA in case you don't have a coupon code")
-        }
 
         this.saveloading = true;
         FDK.firestore

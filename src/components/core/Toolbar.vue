@@ -12,11 +12,11 @@
           }
     "
   >
-    <v-app-bar-nav-icon
+    <!-- <v-app-bar-nav-icon
       aria-label="Hamburger Btn"
       @click="toggleDrawer"
       class="d-md-none d-lg-none"
-    ></v-app-bar-nav-icon>
+    ></v-app-bar-nav-icon> -->
     <div class="d-flex align-center">
       <router-link
         to="/"
@@ -96,11 +96,11 @@ export default {
       this.$vuetify.goTo(item.href);
     },
     getRouteName() {
-      if (this.$route.name === "Registration" || this.$route.name === "FAQ") {
-        return true;
-      } else {
-        return false;
-      }
+      // if (this.$route.name === "Registration" || this.$route.name === "FAQ") {
+      //   return true;
+      // } else {
+      //   return false;
+      // }
     },
     shareMe(e) {
       if (navigator.share) {

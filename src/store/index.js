@@ -44,11 +44,11 @@ export default new Vuex.Store({
       //   },
       // },
       {
-        text: "Registration",
+        text: "Register",
         to: "/registration",
         icon: "mdi-account-circle",
         meta: {
-          showToolbar: false,
+          showToolbar: true,
           showBottomNav: true,
         },
       },
@@ -57,7 +57,7 @@ export default new Vuex.Store({
         to: "/faq",
         icon: "mdi-star",
         meta: {
-          showToolbar: false,
+          showToolbar: true,
           showBottomNav: true,
         },
       }

@@ -25,13 +25,13 @@
                     </v-row>
                   </template>
                 </v-img>
-                <p class="devfest-font mt-4 mb-3" style="font-size:120%">October 16-18, 2020 <span class="hidden-sm-and-down">|</span> <span class="hidden-md-and-up"><br></span> Online</p>
+                <p class="devfest-font mt-4 mb-3" style="font-size:120%"><v-icon>mdi-calendar-text</v-icon> October 16-18, 2020 <span class="hidden-sm-and-down">|</span> <span class="hidden-md-and-up"><br></span><v-icon>mdi-access-point</v-icon> Online</p>
 
                 <!-- For Mobile -->
                 <Timer deadline="October 16, 2020" class="hidden-md-and-up"/>
 
-                <p class="google-font mt-4 mb-3">
-                  DevFest India - India's biggest developer conclave with 40+ GDG communities. Separated by distance, united by passion.
+                <p class="google-font mt-4 mb-5">
+                  DevFest India - India's biggest developer conclave with 40+ GDG communities.<br>Separated by distance, united by passion.
                 </p>
 
                 <v-btn
@@ -61,7 +61,7 @@
                 >
 
               </v-col>
-              <v-col md="6" cols="12" class="text-center" order-md="2" order="1">
+              <v-col md="6" cols="12" class="text-center pa-15" order-md="2" order="1">
                 <!-- For Desktop -->
                 <Timer deadline="October 16, 2020" class="hidden-sm-and-down"/>
               </v-col>
