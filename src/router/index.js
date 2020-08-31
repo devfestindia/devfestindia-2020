@@ -14,24 +14,15 @@ Vue.use(VueRouter)
       color: 'white'
     }
   },
-  {
-    path: '/about',
-    name: 'About',
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue'),
-    meta: {
-      title: 'About | DevFest India',
-      color: 'white'
-    }
-  },
-  {
-    path: '/agenda',
-    name: 'Agenda',
-    component: () => import(/* webpackChunkName: "agenda" */ '../views/Agenda.vue'),
-    meta: {
-      title: 'Agenda | DevFest India',
-      color: 'white'
-    }
-  },
+  // {
+  //   path: '/agenda',
+  //   name: 'Agenda',
+  //   component: () => import(/* webpackChunkName: "agenda" */ '../views/Agenda.vue'),
+  //   meta: {
+  //     title: 'Agenda | DevFest India',
+  //     color: 'white'
+  //   }
+  // },
   {
     path: '/community-guidelines',
     name: 'Community Guidelines',
@@ -41,33 +32,33 @@ Vue.use(VueRouter)
       color: 'white'
     }
   },
-  {
-    path: '/partners',
-    name: 'Partners',
-    component: () => import(/* webpackChunkName: "partners" */ '../views/Partners.vue'),
-    meta: {
-      title: 'Partners | DevFest India',
-      color: 'white'
-    }
-  },
+  // {
+  //   path: '/partners',
+  //   name: 'Partners',
+  //   component: () => import(/* webpackChunkName: "partners" */ '../views/Partners.vue'),
+  //   meta: {
+  //     title: 'Partners | DevFest India',
+  //     color: 'white'
+  //   }
+  // },
   {
     path: '/registration',
     name: 'Registration',
     component: () => import(/* webpackChunkName: "registration" */ '../views/Registration.vue'),
     meta: {
-      title: 'Registeration | DevFest India',
+      title: 'Registration | DevFest India',
       color: 'white'
     }
   },
-  {
-    path: '/speakers',
-    name: 'Speakers',
-    component: () => import(/* webpackChunkName: "speakers" */ '../views/Speakers.vue'),
-    meta: {
-      title: 'Speakers | DevFest India',
-      color: 'white'
-    }
-  },
+  // {
+  //   path: '/speakers',
+  //   name: 'Speakers',
+  //   component: () => import(/* webpackChunkName: "speakers" */ '../views/Speakers.vue'),
+  //   meta: {
+  //     title: 'Speakers | DevFest India',
+  //     color: 'white'
+  //   }
+  // },
   {
     path: '/faq',
     name: 'FAQ',
@@ -77,19 +68,19 @@ Vue.use(VueRouter)
       color: 'white'
     }
   },
-  {
-    path: '/team',
-    name: 'Team',
-    component: () => import(/* webpackChunkName: "team" */ '../views/Team.vue'),
-    meta: {
-      title: 'Team | DevFest India',
-      color: 'white'
-    }
-  },
+  // {
+  //   path: '/team',
+  //   name: 'Team',
+  //   component: () => import(/* webpackChunkName: "team" */ '../views/Team.vue'),
+  //   meta: {
+  //     title: 'Team | DevFest India',
+  //     color: 'white'
+  //   }
+  // },
   {
     path: '/tc',
     name: 'Participation Terms & Privacy Policy',
-    component: () => import(/* webpackChunkName: "team" */ '../views/TC.vue'),
+    component: () => import(/* webpackChunkName: "ParticipationTerms" */ '../views/TC.vue'),
     meta: {
       title: 'Participation Terms & Privacy Policy | DevFest India',
       color: 'white'

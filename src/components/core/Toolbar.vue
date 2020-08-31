@@ -33,7 +33,7 @@
         />
       </router-link>
     </div>
-    <v-toolbar-title class="google-font px-0" style="width:200px">
+    <v-toolbar-title class="google-font px-0" style="width:250px">
       <router-link
         to="/"
         class="google-font grey--text text--darken-2"
@@ -44,7 +44,7 @@
 
     <v-tabs
       color="black"
-      left
+      right
       slider-color="indigo"
       :hide-slider="getRouteName()"
       class="hidden-sm-and-down google-font"
@@ -63,8 +63,8 @@
     <!--  -->
     <v-spacer></v-spacer>
     
-    <v-btn style="text-transform: capitalize;border-radius:5px;" v-if="!(this.$route.name === 'Registration')" dark color="#0005DF" class="ml-4 google-font hidden-md-and-down" to="/registration" depressed
-      >Register</v-btn>
+    <!-- <v-btn style="text-transform: capitalize;border-radius:5px;" v-if="!(this.$route.name === 'Registration')" dark color="#0005DF" class="ml-4 google-font hidden-md-and-down" to="/registration" depressed
+      >Register</v-btn> -->
     <v-btn
       aria-label="Share Button"
       icon

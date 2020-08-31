@@ -1,5 +1,5 @@
 <template>
-  <v-snackbar :timeout="timeout" right bottom v-model="showS">
+  <v-snackbar :timeout="timeout" v-model="showS" right bottom >
     {{ message }}
     <template v-slot:action="{ attrs }">
   <v-btn :color="color" v-bind="attrs" text @click="showS = false">Close</v-btn>
@@ -24,5 +24,3 @@ name: "CustomSnakebar",
 };
 </script>
 
-<style>
-</style>

@@ -1,6 +1,6 @@
 <template>
   <v-main>
-    <v-container fluid class="my-0 py-0 mt-5 mb-8">
+    <v-container fluid class="my-0 py-0 mt-5 mb-10">
       <v-row align="start" justify="center" class="my-0 py-0">
         <v-col md="2" lg="2" sm="11" cols="11" class="">
           <h1 class="google-font mt-4">FAQ</h1>

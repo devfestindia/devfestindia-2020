@@ -28,13 +28,6 @@ const sendGmailConf = async (snap) => {
             to: email,
             subject: "You are IN! | DevFest India",
             html: htmlemailtemp.HTMLTemplate(name) 
-            // `
-            //     <p>Hi ${name},</p>
-            //     <p>Thanks for filling this form, we confirmed your registartion</p>
-            //     <br>
-            //     <p>Regards,</p>
-            //     <p>Team DevFest India</p>
-                // `
         };
         let info = await transporter.sendMail(data);
         admin.firestore().collection('edata').doc(docId).update({

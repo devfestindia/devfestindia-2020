@@ -1,5 +1,5 @@
 <template>
-  <v-main>
+  <v-main class="">
     <Snakebar
       :message="snakeBarMessage"
       :isShow.sync="isSnakeBarVisible"
@@ -7,18 +7,17 @@
       :timeout="snakeBarTimeOut"
     />
 
-    <v-container fluid class="mt-4 mb-10">
+    <v-container fluid class="mt-4 ">
       <v-row justify="center" align="center">
         <v-col md="7" sm="8" lg="5" cols="11">
-          <h2 class="google-font">DevFest India: Registration</h2>
+          <h2 class="google-font">DevFest India: <span style="color:#0005DF">Registration</span></h2>
           <p class="google-font">
             DevFest India - India's biggest developer conclave with 40+ GDG
             communities. Separated by distance, united by passion.
           </p>
           <p class="google-font">
-            The DevFest India 2020 will be held on Oct 16th, 17th & 18th.  A great
-            line-up of speakers, multiple tracks, fun engagements is on the
-            cards for you!
+            The DevFest India 2020 is set to happen on <b>Oct 16th, 17th & 18th</b> with the great
+            line-up of speakers, multiple tracks, fun engagements and many more.
           </p>
 
           <v-container fluid>
@@ -62,6 +61,7 @@
                   v-if="showLoginBtn"
                   outlined
                   class="mt-3"
+                  style="text-transform: capitalize"
                   v-on:click="signIn"
                 >
                   <v-icon size="20px" left>mdi-google</v-icon>
@@ -122,18 +122,18 @@
 
                   <!-- Organization -->
                   <v-text-field
-                    label="Company/Institute Name"
+                    label="Company / Institute Name *"
                     v-model="response.org"
-                    placeholder="Company/Institute Name"
+                    placeholder="Company / Institute Name"
                     :rules="[rules.required]"
                     outlined
                   ></v-text-field>
 
                   <!-- Role -->
                   <v-text-field
-                    label="Role/Designation"
+                    label="Role / Designation *"
                     v-model="response.role"
-                    placeholder="Role/Designation"
+                    placeholder="Role / Designation *"
                     :rules="[rules.required]"
                     outlined
                   ></v-text-field>
@@ -270,15 +270,18 @@
                     label="Enter the coupon code for the event"
                     v-model="response.code"
                     class="mt-4"
-                    placeholder="Enter the coupon code for the event"
-                    hint="Enter NA in case you don't have a coupon code"
+                    placeholder="Enter the coupon code; Enter 'NA' in case you don't have any"
+                    :rules="[rules.couponRules]"
                     outlined
                   ></v-text-field>
+                  
+                  <!--  -->
+                  <p style="color:#ff5252;font-size:80%" v-if="!ccvalid">Do you have valid coupon code? Enter <b>NA</b> in case you don't have a coupon code</p>
                   <!-- Cooupen Code -->
 
                   <!-- KnowAbout -->
                   <div
-                    class="google-font mt-3"
+                    class="google-font mt-5"
                     style="font-size:120%;color:black"
                   >
                     How did you get to know about this event?
@@ -439,7 +442,7 @@
                   family.
                 </p>
                 <v-btn
-                  href="https://twitter.com/intent/tweet?text=console.log('Hi%20%23WebDevs');%0A%0AI%20have%20registered%20for%20%23DevFestIndia%20to%20attend%20many%20amazing%20sessions.%0AHave%20you?%0A%0AIf%20not,%20register%20yourself%20at%20devfestindia.com%0A%0A%23DevFestIndia%20%23DevFest%20%20@DevFestIndia"
+                  href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fdevfestindia.com&ref_src=twsrc%5Etfw&text=Hi%20%23Devs%2C%0A%0AI%20have%20registered%20for%20%22DevFest%20India%22%20to%20attend%20many%20amazing%20sessions%20by%20expert%20speakers.%0A%0AHave%20you%3F%0A%0AIf%20not%2C%20register%20yourself%20at%3A%20devfestindia.com%0A%0A%23DevFestIndia%20%23DevFest%20%23DevFest2020%0A%40DevFestIndia"
                   target="_blank"
                   depressed
                   rel="noreferrer"
@@ -452,10 +455,26 @@
                   Share your excitement
                 </v-btn>
                 <v-btn
+                  href="https://www.facebook.com/sharer/sharer.php?u=https://devfestindia.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                  style="text-transform: capitalize;"
+                  dark
+                  depressed
+                  color="#3b5998"
+                  class=" google-font mr-3 mt-2"
+                >
+                  <v-icon size="20px" left>mdi-facebook</v-icon>
+                  Share your excitement
+                </v-btn>
+                <v-btn
                   outlined
                   color="#0005DF"
                   style="text-transform: capitalize;border-radius:5px;border-color:#e0e0e0"
                   class="google-font mt-2"
+                  href="http://badge.devfestindia.com/"
+                  rel="noreferrer"
+                  target="_blank" 
                   >Generate your Profile Badge</v-btn
                 >
               </v-col>
@@ -465,7 +484,6 @@
             <!-- Already Registerd -->
             <v-row v-if="userSubmitedAlready && userLoginIn">
               <v-col md="2" cols="2">
-                <!-- <h2 class="google-font">Step 3</h2> -->
                 <v-avatar color="#0005DF">
                   <v-icon dark>mdi-playlist-check</v-icon>
                 </v-avatar>
@@ -474,14 +492,14 @@
                 <h3 class="google-font">
                   You have already submitted this form
                 </h3>
-                <p class=" mb-5">
-                  Thank you for registering for #DevFestIndia and giving us the
+                <p class="mb-5">
+                  Thank you for registering for <b>#DevFestIndia</b> and giving us the
                   honour to host you at India's biggest developer conclave. We
                   highly appreciate your enthusiasm and energy and would love to
                   see you onboard along with your friends and family.
                 </p>
                 <v-btn
-                  href="https://twitter.com/intent/tweet?text=console.log('Hi%20%23WebDevs');%0A%0AI%20have%20registered%20for%20%23DevFestIndia%20to%20attend%20many%20amazing%20sessions.%0AHave%20you?%0A%0AIf%20not,%20register%20yourself%20at%20devfestindia.com%0A%0A%23DevFestIndia%20%23DevFest%20%20@DevFestIndia"
+                  href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fdevfestindia.com&ref_src=twsrc%5Etfw&text=Hi%20%23Devs%2C%0A%0AI%20have%20registered%20for%20%22DevFest%20India%22%20to%20attend%20many%20amazing%20sessions%20by%20expert%20speakers.%0A%0AHave%20you%3F%0A%0AIf%20not%2C%20register%20yourself%20at%3A%20devfestindia.com%0A%0A%23DevFestIndia%20%23DevFest%20%23DevFest2020%0A%40DevFestIndia"
                   target="_blank"
                   rel="noreferrer"
                   style="text-transform: capitalize;"
@@ -493,8 +511,25 @@
                   <v-icon size="20px" left>mdi-twitter</v-icon>
                   Share your excitement
                 </v-btn>
+
+                <v-btn
+                  href="https://www.facebook.com/sharer/sharer.php?u=https://devfestindia.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                  style="text-transform: capitalize;"
+                  dark
+                  depressed
+                  color="#3b5998"
+                  class=" google-font mr-3 mt-2"
+                >
+                  <v-icon size="20px" left>mdi-facebook</v-icon>
+                  Share your excitement
+                </v-btn>
                 <v-btn
                   outlined
+                  href="http://badge.devfestindia.com/"
+                  rel="noreferrer"
+                  target="_blank" 
                   color="#0005DF"
                   style="text-transform: capitalize;border-radius:5px;border-color:#e0e0e0"
                   class="google-font mt-2"
@@ -503,6 +538,11 @@
               </v-col>
             </v-row>
             <!-- Already Registerd -->
+            
+            <br><br><br>
+            <div class="hidden-sm-and-down">
+              <br><br><br><br>
+            </div>
           </v-container>
         </v-col>
       </v-row>
@@ -527,6 +567,13 @@ export default {
       },
       checkboxbtn: (value) =>
         value.length > 0 || "At least one item should be selected",
+      couponRules:(value)=>{
+          if(value && value.toUpperCase() == "NA" ){
+            return (value && value.toUpperCase() == "NA") || "Enter 'NA' in case you don't have any"
+          }else{
+            return (value && value.length === 4) || "Coupon must be of 4 characters"
+          }   
+      }
     },
     tcstatus: false,
     showLoginBtn: true,
@@ -536,6 +583,7 @@ export default {
     userSubmitedAlready: false,
     saveloading: false,
     user: {},
+    ccvalid: true,
 
     response: {
       name: "",
@@ -684,7 +732,8 @@ export default {
         ];
 
         if (cc.indexOf(this.response.code) == -1) {
-          this.response.code = "NA";
+          this.ccvalid = false
+          alert("Do you have valid coupon code? Enter NA in case you don't have a coupon code")
         }
 
         this.saveloading = true;
@@ -701,7 +750,8 @@ export default {
             experience: this.response.experience,
             share: this.response.share,
             knowAbout: this.response.knowAbout,
-            code: this.response.code,
+            theme: this.response.theme,
+            code: this.response.code.toUpperCase(),
             role: this.response.role,
             org: this.response.org,
             date: new Date(),
@@ -739,3 +789,4 @@ export default {
   },
 };
 </script>
+

@@ -48,7 +48,7 @@
               <v-icon>mdi-youtube</v-icon>
             </v-btn>
           </template>
-          <span>LinkedIn</span>
+          <span>YouTube</span>
         </v-tooltip>
       </v-col>
     </v-row>

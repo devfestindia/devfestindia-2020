@@ -1,6 +1,6 @@
 <template>
   <v-main class="">
-    <v-container fluid class="fill-height my-4">
+    <v-container fluid class="fill-height my-3">
       <v-row align="center" justify="center">
         <v-col md="10" lg="9" sm="12" class="">
           <v-container fluid>
@@ -25,7 +25,7 @@
                     </v-row>
                   </template>
                 </v-img>
-                <p class="devfest-font mt-4 mb-3" style="font-size:120%">October 16-18, 2020 | Online</p>
+                <p class="devfest-font mt-4 mb-3" style="font-size:120%">October 16-18, 2020 <span class="hidden-sm-and-down">|</span> <span class="hidden-md-and-up"><br></span> Online</p>
 
                 <!-- For Mobile -->
                 <Timer deadline="October 16, 2020" class="hidden-md-and-up"/>
@@ -69,11 +69,6 @@
 
             
           </v-container>
-          
-          
-          <!-- 
-          <br />
-          <br /><br /> -->
         </v-col>
       </v-row>
 
