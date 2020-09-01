@@ -1,24 +1,31 @@
 <template>
-  <v-main class="">
-    <Snakebar
-      :message="snakeBarMessage"
-      :isShow.sync="isSnakeBarVisible"
-      :color="snakeBarColor"
-      :timeout="snakeBarTimeOut"
+  <v-main class>
+    <Snackbar
+      :message="snackBarMessage"
+      :isShow.sync="isSnackBarVisible"
+      :color="snackBarColor"
+      :timeout="snackBarTimeOut"
     />
 
-    <v-container fluid class="mt-4 ">
+    <v-container fluid class="mt-4">
       <v-row justify="center" align="center">
-        <v-col md="7" sm="8" lg="5" cols="11">
-          <h2 class="google-font">DevFest India: <span style="color:#0005DF">Registration</span></h2>
-          <p class="google-font">
-            DevFest India - India's biggest developer conclave with 40+ GDG
-            communities. Separated by distance, united by passion.
-          </p>
-          <p class="google-font">
-            The DevFest India 2020 is set to happen on <b>Oct 16th, 17th & 18th</b> with the great
-            line-up of speakers, multiple tracks, fun engagements and many more.
-          </p>
+        <v-col md="7" sm="8" lg="5" cols="12">
+          <div style="padding:10px;">
+            <h2 class="google-font">
+              <span style="font-size:120%">DevFest India</span>:
+              <span style="color:#0005DF">Registration</span>
+            </h2>
+            <p class="google-font">
+              India's biggest developer conclave with 40+ GDG
+              communities.
+              <br />Separated by distance, united by passion.
+            </p>
+            <p class="google-font">
+              The mega event is set to happen on
+              <b>Oct 16th, 17th & 18th</b> with the
+              line-up of expert speakers, multiple tracks, fun engagements and many more.
+            </p>
+          </div>
 
           <v-container fluid>
             <!-- Google Sign In -->
@@ -28,13 +35,13 @@
                   <v-icon dark>mdi-account-circle</v-icon>
                 </v-avatar>
                 <!-- 
-                <h2 class="google-font">Step 1</h2> -->
+                <h2 class="google-font">Step 1</h2>-->
               </v-col>
               <v-col md="10" class="google-font" cols="10">
                 <h3 class="google-font">Login with your Google Account</h3>
-                <p class="google-font">
-                  Sign in and register to reserve seats.
-                </p>
+                <p
+                  class="google-font"
+                >Sign in and register to get your entry tickets of the "Festival of Developers".</p>
 
                 <v-list-item v-if="userLoginIn" class="ml-0 pl-0">
                   <v-list-item-avatar size="65">
@@ -42,18 +49,11 @@
                   </v-list-item-avatar>
 
                   <v-list-item-content>
-                    <v-list-item-title
-                      class="google-font"
-                      v-html="user.displayName"
-                    ></v-list-item-title>
-                    <v-list-item-subtitle
-                      v-html="user.email"
-                    ></v-list-item-subtitle>
-                    <v-list-item-subtitle
-                      v-on:click="logout"
-                      style="color:blue;cursor: pointer"
-                      ><u>Logout as a {{ user.email }}</u></v-list-item-subtitle
-                    >
+                    <v-list-item-title class="google-font" v-html="user.displayName"></v-list-item-title>
+                    <v-list-item-subtitle v-html="user.email"></v-list-item-subtitle>
+                    <v-list-item-subtitle v-on:click="logout" style="color:blue;cursor: pointer">
+                      <u>Logout as a {{ user.email }}</u>
+                    </v-list-item-subtitle>
                   </v-list-item-content>
                 </v-list-item>
 
@@ -64,9 +64,8 @@
                   style="text-transform: capitalize"
                   v-on:click="signIn"
                 >
-                  <v-icon size="20px" left>mdi-google</v-icon>
-                  Sign In with Google</v-btn
-                >
+                  <v-icon size="20px" left>mdi-google</v-icon>Sign In with Google
+                </v-btn>
               </v-col>
             </v-row>
             <!-- Google Sign In -->
@@ -80,12 +79,13 @@
               </v-col>
               <v-col md="10" class="google-font" cols="10">
                 <h3 class="google-font">Your details</h3>
-                <p class=" mb-10">
-                  Required fields are marked with an asterisk
-                </p>
+                <p class="mb-10">Required fields are marked with an asterisk</p>
                 <v-form ref="form">
                   <!-- Email Id -->
-                  <p style="font-size:105%;color:black">Email <span style="color:#ff5252;">*</span></p>
+                  <p style="font-size:105%;color:black">
+                    Email
+                    <span style="color:#ff5252;">*</span>
+                  </p>
                   <v-text-field
                     label="Email"
                     v-model="response.email"
@@ -95,7 +95,10 @@
                   ></v-text-field>
 
                   <!-- Full Name -->
-                  <p style="font-size:105%;color:black">Name <span style="color:#ff5252;">*</span></p>
+                  <p style="font-size:105%;color:black">
+                    Name
+                    <span style="color:#ff5252;">*</span>
+                  </p>
                   <v-text-field
                     label="Name"
                     v-model="response.name"
@@ -105,7 +108,10 @@
                   ></v-text-field>
 
                   <!-- City -->
-                  <p style="font-size:105%;color:black">City <span style="color:#ff5252;">*</span></p>
+                  <p style="font-size:105%;color:black">
+                    City
+                    <span style="color:#ff5252;">*</span>
+                  </p>
                   <v-text-field
                     label="City"
                     v-model="response.city"
@@ -115,7 +121,10 @@
                   ></v-text-field>
 
                   <!-- Country -->
-                  <p style="font-size:105%;color:black">Country <span style="color:#ff5252;">*</span></p>
+                  <p style="font-size:105%;color:black">
+                    Country
+                    <span style="color:#ff5252;">*</span>
+                  </p>
                   <v-text-field
                     label="Country"
                     v-model="response.country"
@@ -125,7 +134,10 @@
                   ></v-text-field>
 
                   <!-- Organization -->
-                  <p style="font-size:105%;color:black">Company / Institute Name <span style="color:#ff5252;">*</span></p>
+                  <p style="font-size:105%;color:black">
+                    Company / Institute Name
+                    <span style="color:#ff5252;">*</span>
+                  </p>
                   <v-text-field
                     label="Company / Institute Name *"
                     v-model="response.org"
@@ -135,7 +147,10 @@
                   ></v-text-field>
 
                   <!-- Role -->
-                  <p style="font-size:105%;color:black">Role / Designation <span style="color:#ff5252;">*</span></p>
+                  <p style="font-size:105%;color:black">
+                    Role / Designation
+                    <span style="color:#ff5252;">*</span>
+                  </p>
                   <v-text-field
                     label="Role / Designation *"
                     v-model="response.role"
@@ -150,18 +165,14 @@
                     v-model="response.gender"
                     class="mb-3"
                   >
-                    <div
-                      class="google-font mb-3"
-                      style="font-size:105%;color:black !important"
-                    >
+                    <div class="google-font mb-3" style="font-size:105%;color:black !important">
                       How would you like to identify yourself as?
                       <span style="color:#ff5252;">*</span>
                       <br />
                       <span
                         style="color:#ff5252;font-size:70%"
                         v-show="response.gender === 0"
-                        >This field is required.</span
-                      >
+                      >This field is required.</span>
                     </div>
 
                     <v-radio color="#0005DF" value="Male" v-slot:label>
@@ -170,11 +181,7 @@
                     <v-radio color="#0005DF" value="Female" v-slot:label>
                       <div>Female</div>
                     </v-radio>
-                    <v-radio
-                      color="#0005DF"
-                      value="Prefer not to say"
-                      v-slot:label
-                    >
+                    <v-radio color="#0005DF" value="Prefer not to say" v-slot:label>
                       <div>Prefer not to say</div>
                     </v-radio>
                   </v-radio-group>
@@ -185,9 +192,9 @@
                     Tracks / themes you are interested to attend.
                     <span style="color:#ff5252;">*</span>
                     <br />
-                    <span style="font-size:80%;color:black"
-                      >You can choose more than 1 area of interests</span
-                    >
+                    <span
+                      style="font-size:80%;color:black"
+                    >You can choose more than 1 area of interests</span>
                   </div>
                   <v-checkbox
                     class="mb-0"
@@ -242,18 +249,14 @@
                     :rules="[(v) => !!v || 'This field is required.']"
                     class="mb-5"
                   >
-                    <div
-                      class="google-font mb-3"
-                      style="font-size:105%;color:black !important"
-                    >
+                    <div class="google-font mb-3" style="font-size:105%;color:black !important">
                       Years of experience
                       <span style="color:#ff5252;">*</span>
                       <br />
                       <span
                         style="color:#ff5252;font-size:70%"
                         v-if="response.experience === 0"
-                        >This field is required.</span
-                      >
+                      >This field is required.</span>
                     </div>
 
                     <v-radio color="#0005DF" value="0 - 5 years" v-slot:label>
@@ -271,31 +274,46 @@
                   </v-radio-group>
                   <!-- Experience -->
 
-                  <!-- Coupen Code -->
-                  <p style="font-size:105%;color:black">Which community are you associated with? <span style="color:#ff5252;">*</span></p>
+                  <!-- Community -->
+                  <p style="font-size:105%;color:black">
+                    Which community are you associated with?
+                    <span style="color:#ff5252;">*</span>
+                    <br />
+                    <span style="font-size:70%">Choose others if the community is not in the list.</span>
+                  </p>
                   <v-combobox
                     v-model="response.code"
                     :items="gdgcommunities"
-                    :rules="[(v)=>!!v || 'Chouse others if the community is not in the list.']"
+                    :rules="[rules.community]"
                     label="Which community are you associated with?"
                     outlined
                   ></v-combobox>
+                  <p
+                    style="font-size:95%;color:black"
+                    v-if="response.code && response.code.toLowerCase() === 'others'"
+                  >
+                    Enter 'NA' if this is your first community event
+                    <span style="color:#ff5252;">*</span>
+                  </p>
+                  <v-text-field
+                    v-if="response.code && response.code.toLowerCase() === 'others'"
+                    label="Others"
+                    v-model="response.otherCode"
+                    placeholder="Community Name"
+                    :rules="[rules.required]"
+                    outlined
+                  ></v-text-field>
 
                   <!-- KnowAbout -->
-                  <div
-                    class="google-font mt-5"
-                    style="font-size:105%;color:black"
-                  >
+                  <div class="google-font mt-5" style="font-size:105%;color:black">
                     How did you get to know about this event?
                     <span style="color:#ff5252;">*</span>
                     <br />
-                    <span style="font-size:80%;color:black"
-                      >Check all that apply</span
-                    >
+                    <span style="font-size:80%;color:black">Check all that apply</span>
                   </div>
                   <v-checkbox
                     class="mb-0"
-                    :rules="[rules.checkboxbtn]"
+                    :rules="[rules.socialcheckboxbtn]"
                     hide-details="false"
                     color="#0005DF"
                     v-model="response.knowAbout"
@@ -305,7 +323,7 @@
                   <v-checkbox
                     class="my-1"
                     hide-details="false"
-                    :rules="[rules.checkboxbtn]"
+                    :rules="[rules.socialcheckboxbtn]"
                     color="#0005DF"
                     v-model="response.knowAbout"
                     label="Google Developer Groups"
@@ -314,7 +332,7 @@
                   <v-checkbox
                     class="my-1"
                     hide-details="false"
-                    :rules="[rules.checkboxbtn]"
+                    :rules="[rules.socialcheckboxbtn]"
                     color="#0005DF"
                     v-model="response.knowAbout"
                     label="Developer Student Clubs"
@@ -323,7 +341,7 @@
                   <v-checkbox
                     class="my-1"
                     hide-details="false"
-                    :rules="[rules.checkboxbtn]"
+                    :rules="[rules.socialcheckboxbtn]"
                     color="#0005DF"
                     v-model="response.knowAbout"
                     label="Other Communities"
@@ -333,7 +351,7 @@
                   <v-checkbox
                     class="my-1"
                     hide-details="false"
-                    :rules="[rules.checkboxbtn]"
+                    :rules="[rules.socialcheckboxbtn]"
                     color="#0005DF"
                     v-model="response.knowAbout"
                     label="Through your company/colleague"
@@ -342,7 +360,7 @@
                   <v-checkbox
                     class="my-1"
                     hide-details="false"
-                    :rules="[rules.checkboxbtn]"
+                    :rules="[rules.socialcheckboxbtn]"
                     color="#0005DF"
                     v-model="response.knowAbout"
                     label="Friends"
@@ -351,7 +369,7 @@
                   <v-checkbox
                     class="my-1"
                     hide-details="false"
-                    :rules="[rules.checkboxbtn]"
+                    :rules="[rules.socialcheckboxbtn]"
                     color="#0005DF"
                     v-model="response.knowAbout"
                     label="Twitter"
@@ -360,7 +378,7 @@
                   <v-checkbox
                     class="my-1"
                     hide-details="false"
-                    :rules="[rules.checkboxbtn]"
+                    :rules="[rules.socialcheckboxbtn]"
                     color="#0005DF"
                     v-model="response.knowAbout"
                     label="Facebook"
@@ -369,7 +387,7 @@
                   <v-checkbox
                     class="my-1"
                     hide-details="false"
-                    :rules="[rules.checkboxbtn]"
+                    :rules="[rules.socialcheckboxbtn]"
                     color="#0005DF"
                     v-model="response.knowAbout"
                     label="LinkedIn"
@@ -378,7 +396,7 @@
                   <v-checkbox
                     class="my-1"
                     hide-details="false"
-                    :rules="[rules.checkboxbtn]"
+                    :rules="[rules.socialcheckboxbtn]"
                     color="#0005DF"
                     v-model="response.knowAbout"
                     label="Others"
@@ -397,10 +415,19 @@
                   <!-- Share -->
 
                   <!-- Accepts TC -->
-                  <v-checkbox color="#0005DF" v-model="tcstatus" :rules="[v => !!v || 'You must agree to register!']" label="By checking this box, i confirm that: ">
-                  </v-checkbox>
-                  <p class="mt-3">I agree to let DevFest India Organisers use the information collected in this form to be used for my participation in "DevFest India 2020 Event".</p>
-                  <p>I have read and agree to the <router-link to="/tc" target="_blank">Participation Terms</router-link></p>
+                  <v-checkbox
+                    color="#0005DF"
+                    v-model="istcChecked"
+                    :rules="[v => !!v || 'You must agree to register!']"
+                    label="By checking this box, i confirm that: "
+                  ></v-checkbox>
+                  <p
+                    class="mt-3"
+                  >I agree to let DevFest India Organisers use the information collected in this form to be used for my participation in "DevFest India 2020 Event".</p>
+                  <p>
+                    I have read and agree to the
+                    <router-link to="/tc" target="_blank">Participation Terms</router-link>
+                  </p>
                   <!-- Accepts TC -->
 
                   <v-btn
@@ -410,8 +437,7 @@
                     :loading="saveloading"
                     v-on:click="saveData"
                     color="#0005DF"
-                    >Submit</v-btn
-                  >
+                  >Submit</v-btn>
                 </v-form>
               </v-col>
             </v-row>
@@ -433,15 +459,18 @@
                     target="_blank"
                     style="text-decoration:none;color:#0005DF"
                   >
-                    <b>#DevFestIndia</b> </a
-                  >.
+                    <b>#DevFestIndia</b>
+                  </a>.
                 </h3>
                 <p class="google-font">
-                  Thank you for registering for <b>#DevFestIndia</b> and giving
+                  Thank you for registering for
+                  <b>#DevFestIndia</b> and giving
                   us the honour to host you at India's biggest developer
-                  conclave. We highly appreciate your enthusiasm and energy and
-                  would love to see you onboard along with your friends and
-                  family.
+                  conclave.
+                  <br />You will be receiving the confirmation mail soon from:
+                  <span
+                    style="color:red"
+                  >no-reply@devfestindia.com</span>
                 </p>
                 <v-btn
                   href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fdevfestindia.com&ref_src=twsrc%5Etfw&text=Hi%20%23Devs%2C%0A%0AI%20have%20registered%20for%20%22DevFest%20India%22%20to%20attend%20many%20amazing%20sessions%20by%20expert%20speakers.%0A%0AHave%20you%3F%0A%0AIf%20not%2C%20register%20yourself%20at%3A%20devfestindia.com%0A%0A%23DevFestIndia%20%23DevFest%20%23DevFest2020%0A%40DevFestIndia"
@@ -451,23 +480,21 @@
                   dark
                   style="text-transform: capitalize;"
                   color="#4285F4"
-                  class="google-font mr-3 mt-2"
+                  class="google-font"
                 >
-                  <v-icon size="20px" left>mdi-twitter</v-icon>
-                  Share your excitement
+                  <v-icon size="20px" left>mdi-twitter</v-icon>Tweet your excitement
                 </v-btn>
                 <v-btn
-                  href="https://www.facebook.com/sharer/sharer.php?u=https://devfestindia.com/"
+                  href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevfestindia.com%2F&quote=Hi%20%23Devs%2C%0A%0ABooked%20my%20ticket%20for%20%22DevFest%20India%22%20to%20attend%20many%20amazing%20sessions%20by%20expert%20speakers.%0A%0AHave%20you%3F%0A%0AIf%20not%2C%20visit%3A%20https%3A%2F%2Fdevfestindia.com%2F%0A%0A%23DevFestIndia%20%23DevFest%20%23DevFest2020"
                   target="_blank"
                   rel="noreferrer"
                   style="text-transform: capitalize;"
                   dark
                   depressed
                   color="#3b5998"
-                  class=" google-font mr-3 mt-2"
+                  class="google-font mt-2"
                 >
-                  <v-icon size="20px" left>mdi-facebook</v-icon>
-                  Share your excitement
+                  <v-icon size="20px" left>mdi-facebook</v-icon>Share with your friends
                 </v-btn>
                 <v-btn
                   outlined
@@ -476,9 +503,10 @@
                   class="google-font mt-2"
                   href="http://badge.devfestindia.com/"
                   rel="noreferrer"
-                  target="_blank" 
-                  >Generate your Profile Badge</v-btn
+                  target="_blank"
                 >
+                  <v-icon size="20px" left>mdi-inbox</v-icon>Generate Profile Badge
+                </v-btn>
               </v-col>
             </v-row>
             <!-- Registration Success -->
@@ -491,14 +519,14 @@
                 </v-avatar>
               </v-col>
               <v-col md="10" class="google-font" cols="10">
-                <h3 class="google-font">
-                  You have already submitted this form
-                </h3>
+                <h3 class="google-font">You have already submitted this form</h3>
                 <p class="mb-5">
-                  Thank you for registering for <b>#DevFestIndia</b> and giving us the
-                  honour to host you at India's biggest developer conclave. We
-                  highly appreciate your enthusiasm and energy and would love to
-                  see you onboard along with your friends and family.
+                  Thank you for registering for
+                  <b>#DevFestIndia</b> and giving us the
+                  honour to host you at India's biggest developer conclave.
+                  <br />You might have received or will be receiving the confirmation mail soon from:
+                  <br />
+                  <span style="color:red">no-reply@devfestindia.com</span>
                 </p>
                 <v-btn
                   href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fdevfestindia.com&ref_src=twsrc%5Etfw&text=Hi%20%23Devs%2C%0A%0AI%20have%20registered%20for%20%22DevFest%20India%22%20to%20attend%20many%20amazing%20sessions%20by%20expert%20speakers.%0A%0AHave%20you%3F%0A%0AIf%20not%2C%20register%20yourself%20at%3A%20devfestindia.com%0A%0A%23DevFestIndia%20%23DevFest%20%23DevFest2020%0A%40DevFestIndia"
@@ -508,43 +536,37 @@
                   dark
                   depressed
                   color="#4285F4"
-                  class=" google-font mr-3 mt-2"
+                  class="google-font"
                 >
-                  <v-icon size="20px" left>mdi-twitter</v-icon>
-                  Share your excitement
+                  <v-icon size="20px" left>mdi-twitter</v-icon>Tweet your excitement
                 </v-btn>
 
                 <v-btn
-                  href="https://www.facebook.com/sharer/sharer.php?u=https://devfestindia.com/"
+                  href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevfestindia.com%2F&quote=Hi%20%23Devs%2C%0A%0ABooked%20my%20ticket%20for%20%22DevFest%20India%22%20to%20attend%20many%20amazing%20sessions%20by%20expert%20speakers.%0A%0AHave%20you%3F%0A%0AIf%20not%2C%20visit%3A%20https%3A%2F%2Fdevfestindia.com%2F%0A%0A%23DevFestIndia%20%23DevFest%20%23DevFest2020"
                   target="_blank"
                   rel="noreferrer"
                   style="text-transform: capitalize;"
                   dark
                   depressed
                   color="#3b5998"
-                  class=" google-font mr-3 mt-2"
+                  class="google-font mt-2"
                 >
-                  <v-icon size="20px" left>mdi-facebook</v-icon>
-                  Share your excitement
+                  <v-icon size="20px" left>mdi-facebook</v-icon>Share with your friends
                 </v-btn>
                 <v-btn
                   outlined
                   href="http://badge.devfestindia.com/"
                   rel="noreferrer"
-                  target="_blank" 
+                  target="_blank"
                   color="#0005DF"
                   style="text-transform: capitalize;border-radius:5px;border-color:#e0e0e0"
                   class="google-font mt-2"
-                  >Generate your Profile Badge</v-btn
                 >
+                  <v-icon size="20px" left>mdi-inbox</v-icon>Generate Profile Badge
+                </v-btn>
               </v-col>
             </v-row>
             <!-- Already Registerd -->
-            
-            <br><br><br>
-            <div class="hidden-sm-and-down">
-              <br><br><br><br>
-            </div>
           </v-container>
         </v-col>
       </v-row>
@@ -556,21 +578,138 @@
 import FDK from "../config/firebase";
 export default {
   data: () => ({
-    // Snackebar
-    snakeBarMessage: "",
-    isSnakeBarVisible: false,
-    snakeBarColor: "green",
-    snakeBarTimeOut: 5000,
-    //
+    // Snackbar
+    snackBarMessage: "",
+    isSnackBarVisible: false,
+    snackBarColor: "green",
+    snackBarTimeOut: 5000,
+    gdgcommunities: [
+      "GDG Ahmedabad",
+      "GDG Bangalore",
+      "GDG Bhilai",
+      "GDG Bhopal ",
+      "GDG Bhubaneswar",
+      "GDG Blrdroid ",
+      "GDG Chandigarh",
+      "GDG Chennai",
+      "GDG Cloud Ahmedabad",
+      "GDG Cloud Bengaluru",
+      "GDG Cloud Bhubaneswar",
+      "GDG Cloud Chennai",
+      "GDG Cloud Coimbatore",
+      "GDG Cloud Indore",
+      "GDG Cloud Mumbai",
+      "GDG Cloud New Delhi",
+      "GDG Cloud Hyderabad",
+      "GDG Cloud Pune",
+      "GDG Cochin",
+      "GDG Coimbatore ",
+      "GDG Gandhinagar",
+      "GDG Goa",
+      "GDG Gwalior",
+      "GDG Hubli",
+      "GDG Hyderabad",
+      "GDG Indore",
+      "GDG Jaipur",
+      "GDG Jalandhar",
+      "GDG Kolkata",
+      "GDG Kozhikode",
+      "GDG MAD",
+      "GDG Madurai",
+      "GDG Nagpur",
+      "GDG Nashik",
+      "GDG New Delhi",
+      "GDG Patna",
+      "GDG Rajkot",
+      "GDG Ranchi",
+      "GDG Siliguri",
+      "GDG Srinagar",
+      "GDG Thiruvananthapuram",
+      "GDG Udaipur",
+      "GDG Mysuru",
+      "GDG Vizag",
+      "GDG Kolkata",
+      "GDG Surat",
+      "GDG Pune",
+      "GDG Jodhpur",
+      "GDG Baroda",
+      "GDG Cloud Jaipur",
+      "GDG Salem",
+      "Others",
+    ],
     rules: {
       required: (value) => !!value || "This field is required.",
       radiobtn: (value) => {
         return value.length > 0 || "This field is required.";
       },
-      checkboxbtn: (value) =>
-        value.length > 0 || "At least one item should be selected",
+      checkboxbtn: (value) => {
+        return value.length > 0 || "At least one item should be selected.";
+      },
+      socialcheckboxbtn: (value) => {
+        return value.length > 0 || "At least one item should be selected.";
+      },
+      community: (value) => {
+        let communities = [
+          "GDG Ahmedabad",
+          "GDG Bangalore",
+          "GDG Bhilai",
+          "GDG Bhopal ",
+          "GDG Bhubaneswar",
+          "GDG Blrdroid ",
+          "GDG Chandigarh",
+          "GDG Chennai",
+          "GDG Cloud Ahmedabad",
+          "GDG Cloud Bengaluru",
+          "GDG Cloud Bhubaneswar",
+          "GDG Cloud Chennai",
+          "GDG Cloud Coimbatore",
+          "GDG Cloud Indore",
+          "GDG Cloud Mumbai",
+          "GDG Cloud New Delhi",
+          "GDG Cloud Hyderabad",
+          "GDG Cloud Pune",
+          "GDG Cochin",
+          "GDG Coimbatore ",
+          "GDG Gandhinagar",
+          "GDG Goa",
+          "GDG Gwalior",
+          "GDG Hubli",
+          "GDG Hyderabad",
+          "GDG Indore",
+          "GDG Jaipur",
+          "GDG Jalandhar",
+          "GDG Kolkata",
+          "GDG Kozhikode",
+          "GDG MAD",
+          "GDG Madurai",
+          "GDG Nagpur",
+          "GDG Nashik",
+          "GDG New Delhi",
+          "GDG Patna",
+          "GDG Rajkot",
+          "GDG Ranchi",
+          "GDG Siliguri",
+          "GDG Srinagar",
+          "GDG Thiruvananthapuram",
+          "GDG Udaipur",
+          "GDG Mysuru",
+          "GDG Vizag",
+          "GDG Kolkata",
+          "GDG Surat",
+          "GDG Pune",
+          "GDG Jodhpur",
+          "GDG Baroda",
+          "GDG Cloud Jaipur",
+          "GDG Salem",
+          "Others",
+        ];
+        return (
+          communities.indexOf(value) >= 0 ||
+          "Please choose the community you are associated with."
+        );
+      },
     },
-    tcstatus: false,
+    istcChecked: false,
     showLoginBtn: true,
     userLoginIn: false,
     userForm: false,
@@ -578,7 +717,6 @@ export default {
     userSubmitedAlready: false,
     saveloading: false,
     user: {},
-    ccvalid: true,
 
     response: {
       name: "",
@@ -593,11 +731,11 @@ export default {
       code: "",
       knowAbout: [],
       share: "",
+      otherCode: "",
     },
-    gdgcommunities:['GDG Ahmedabad','GDG Bangalore','GDG Bhilai', 'GDG Bhopal (Google Developers Group Bhopal)','GDG Bhubaneswar','GDG Blrdroid - Bangalore Android Developers Group','GDG Chandigarh','GDG Chennai','GDG Cloud Ahmedabad','GDG Cloud Bengaluru','GDG Cloud Bhubaneswar','GDG Cloud Chennai','GDG Cloud Coimbatore','GDG Cloud Indore','GDG Cloud Mumbai','GDG Cloud New Delhi','GDG Cloud, Hyderabad','GDG Cloud, Pune','GDG Cochin','GDG Coimbatore : Google Developer Group, Coimbatore','GDG Gandhinagar','GDG Goa','GDG Gwalior','GDG Hubli','GDG Hyderabad','GDG Indore','GDG Jaipur','GDG Jalandhar','GDG Kolkata','GDG Kozhikode','GDG MAD','GDG Madurai','GDG Nagpur','GDG Nashik','GDG New Delhi','GDG Patna','GDG Rajkot','GDG Ranchi','GDG Siliguri','GDG Srinagar','GDG Thiruvananthapuram','GDG Udaipur','GDG-Mysuru','GDG-Vizag','Google  Developer  Group Cloud Community, Kolkata','Google Developer Group : GDG Surat','Google Developer Group Pune : GDG Pune','GDG Jodhpur','GDG Baroda','GDG Cloud Jaipur','GDG Salem', "Others" ]
   }),
   components: {
-    Snakebar: () => import("@/components/common/Snackebar"),
+    Snackbar: () => import("@/components/common/Snackbar"),
   },
   mounted() {
     this.checkAuth();
@@ -605,7 +743,7 @@ export default {
   methods: {
     checkAuth() {
       var self = this;
-      FDK.auth.onAuthStateChanged(function(user) {
+      FDK.auth.onAuthStateChanged(function (user) {
         if (user) {
           self.showLoginBtn = false;
           self.userLoginIn = true;
@@ -613,16 +751,14 @@ export default {
           self.response.email = user.email;
           self.response.name = user.displayName;
 
-          // Snackebar
-          // self.snakeBarMessage = "Sign In with " + user.email;
-          // self.isSnakeBarVisible = true;
+          self.snackBarMessage = "Signed In with " + user.email;
+          self.isSnackBarVisible = true;
 
           FDK.firestore
             .collection("edata")
             .doc(user.uid)
             .get()
             .then((res) => {
-              // console.log(res.data());
               if (res.data()) {
                 self.userForm = false;
                 self.userSuccess = false;
@@ -634,9 +770,6 @@ export default {
             .catch((e) => {
               console.log(e);
             });
-        } else {
-          // User is signed out.
-          // ...
         }
       });
     },
@@ -647,86 +780,27 @@ export default {
       FDK.firebase
         .auth()
         .signInWithPopup(provider)
-        .then(function(result) {
+        .then(function (result) {
           var token = result.credential.accessToken;
           var user = result.user;
-          // console.log(user)
 
           self.userLoginIn = true;
           self.userForm = true;
           self.response.email = user.email;
           self.response.name = user.displayName;
           self.user = user;
-          // Snackebar
-          self.snakeBarMessage = "Sign In with " + user.email;
-          self.isSnakeBarVisible = true;
+          self.snackBarMessage = "Signed In with " + user.email;
+          self.isSnackBarVisible = true;
         })
-        .catch(function(error) {
+        .catch(function (error) {
           var errorCode = error.code;
           var errorMessage = error.message;
           var email = error.email;
           var credential = error.credential;
-          console.log(error);
-          // ...
         });
     },
     saveData() {
       if (this.$refs.form.validate()) {
-        let cc = [
-          "AMDQ",
-          "BGGE",
-          "AZXE",
-          "GBHP",
-          "DXXT",
-          "AWWX",
-          "YOTR",
-          "TRRD",
-          "WOWQ",
-          "PRDW",
-          "GHIU",
-          "KYIT",
-          "WEET",
-          "PGGT",
-          "DEOT",
-          "GHNT",
-          "DCGT",
-          "VGYT",
-          "DCFT",
-          "KITG",
-          "VGYT",
-          "CDRG",
-          "VGDS",
-          "CDSW",
-          "KHTD",
-          "XSEW",
-          "BHIG",
-          "CSSA",
-          "BGDC",
-          "VCSA",
-          "BCDS",
-          "NGKO",
-          "CFDS",
-          "XDSE",
-          "KLTR",
-          "ZAWE",
-          "CGHY",
-          "CFDE",
-          "VGHT",
-          "KNHY",
-          "SWAD",
-          "NVBC",
-          "ZXZX",
-          "KGSA",
-          "NGRW",
-          "POMN",
-          "SDSD",
-          "JGNT",
-          "XCXZ",
-          "DESW",
-          "DWQS",
-          "NA",
-        ];
-
         this.saveloading = true;
         FDK.firestore
           .collection("edata")
@@ -742,7 +816,11 @@ export default {
             share: this.response.share,
             knowAbout: this.response.knowAbout,
             theme: this.response.theme,
-            code: this.response.code.toUpperCase(),
+            code:
+              !!this.response.code.toUpperCase() &&
+              this.response.code.toUpperCase() !== "OTHERS"
+                ? this.response.code.toUpperCase()
+                : this.response.otherCode.toUpperCase(),
             role: this.response.role,
             org: this.response.org,
             date: new Date(),
@@ -753,27 +831,26 @@ export default {
             this.userForm = false;
           })
           .catch((e) => {
-            console.log(e);
             this.saveloading = false;
           });
       } else {
-        alert("Some fields are required.");
+        alert("Please fill the required fields before submitting the form :)");
       }
     },
     logout() {
       var self = this;
       FDK.auth
         .signOut()
-        .then(function() {
+        .then(function () {
           self.userLoginIn = false;
           self.userForm = false;
           self.userSuccess = false;
+          self.userSubmitedAlready = false;
           self.showLoginBtn = true;
-          self.snakeBarMessage = "User logged out with " + self.user.email;
-          self.isSnakeBarVisible = true;
+          self.snackBarMessage = "Logged out from " + self.user.email;
+          self.isSnackBarVisible = true;
         })
-        .catch(function(error) {
-          // An error happened.
+        .catch(function (error) {
           console.log(error);
         });
     },
