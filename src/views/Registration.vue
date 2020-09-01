@@ -393,15 +393,6 @@
                     label="LinkedIn"
                     value="LinkedIn"
                   ></v-checkbox>
-                  <v-checkbox
-                    class="my-1"
-                    hide-details="false"
-                    :rules="[rules.socialcheckboxbtn]"
-                    color="#0005DF"
-                    v-model="response.knowAbout"
-                    label="Others"
-                    value="Others"
-                  ></v-checkbox>
 
                   <!-- KnowAbout -->
 
@@ -473,7 +464,7 @@
                   >no-reply@devfestindia.com</span>
                 </p>
                 <v-btn
-                  href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fdevfestindia.com&ref_src=twsrc%5Etfw&text=Hi%20%23Devs%2C%0A%0AI%20have%20registered%20for%20%22DevFest%20India%22%20to%20attend%20many%20amazing%20sessions%20by%20expert%20speakers.%0A%0AHave%20you%3F%0A%0AIf%20not%2C%20register%20yourself%20at%3A%20devfestindia.com%0A%0A%23DevFestIndia%20%23DevFest%20%23DevFest2020%0A%40DevFestIndia"
+                  href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fdevfestindia.com&ref_src=twsrc%5Etfw&text=Hi%20%23Devs%2C%0A%0AI%20registered%20to%20attend%20India%27s%20largest%20developer%20conclave%20-%20%22DevFest%20India%22.%20There%20are%20some%20amazing%20sessions%20by%20expert%20speakers%20and%20you%20can%20join%20me%20now%21%0A%0ARegister%20at%3A%20https%3A%2F%2Fdevfestindia.com%2F%0A%0A%23DevFestIndia%20%23DevFest%20%40DevFestIndia%20%20"
                   target="_blank"
                   depressed
                   rel="noreferrer"
@@ -486,7 +477,7 @@
                 </v-btn>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <v-btn
-                  href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevfestindia.com%2F&quote=Hi%20%23Devs%2C%0A%0ABooked%20my%20ticket%20for%20%22DevFest%20India%22%20to%20attend%20many%20amazing%20sessions%20by%20expert%20speakers.%0A%0AHave%20you%3F%0A%0AIf%20not%2C%20visit%3A%20https%3A%2F%2Fdevfestindia.com%2F%0A%0A%23DevFestIndia%20%23DevFest%20%23DevFest2020"
+                  href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevfestindia.com%2F&quote=Hi%20%23Devs%2C%0A%0AI%20registered%20to%20attend%20India%27s%20largest%20developer%20conclave%20-%20%22DevFest%20India%22.%20There%20are%20some%20amazing%20sessions%20by%20expert%20speakers%20and%20you%20can%20join%20me%20now%21%0A%0ARegister%20here%3A%20https%3A%2F%2Fdevfestindia.com%2F%0A%0A%23DevFestIndia%20%23DevFest"
                   target="_blank"
                   rel="noreferrer"
                   style="text-transform: capitalize;"
@@ -497,6 +488,7 @@
                 >
                   <v-icon size="20px" left>mdi-facebook</v-icon>Share with your friends
                 </v-btn>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <v-btn
                   outlined
                   color="#0005DF"
@@ -530,7 +522,7 @@
                   <span style="color:red">no-reply@devfestindia.com</span>
                 </p>
                 <v-btn
-                  href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fdevfestindia.com&ref_src=twsrc%5Etfw&text=Hi%20%23Devs%2C%0A%0AI%20have%20registered%20for%20%22DevFest%20India%22%20to%20attend%20many%20amazing%20sessions%20by%20expert%20speakers.%0A%0AHave%20you%3F%0A%0AIf%20not%2C%20register%20yourself%20at%3A%20devfestindia.com%0A%0A%23DevFestIndia%20%23DevFest%20%23DevFest2020%0A%40DevFestIndia"
+                  href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fdevfestindia.com&ref_src=twsrc%5Etfw&text=Hi%20%23Devs%2C%0A%0AI%20registered%20to%20attend%20India%27s%20largest%20developer%20conclave%20-%20%22DevFest%20India%22.%20There%20are%20some%20amazing%20sessions%20by%20expert%20speakers%20and%20you%20can%20join%20me%20now%21%0A%0ARegister%20at%3A%20https%3A%2F%2Fdevfestindia.com%2F%0A%0A%23DevFestIndia%20%23DevFest%20%40DevFestIndia%20%20"
                   target="_blank"
                   rel="noreferrer"
                   style="text-transform: capitalize;"
@@ -543,7 +535,7 @@
                 </v-btn>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <v-btn
-                  href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevfestindia.com%2F&quote=Hi%20%23Devs%2C%0A%0ABooked%20my%20ticket%20for%20%22DevFest%20India%22%20to%20attend%20many%20amazing%20sessions%20by%20expert%20speakers.%0A%0AHave%20you%3F%0A%0AIf%20not%2C%20visit%3A%20https%3A%2F%2Fdevfestindia.com%2F%0A%0A%23DevFestIndia%20%23DevFest%20%23DevFest2020"
+                  href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevfestindia.com%2F&quote=Hi%20%23Devs%2C%0A%0AI%20registered%20to%20attend%20India%27s%20largest%20developer%20conclave%20-%20%22DevFest%20India%22.%20There%20are%20some%20amazing%20sessions%20by%20expert%20speakers%20and%20you%20can%20join%20me%20now%21%0A%0ARegister%20here%3A%20https%3A%2F%2Fdevfestindia.com%2F%0A%0A%23DevFestIndia%20%23DevFest"
                   target="_blank"
                   rel="noreferrer"
                   style="text-transform: capitalize;"
@@ -554,6 +546,7 @@
                 >
                   <v-icon size="20px" left>mdi-facebook</v-icon>Share with your friends
                 </v-btn>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <v-btn
                   outlined
                   href="http://badge.devfestindia.com/"
@@ -588,7 +581,7 @@ export default {
       "GDG Ahmedabad",
       "GDG Bangalore",
       "GDG Bhilai",
-      "GDG Bhopal ",
+      "GDG Bhopal",
       "GDG Bhubaneswar",
       "GDG Blrdroid ",
       "GDG Chandigarh",
@@ -654,7 +647,7 @@ export default {
           "GDG Ahmedabad",
           "GDG Bangalore",
           "GDG Bhilai",
-          "GDG Bhopal ",
+          "GDG Bhopal",
           "GDG Bhubaneswar",
           "GDG Blrdroid ",
           "GDG Chandigarh",
