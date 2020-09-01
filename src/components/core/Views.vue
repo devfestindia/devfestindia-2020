@@ -2,6 +2,7 @@
   <v-container
     fluid
     class="pa-0 ma-0 white"
+    style = "height:100%"
   >
     <v-slide-y-reverse-transition>
       <router-view v-show="show" />
