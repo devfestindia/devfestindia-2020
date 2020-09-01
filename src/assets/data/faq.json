@@ -1,34 +1,34 @@
 [
     {
-        "name": "What is DevFest?",
-        "des": "DevFests are community led developer events hosted by Google Developers Groups around the globe."
+        "question": "What is DevFest?",
+        "answer": "DevFests are community led developer events hosted by Google Developers Groups around the globe."
     },
     {
-        "name": "What are GDGs?",
-        "des": "GDGs are focused on community building and learning about Google’s technologies.  "
+        "question": "What are GDGs?",
+        "answer": "GDGs are focused on community building and learning about Google’s technologies.  "
     },
     {
-        "name": "Who can register for DevFest?",
-        "des": "Beginners, experts, literally everyone. Anyone with the passion of learning, who’s fond of technology, passionate programmers , everybody can register and attend."
+        "question": "Who can register for DevFest?",
+        "answer": "Beginners, experts, literally everyone. Anyone with the passion of learning, who’s fond of technology, passionate programmers , everybody can register and attend."
     },
     {
-        "name": "Is it mandatory to register to participate in the event?",
-        "des": "Yes. Each individual may register for only one ticket. You may not register on behalf of anyone else."
+        "question": "Is it mandatory to register to participate in the event?",
+        "answer": "Yes. Each individual may register for only one ticket. You may not register on behalf of anyone else."
     },
     {
-        "name": "I’m a beginner in programming. Can I still register?",
-        "des": "Yes. Anybody with the zeal in technology can register. We have special tracks especially for beginners."
+        "question": "I’m a beginner in programming. Can I still register?",
+        "answer": "Yes. Anybody with the zeal in technology can register. We have special tracks especially for beginners."
     },
     {
-        "name": "What will attendees get by participating in the event?",
-        "des": "We have a plethora of AMAZING perks awaiting for you!"
+        "question": "What will attendees get by participating in the event?",
+        "answer": "We have a plethora of AMAZING perks awaiting for you!"
     },
     {
-        "name": "How can I become a member of GDG?",
-        "des": "Head to Google developers group website (https://gdg.community.dev/) and find the nearest GDG in your location."
+        "question": "How can I become a member of GDG?",
+        "answer": "Head to Google developers group website (https://gdg.community.dev/) and find the nearest GDG in your location."
     },
     {
-        "name": "How can I communicate my queries?",
-        "des": "Reach out to us at devfestindia@gmail.com"
+        "question": "How can I communicate my queries?",
+        "answer": "Reach out to us at devfestindia@gmail.com"
     }
 ]
