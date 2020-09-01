@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid>
+  <v-container fluid class="mb-0">
     <v-row justify="center" align="center">
       <v-col>
         <h1 class="google-font" style="color:#0005DF;">

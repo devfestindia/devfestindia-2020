@@ -1,6 +1,6 @@
 <template>
   <v-main class="m-0">
-    <v-container fluid class="m-5">
+    <v-container fluid class="mt-5">
       <v-row align="center" justify="center">
         <v-col md="10" lg="9" sm="12" class="my-4">
           <v-container fluid>
@@ -85,10 +85,11 @@
           </v-container>
         </v-col>
       </v-row>
-      <v-row align="center" justify="center">
+      <v-row align="center" justify="center" class="">
         <v-col md="10" lg="10" sm="10" class="text-center">
           <v-divider></v-divider>
-          <FollowUs />
+          <br>
+          <FollowUs class="mt-10 mb-0" />
         </v-col>
       </v-row>
     </v-container>

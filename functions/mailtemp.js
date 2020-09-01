@@ -19,7 +19,7 @@ let Template = {
                     <p>Spread the word to your circle of developers by asking them to register <a style="color:#0005DF;text-decoration:none" href="https://goo.gle/devfestIndiaregistration">here</a>. We can be a part of this mega developer festival, together.
                     </p>
  
-                    <p>Keep an eye on your mailbox as we intend to send the important details about the event in the month of October. Till then, stay tuned to our <a href="https://devfestindia.com" style="color:#0005DF;text-decoration:none">website </a> for the details on the speakers and schedule.</p>
+                    <p>Keep an eye on your mailbox as we intend to send the important details about the event in the month of October. Till then, stay tuned to our <a href="https://goo.gle/devfestIndia" style="color:#0005DF;text-decoration:none">website </a> for the details on the speakers and schedule.</p>
                     <br/>
 
                     <a href="https://goo.gle/devfestIndia" style="background:#0005DF;color:white;padding: 8px 15px;cursor: pointer;text-decoration:none;margin-right:8px">See More</a>  

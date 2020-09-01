@@ -1,5 +1,5 @@
 <template>
-  <v-footer class="ma-0" height="auto" >
+  <v-footer class="ma-0" height="auto">
     <v-container
       fluid
       class="grey lighten-4"
@@ -7,12 +7,11 @@
       <v-row justify="center" align="center">
         <v-col md="10" sm="11" xl="10" cols="12">
           <v-card-text class="mx-0 px-0" style="height: 40px; position: relative">
-            <v-fab-transition>
+            <!-- <v-fab-transition>
               <v-btn
                 aria-label="FAB Button"
                 style="margin-top:-20px"
-                :color="this.$vuetify.theme.dark ? 'primary' : 'white'"
-                :dark="this.$vuetify.theme.dark?true:false"
+                color="white"
                 absolute
                 top
                 right
@@ -21,7 +20,7 @@
               >
                 <v-icon>mdi-chevron-up</v-icon>
               </v-btn>
-            </v-fab-transition>
+            </v-fab-transition> -->
             <h1
               class="google-font"
               :class="

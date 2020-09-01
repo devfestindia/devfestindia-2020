@@ -70,7 +70,7 @@ Vue.use(VueRouter)
   },
   {
     path: '/coc',
-    name: 'Code of Conducts',
+    name: 'CodeofConducts',
     component: () => import(/* webpackChunkName: "speakers" */ '../views/COC.vue'),
     meta: {
       title: 'Code of Conducts | DevFest India',
@@ -88,7 +88,7 @@ Vue.use(VueRouter)
   // },
   {
     path: '/tc',
-    name: 'Participation Terms & Privacy Policy',
+    name: 'ParticipationTerms',
     component: () => import(/* webpackChunkName: "ParticipationTerms" */ '../views/TC.vue'),
     meta: {
       title: 'Participation Terms & Privacy Policy | DevFest India',
