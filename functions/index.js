@@ -26,7 +26,7 @@ const sendGmailConf = async (snap) => {
         let data = {
             from: 'DevFest India Team <no-reply@devfestindia.com>',
             to: email,
-            subject: "You are IN! | DevFest India",
+            subject: "[DevFest India] You are confirmed!",
             html: htmlemailtemp.HTMLTemplate(name) 
         };
         let info = await transporter.sendMail(data);
