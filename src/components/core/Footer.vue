@@ -1,5 +1,5 @@
 <template>
-  <v-footer class="ma-0" style="position:absolute;bottom:0;width:100%">
+  <v-footer class="ma-0" height="auto">
     <v-container
       fluid
       class="grey lighten-4"
