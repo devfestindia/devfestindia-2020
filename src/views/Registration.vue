@@ -480,10 +480,11 @@
                   dark
                   style="text-transform: capitalize;"
                   color="#4285F4"
-                  class="google-font"
+                  class="google-font mt-2"
                 >
                   <v-icon size="20px" left>mdi-twitter</v-icon>Tweet your excitement
                 </v-btn>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <v-btn
                   href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevfestindia.com%2F&quote=Hi%20%23Devs%2C%0A%0ABooked%20my%20ticket%20for%20%22DevFest%20India%22%20to%20attend%20many%20amazing%20sessions%20by%20expert%20speakers.%0A%0AHave%20you%3F%0A%0AIf%20not%2C%20visit%3A%20https%3A%2F%2Fdevfestindia.com%2F%0A%0A%23DevFestIndia%20%23DevFest%20%23DevFest2020"
                   target="_blank"
@@ -536,11 +537,11 @@
                   dark
                   depressed
                   color="#4285F4"
-                  class="google-font"
+                  class="google-font mt-2"
                 >
                   <v-icon size="20px" left>mdi-twitter</v-icon>Tweet your excitement
                 </v-btn>
-
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <v-btn
                   href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevfestindia.com%2F&quote=Hi%20%23Devs%2C%0A%0ABooked%20my%20ticket%20for%20%22DevFest%20India%22%20to%20attend%20many%20amazing%20sessions%20by%20expert%20speakers.%0A%0AHave%20you%3F%0A%0AIf%20not%2C%20visit%3A%20https%3A%2F%2Fdevfestindia.com%2F%0A%0A%23DevFestIndia%20%23DevFest%20%23DevFest2020"
                   target="_blank"

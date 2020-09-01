@@ -1,5 +1,5 @@
 <template>
-  <v-footer class="ma-0" height="auto">
+  <v-footer class="ma-0" height="auto" >
     <v-container
       fluid
       class="grey lighten-4"
@@ -35,7 +35,7 @@
       </v-row>
       <v-row justify="center" align="center">
         <v-col md="10" sm="11" xl="10" cols="12" class="">
-       <a href="https://developers.google.com/community/gdg" target="_blank"
+          <a href="https://developers.google.com/community/gdg" target="_blank"
             rel="noreferrer"
             class="grey--text text--darken-3 mr-4 google-font"
             style="text-decoration:none;"
