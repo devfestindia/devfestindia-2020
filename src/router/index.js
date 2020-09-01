@@ -68,6 +68,15 @@ Vue.use(VueRouter)
       color: 'white'
     }
   },
+  {
+    path: '/coc',
+    name: 'Code of Conducts',
+    component: () => import(/* webpackChunkName: "speakers" */ '../views/COC.vue'),
+    meta: {
+      title: 'Code of Conducts | DevFest India',
+      color: 'white'
+    }
+  },
   // {
   //   path: '/team',
   //   name: 'Team',

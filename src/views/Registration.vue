@@ -426,7 +426,7 @@
                   >I agree to let DevFest India Organisers use the information collected in this form to be used for my participation in "DevFest India 2020 Event".</p>
                   <p>
                     I have read and agree to the
-                    <router-link to="/tc" target="_blank">Participation Terms</router-link>
+                    <router-link to="/tc" target="_blank">Participation Terms</router-link>, <router-link to="/coc" target="_blank">Code of conducts</router-link> & <a href="https://developers.google.com/community-guidelines" rel=“noreferrer” target="_blank">Community Guidelines</a>
                   </p>
                   <!-- Accepts TC -->
 
