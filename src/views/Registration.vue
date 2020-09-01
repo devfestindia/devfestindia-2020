@@ -279,7 +279,7 @@
                     Which community are you associated with?
                     <span style="color:#ff5252;">*</span>
                     <br />
-                    <span style="font-size:70%">Choose others if the community is not in the list.</span>
+                    <span style="font-size:80%">Choose others if the community is not in the list.</span>
                   </p>
                   <v-combobox
                     v-model="response.code"
@@ -752,8 +752,8 @@ export default {
           self.response.email = user.email;
           self.response.name = user.displayName;
 
-          self.snackBarMessage = "Signed In with " + user.email;
-          self.isSnackBarVisible = true;
+          // self.snackBarMessage = "Signed In with " + user.email;
+          // self.isSnackBarVisible = true;
 
           FDK.firestore
             .collection("edata")

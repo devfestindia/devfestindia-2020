@@ -2,7 +2,7 @@
   <v-main class="m-0">
     <v-container fluid class="m-5">
       <v-row align="center" justify="center">
-        <v-col md="10" lg="9" sm="12" class>
+        <v-col md="10" lg="9" sm="12" class="my-4">
           <v-container fluid>
             <v-row justify="center" align="center">
               <v-col md="6" cols="12" class="text-center">
@@ -63,17 +63,17 @@
                   depressed
                   style="text-transform: capitalize;border-radius:5px;border:1px solid #e0e0e0;color:#0005DF;background-color:white"
                   href="https://badge.devfestindia.com/ "
-                  class="google-font"
+                  class="google-font mr-2"
                   target="_blank"
                 >Get your Profile Badge</v-btn>
-                <span class="hidden-md-and-up">
+                <!-- <span class="hidden-md-and-up">
                   <br />
-                </span>
+                </span> -->
                 <v-btn
                   text
                   style="text-transform: capitalize;border-radius:5px;color:#0005DF;background-color:white"
                   href="https://twitter.com/hashtag/DevFestIndia"
-                  class="google-font mt-2"
+                  class="google-font mt-0"
                   target="_blank"
                 >#DevFestIndia</v-btn>
               </v-col>
