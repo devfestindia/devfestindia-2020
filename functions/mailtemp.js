@@ -16,13 +16,13 @@ let Template = {
 
                     <p>We highly appreciate your enthusiasm and energy and would love to see you onboard along with your friends and family.</p>
  
-                    <p>Spread the word to your circle of developers by asking them to register <a style="color:#0005DF;text-decoration:none" href="https://devfestindia.com/registration">here</a>. We can be a part of this mega developer festival, together.
+                    <p>Spread the word to your circle of developers by asking them to register <a style="color:#0005DF;text-decoration:none" href="https://goo.gle/devfestIndiaregistration">here</a>. We can be a part of this mega developer festival, together.
                     </p>
  
                     <p>Keep an eye on your mailbox as we intend to send the important details about the event in the month of October. Till then, stay tuned to our <a href="https://devfestindia.com" style="color:#0005DF;text-decoration:none">website </a> for the details on the speakers and schedule.</p>
                     <br/>
 
-                    <a href="https://devfestindia.com/" style="background:#0005DF;color:white;padding: 8px 15px;cursor: pointer;text-decoration:none;margin-right:8px">See More</a>  
+                    <a href="https://goo.gle/devfestIndia" style="background:#0005DF;color:white;padding: 8px 15px;cursor: pointer;text-decoration:none;margin-right:8px">See More</a>  
                     
                     <a href="https://badge.devfestindia.com/" style="border:1px solid #0005DF;color:#0005DF;padding: 7px 15px;cursor: pointer;text-decoration:none;margin-right:8px">Generate Profile Badge</a> 
                     <br/><br/>
@@ -40,7 +40,7 @@ let Template = {
                     <h3 style="color:#0005DF;margin-bottom:0">DevFest India</h3>
                     <a style="color:#0005DF;text-decoration:none" href="https://twitter.com/DevfestIndia">Twitter</a> 
                     | <a style="color:#0005DF;text-decoration:none" href="https://www.youtube.com/channel/UCJsZoFDt7rfxPBI1esak8JQ">Youtube</a> 
-                    | <a style="color:#0005DF;text-decoration:none" href="https://devfestindia.com/">Website</a>
+                    | <a style="color:#0005DF;text-decoration:none" href="https://goo.gle/devfestIndia">Website</a>
                   <br>
                   <br>
                 </font>
