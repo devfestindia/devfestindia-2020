@@ -47,7 +47,7 @@
             style="text-decoration:none;"
           >FAQ</router-link>
           <br class="hidden-md-and-up">
-          <router-link to="/coc" style="text-decoration:none;" rel="noreferrer" class="mr-3 google-font grey--text text--darken-3">Code of conducts</router-link> 
+          <router-link to="/coc" style="text-decoration:none;" rel="noreferrer" class="mr-3 google-font grey--text text--darken-3">Code of conduct</router-link> 
           <br class="hidden-md-and-up">
           <a href="https://developers.google.com/community-guidelines" target="_blank"
             rel="noreferrer"
