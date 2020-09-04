@@ -94,7 +94,19 @@ Vue.use(VueRouter)
       title: 'Participation Terms & Privacy Policy | DevFest India',
       color: 'white'
     }
-  }
+  },
+  {
+    path: '*',
+    name: 'redirect',
+    redirect: {
+      path: '/'
+    },
+    meta: {
+      title: `Redirect `,
+      color: "white",
+    }
+  },
+
 ]
 
 const router = new VueRouter({

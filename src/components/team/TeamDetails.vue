@@ -1,5 +1,5 @@
 <template>
-  <v-dialog v-model="dialog" width="800" scrollable>
+  <v-dialog v-model="dialog" width="600" scrollable>
     <template v-slot:activator="{ on }">
       <div
         v-on="on"
@@ -81,9 +81,9 @@ export default {
 </script>
 
 <style>
-.whiteThemeCard {
+/* .whiteThemeCard {
   background: white;
   border: 1px solid #e0e0e0;
   border-radius: 5px;
-}
+} */
 </style>

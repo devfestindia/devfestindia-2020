@@ -2,26 +2,35 @@
   <v-main class="">
     <v-container
       fluid
-      :class="this.$vuetify.theme.dark == true?'grey darken-4':'grey lighten-4'"
     >
       <v-row justify="center" align="center">
-        <v-col md="10" lg="10" sm="11" cols="12">
+        <v-col md="5" lg="5" sm="11" cols="12">
           <v-container>
             <v-row class>
               <v-col class="pb-5">
-                <h1 class="google-font mb-5" :class="this.$vuetify.theme.dark?'white--text':'grey--text text--darken-2'">Our Team</h1>
-                <br />
-                <br />
+                <h1 class="google-font mb-5 grey--text text--darken-3">
+                  Our Team
+                </h1>
+                <p class="google-font">
+                  Google is known all around the world. Everyone is 'googling',
+                  checking on 'maps' and communicating in 'gmail'. For simple
+                  users, they are services that just works, but not for us.
+                  Developers see much more: APIs, scalability issues, complex
+                  technology stacks. And that is what GDG is about.
+                </p>
+
               </v-col>
             </v-row>
           </v-container>
         </v-col>
+        <v-col md="5" lg="5" sm="11" cols="12"> </v-col>
       </v-row>
     </v-container>
 
     <v-container fluid class="mb-5 pb-5">
       <v-row justify="center" align="center" class="px-0">
-        <v-col md="10" lg="10" sm="11" cols="12" style="margin-top: -150px;">
+        <!-- style="margin-top: -150px;" -->
+        <v-col md="10" lg="10" sm="11" cols="12">
           <v-container>
             <v-row class>
               <v-col
@@ -50,13 +59,13 @@ import TeamData from "@/assets/data/team.json";
 export default {
   name: "TeamPage",
   components: {
-    TeamMember
+    TeamMember,
   },
   data: () => ({
     TeamData: [],
   }),
   mounted() {
     this.TeamData = this.sortByName(TeamData);
-  }
+  },
 };
 </script>
