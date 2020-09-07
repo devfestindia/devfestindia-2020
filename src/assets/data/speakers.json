@@ -1,0 +1,420 @@
+[
+    {
+        "id": "101",
+        "name": "Aayush Arora",
+        "company": {
+            "name": "FilterPixel",
+            "designation": "Founder & CEO"
+        },
+        "bio": "Aayush is the Founder and CEO of FilterPixel & Google Developer Expert, thriving to innovate frontend with accessible Interfaces. An innovation strategist and Massachusetts Institute of Technology Entrepreneurship graduate, he brings 5+ years of experience in Web Development, Accessibility with his expertise in Angular Framework. Since, 3+ years, he has mentored around 1 lakh students across the globe for Udacity under Google Scholarship programs and 20+ startups under Pluralsight. Aayush has always been a prominent voice for FOSSASIA during GSoC and has been contributing continuously to the growth of the communities such as FOSSASIA, NASA, and CloudCV. ",
+        "image": "",
+        "sessionId": [
+            402
+        ],
+        "social": {
+            "twitter": "https://twitter.com/angularboy",
+            "linkedin": "https://www.linkedin.com/in/angularboy/"
+        }
+    },
+    {
+        "id": "103",
+        "name": "Ashok Vishwakarma",
+        "company": {
+            "name": "Naukri",
+            "designation": "Principal Architect"
+        },
+        "image": "",
+        "bio": "Google Developer Expert | Writes at Medium | Principal Architect at Naukri | Entrepreneur | Tech Enthusiast | Speaker",
+        "social": {
+            "twitter": "https://twitter.com/_avishwakarma",
+            "linkedin": "https://www.linkedin.com/in/ashokvishwakarmaa"
+        },
+        "sessionId": [
+            202
+        ]
+    },
+    {
+        "id": "104",
+        "name": "Dhananjay Kumar",
+        "company": {
+            "name": "Goibibo",
+            "designation": "Associate Director"
+        },
+        "image": "",
+        "bio": "Associate Director - Technology, Frontend Custodian at Goibibo.",
+        "social": {
+            "twitter": "https://twitter.com/iam_dhananjayk",
+            "linkedin": "https://www.linkedin.com/in/iam-dhananjayk/"
+        },
+        "sessionId": [
+            301
+        ]
+    },
+    {
+        "id": "105",
+        "name": "Hiren Dave",
+        "company": {
+            "name": "AbhayTech Solutions LLP",
+            "designation": "CTO"
+        },
+        "image": "",
+        "bio": "CTO, Product Manager, Entrepreneur, Tech Author / Blogger / Speaker with more than 12 years of industry experience. Worked on various projects from web to mobile to cloud to AI and ML. Always eager to learn new technologies and share knowledge of developer communities. Co-Organizer at GDG Ahmedabad and Laravel Live Ahmedabad.",
+        "social": {
+            "twitter": "https://twitter.com/hjdave",
+            "linkedin": "https://www.linkedin.com/in/davehiren/"
+        },
+        "sessionId": [
+            201
+        ]
+    },
+    {
+        "id": "106",
+        "name": "Nivetha Maran",
+        "company": {
+            "designation": "Frontend Engineer",
+            "name": "Fourkites"
+        },
+        "image": "",
+        "bio": "Nivetha Maran is a frontend engineer, technical speaker and a community leader . She is skilled in frontend technologies like Angular, React , Javascript, etc. She manages Google Developers Group and Womentechmakers Chennai. She loves to give tech talks around Angular and other web technologies at conferences. And most importantly she loves coffee :P",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/nivetha-maran-54959b110/",
+            "twitter": "https://twitter.com/NivethaMaran"
+        },
+        "sessionId": [
+            203
+        ]
+    },
+    {
+        "id": "107",
+        "name": "Sam Dutton",
+        "company": {
+            "designation": "Developer Advocate",
+            "name": "Google"
+        },
+        "image": "",
+        "bio": "Sam Dutton is a Developer Advocate with the Chrome team, based in London. He's been at Google for nine years. Before Google, Sam worked as a web developer, software engineer and typesetter, for BBC R&D, ITN News and Decca Records.",
+        "social": {
+            "linkedin": "",
+            "twitter": "https://twitter.com/sw12"
+        },
+        "sessionId": [
+            103
+        ]
+    },
+    {
+        "id": "108",
+        "name": "Yohan Totting",
+        "company": {
+            "designation": "Developer Advocate",
+            "name": "Google"
+        },
+        "image": "",
+        "bio": "I'm a Developer Advocate in the Web Developer Relations team at Google. Currently focus on security, privacy, payment, and identity.  Based in Indonesia, an urban cyclist, enjoying outdoors & festivals, also love to talk about community, people, and culture.",
+        "social": {
+            "linkedin": "",
+            "twitter": "https://twitter.com/tyohan"
+        },
+        "sessionId": [
+            401
+        ]
+    },
+    {
+        "id": "109",
+        "name": "Dhruti Shah",
+        "company": {
+            "designation": "Sr. Software Engineer",
+            "name": "Tatvasoft PVT LTD"
+        },
+        "image": "",
+        "bio": "Dhruti is a Senior Software Engineer, building her career as a Full Stack Developer with experience of more than half a decade. Always fascinated by maths and logic. She would especially love to work on C# MVC, EF, Angular, Node.js, React.js and Express. Apart from development, she would like to do something from which she can connect with people and people can know her as well. So for this, she is doing public speaking on Technical topics and likes to share knowledge. She is an Ambassador of Women Techmakers Gandhinagar and working as a Co-organizer of GDG Gandhinagar.",
+        "social": {
+            "linkedin": "https://linkedin.com/in/dhruti-shah-85b38739",
+            "twitter": "https://twitter.com/DhrutiJoshi4"
+        },
+        "sessionId": [
+            102
+        ]
+    },
+    {
+        "id": "110",
+        "name": "Aman Sharma",
+        "company": {
+            "designation": "CTO",
+            "name": "Twimbit"
+        },
+        "image": "",
+        "bio": "Lead at Mobile-web.dev and CTO at Twimbit, AMP and OSI Member",
+        "social": {
+            "linkedin": "",
+            "twitter": "https://twitter.com/amanintech"
+        },
+        "sessionId": [
+            204
+        ]
+    },
+    {
+        "id": "111",
+        "name": "Saurabh Rajpal",
+        "company": {
+            "designation": "Technical Solutions Consultant",
+            "name": "Google"
+        },
+        "image": "",
+        "bio": "Saurabh Rajpal is a web ecosystem consultant at Google, working with top websites in India for building PWAs, AMP, high performing websites and adoption of latest chrome APIs. He's an avid web tech enthusiast but can talk about almost any technology as he loves exploring ways to tie them together with Web. Be it then 'Cloud for Web', 'Flutter for Web', 'ML for Web', 'Duplex for Web' or even 'web for Android'. Join the 'Web Gru' and be a webinion.",
+        "social": {
+            "twitter": "https://twitter.com/imsaurabhrajpal ",
+            "linkedin": "https://www.linkedin.com/in/imsaurabhrajpal/"
+        },
+        "sessionId": [
+            104
+        ]
+    },
+    {
+        "id": "112",
+        "name": "Sunit Jindal",
+        "company": {
+            "designation": "Principal Engineer",
+            "name": "Nykaa"
+        },
+        "image": "",
+        "bio": "Principal Engg @ Nykaa.com. Love traveling and food. Hustler. Believer.  Passionate about everything JS.",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/sunitjindal/",
+            "twitter": "https://twitter.com/sunitj"
+        },
+        "sessionId": [
+            105
+        ]
+    },
+    {
+        "id": "113",
+        "name": "Stephen Fluin",
+        "company": {
+            "designation": "Developer Advocate",
+            "name": "Google"
+        },
+        "image": "",
+        "bio": "Developer Advocate for Angular @ Google",
+        "social": {
+            "linkedin": "",
+            "twitter": "https://twitter.com/stephenfluin"
+        },
+        "sessionId": [
+            205
+        ]
+    },
+    {
+        "id": "114",
+        "name": "Prashant Mishra",
+        "company": {
+            "designation": "Mobile Technical Solutions Consultant",
+            "name": "Google"
+        },
+        "image": "",
+        "bio": "Mobile Technical Solutions Consultant at Google, working on PWA, AMP, TWA and Chrome APIs.",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/prashant-mishra-33945030/",
+            "twitter": ""
+        },
+        "sessionId": [
+            304,
+            305
+        ]
+    },
+    {
+        "id": "115",
+        "name": "Ankit Jain",
+        "company": {
+            "designation": "Eng. Manager",
+            "name": "OYO"
+        },
+        "image": "",
+        "bio": "Eng. Manager, Making Hotel Booking experience faster and better at OYO",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/ankit-jain-02204a36/",
+            "twitter": "https://twitter.com/AnkitJainOAJ"
+        },
+        "sessionId": [
+            305
+        ]
+    },
+    {
+        "id": "116",
+        "name": "Vrijraj Singh",
+        "company": {
+          "name": "GDG Jalandhar",
+          "designation": "Community Organizer"
+        },
+        "image": "",
+        "bio": "Vrijraj is a front-end developer by profession and an outstanding person in daily life. Thinking out of the box is what he believes in doing. He states that learning is a process that never stops, even if you are old enough, there will be things that you can still learn. He is always eager to learn new technologies and develop new things based on it.",
+        "social": {
+          "twitter": "https://twitter.com/VrijrajSingh",
+          "linkedin": "https://www.linkedin.com/in/vrijraj/"
+        },
+        "sessionId": []
+      },
+    {
+        "id": "117",
+        "name": "Mayur Sojitra",
+        "company": {
+          "name": "Murait Technologies",
+          "designation": "Founder & Full Stack Developer"
+        },
+        "image": "",
+        "bio": "Mayur Sojitra is Full Stack Developer and Founder of Murait Technologies and have a expertise in multiple technologies. Having 6+ years of experience. Community Leader of Google Developers Group Surat, VueJS Surat and Laravel Surat.",
+        "social": {
+          "twitter": "https://twitter.com/mayur_sojitra",
+          "linkedin": "https://www.linkedin.com/in/mayursojitra"
+        },
+        "sessionId": []
+      },
+    {
+        "id": "118",
+        "name": "Tushar Pal",
+        "company": {
+          "name": "Protonshub",
+          "designation": "Co-Founder & CTO"
+        },
+        "image": "",
+        "bio": "Tushar Pal is CTO and Cofounder of Protonshub Technologies and having a expertise in multiple technologies.He is also product consultant at Diaspark Infotech to helping out a best product. Community Leader of Google Cloud Developer Community,Indore and Google Developers Group,Indore. There is something special when career and passion comes together. No excuses to yourself because reality is wrong and dreams are real  He is very big ambition to build the biggest ecosystem in a town which helps us to grow our careers and build a stronger network.",
+        "social": {
+          "twitter": "https://twitter.com/tpal94",
+          "linkedin": "https://www.linkedin.com/in/tushar-p-325b5869/"
+        },
+        "sessionId": []
+      },
+    {
+        "id": "119",
+        "name": "Biswajeet Mallik",
+        "company": {
+            "name": "Google",
+            "designation": "Program Manager"
+        },
+        "image": "",
+        "bio": "Program Manager at Google (India lead for Developer Community Programs)",
+        "social": {
+            "twitter": "",
+            "linkedin": "https://www.linkedin.com/in/biswajeetmallik/"
+        },
+        "sessionId": [
+            101
+        ]
+    },
+    {
+        "id": "120",
+        "name": "Varsha Jaiswal",
+        "company": {
+            "name": "Edfora Infotech",
+            "designation": "Software Engineer"
+        },
+        "image": "",
+        "bio": "Varsha is a girl with a bag full of hardwork and determination to fulfill her responsibilities. Working as a Software Engineer, she has a keen interest in working on new technologies. Being a facilitator of #IamRemarkable Workshop, she always gives her best to motivate her surrounding. Despite busy schedules, she never misses any chance to travel and eat.",
+        "social": {
+            "twitter": "https://twitter.com/_varshajaiswal_",
+            "linkedin": "https://www.linkedin.com/in/varshajaiswal/"
+        },
+        "sessionId": [
+            303
+        ]
+    },
+    {
+        "id": "121",
+        "name": "Riya Guha Thakurta",
+        "company": {
+            "name": "Johnson Controls",
+            "designation": "Associate Software Engineer"
+        },
+        "image": "",
+        "bio": "Riya is an Associate Software Engineer working with Johnson Controls. She believes in contributing towards community and sharing knowledge with others to solve their problems, which leads her to serve for her regional community as a WomenTechmakers Ambassador and Co-organizer of Google Developers Group Kolkata.Being an Intel Software Innovator she looks forward to share her expertise which thrives to innovation and would be helpful for tech enthusiasts to build solution in IoT.She love programming and applying her skills to solve real life problems and make life smarter.",
+        "social": {
+            "twitter": "https://twitter.com/RiyaThakurta",
+            "linkedin": "https://www.linkedin.com/in/riya-guha-thakurta/"
+        },
+        "sessionId": []
+    },
+    {
+        "id": "122",
+        "name": "Punita Ojha",
+        "company": {
+            "designation": "Full Stack Web Developer",
+            "name": "Sanskrut Corporation"
+        },
+        "image": "",
+        "bio": "Punita Ojha is a fullstack web developer at Sanskrut Corporation. She is skilled in technologies like Angular JS, Python, Google Cloud etc. She is an organiser for GDG Udaipur and WTM Udaipur. She is also a machine learning enthusiast, she has pursued her Machine Learning Engineer Nanodegree From Udacity and loves to spend her free time playing around with models. She loves inspiring newbies into Technology by bringing them together via events, peer programming sessions, tech talks, codelabs and different activities.",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/punita-ojha-74550a53/",
+            "twitter": "https://twitter.com/punitaojha01"
+        },
+        "sessionId": [
+            403
+        ]
+    },
+    {
+        "id": "123",
+        "name": "Santosh Yadav",
+        "company": {
+            "name": "Hmmh AG",
+            "designation": "Full Stack Developer"
+        },
+        "image": "",
+        "bio": "Santosh is a GDE for Angular and Web Technologies and an active contributor to Angular and NgRx. He writes for AngularInDepth, mentors at Dotnettricks and is an organizer of the Pune Tech Meetup. He is the creator of the `ng deploy` package for Netlify and part of the NestJSAddons core team.",
+        "social": {
+            "twitter": "https://twitter.com/SantoshYadavDev",
+            "linkedin": "https://www.linkedin.com/in/yadavsantosh"
+        },
+        "sessionId": [
+            403
+        ]
+    },
+    {
+        "id": "124",
+        "name": "Arpan Garg",
+        "company": {
+            "name": "Commudle",
+            "designation": "Creator"
+        },
+        "image": "",
+        "bio": "An Organizer with GDG New Delhi, Arpan is very passionate about communities. From taking sessions on Web Development which is also his area of Tech Expertise, to doing some creative fun activities during the events, you'll find him filled with energy. Professionally he is a Product guy and is right now working on his own product which will help communities grow!",
+        "social": {
+            "twitter": "https://twitter.com/arpansac",
+            "linkedin": "https://www.linkedin.com/in/arpansac"
+        },
+        "sessionId": [
+            303,302
+        ]
+    },
+    {
+        "id": "125",
+        "name": "Dharmesh Vaya",
+        "company": {
+            "designation": "Director of Technology",
+            "name": "Agrahyah Technologies"
+        },
+        "image": "",
+        "bio": "Dharmesh is a technologist known for his ability of developing enterprise applications on Cloud Platforms and fostering a spirit of innovation among teams, with a diverse experience around Banking, e-Commerce, Media/Entertainment to name a few. Currently he is the Director of Technology at Agrahyah Technologies. He is a Google Developer Expert for Google Cloud Platform and actively manages Google Cloud Developers Community, Mumbai. Recently, he also was recognized as India's first GDE in Payments Category.",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/dharmeshvaya",
+            "twitter": "https://twitter.com/DRVaya"
+        },
+        "sessionId": [
+            405
+        ]
+    },
+    {
+        "id": "126",
+        "name": "Jagriti Pande",
+        "company": {
+            "designation": "Co-Founder",
+            "name": "UX Gorilla and ElpisDesign LLP"
+        },
+        "image": "",
+        "bio": "I am a UX Practitioner, Design Coach, and Painter who loves to practice and teach UX Design and creative thinking.  Trained in fine arts, User Research, and Design, I post-graduated with a Gold Medal from NIFT. I am also a Certified Design Sprint Master. I am the co-founder of UX Gorilla ( a brand of ElpisDesign LLP) which is a Product Development Agency. We help our clients in India, USA, UK, Mauritius, and Singapore build and launch their digital products. For the last 7 years, I have trained close to a thousand design aspirants, practitioners, Product Managers, and entrepreneurs. Passionate about making design education inclusive and accessible, I co-founded Design Jungle in 2017.",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/jagritipande/",
+            "twitter": "https://twitter.com/JagritiPande"
+        },
+        "sessionId": [
+            404
+        ]
+    }
+]
