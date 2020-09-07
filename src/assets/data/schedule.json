@@ -1,0 +1,146 @@
+[
+    {
+        "day": "1",
+        "date": "July 9th 2020, Thursday",
+        "schedule": [
+            {
+                "startTime": "05:00",
+                "endTime": "05:20",
+                "session": 101
+            },
+            {
+                "startTime": "05:20",
+                "endTime": "05:50",
+                "session": 102
+            },
+            {
+                "startTime": "06:00",
+                "endTime": "06:30",
+                "session": 103
+            },
+            {
+                "startTime": "06:30",
+                "endTime": "07:00",
+                "session": 104
+            },
+            {
+                "startTime": "07:00",
+                "endTime": "07:30",
+                "session": 105
+            },
+            {
+                "startTime": "07:30",
+                "endTime": "08:00",
+                "session": 106
+            }
+        ]
+    },
+    {
+        "day": "2",
+        "date": "July 10th 2020, Friday",
+        "schedule": [
+            {
+                "startTime": "05:00",
+                "endTime": "05:30",
+                "session": 201
+            },
+            {
+                "startTime": "05:30",
+                "endTime": "06:00",
+                "session": 202
+            },
+            {
+                "startTime": "06:00",
+                "endTime": "06:15",
+                "session": 203
+            },
+            {
+                "startTime": "06:20",
+                "endTime": "07:00",
+                "session": 204
+            },
+            {
+                "startTime": "07:00",
+                "endTime": "07:30",
+                "session": 205
+            },
+            {
+                "startTime": "07:30",
+                "endTime": "08:00",
+                "session": 206
+            }
+        ]
+    },
+    {
+        "day": "3",
+        "date": "July 11th 2020, Saturday",
+        "schedule": [
+            {
+                "startTime": "05:00",
+                "endTime": "05:30",
+                "session": 301
+            },
+            {
+                "startTime": "05:30",
+                "endTime": "06:00",
+                "session": 302
+            },
+            {
+                "startTime": "06:00",
+                "endTime": "06:15",
+                "session": 303
+            },
+            {
+                "startTime": "06:15",
+                "endTime": "06:45",
+                "session": 304
+            },
+            {
+                "startTime": "06:50",
+                "endTime": "07:30",
+                "session": 305
+            },
+            {
+                "startTime": "07:30",
+                "endTime": "08:00",
+                "session": 306
+            }
+        ]
+    },
+    {
+        "day": "4",
+        "date": "July 12th 2020, Sunday",
+        "schedule": [
+            {
+                "startTime": "05:00",
+                "endTime": "05:30",
+                "session": 401
+            },
+            {
+                "startTime": "05:30",
+                "endTime": "06:00",
+                "session": 402
+            },
+            {
+                "startTime": "06:00",
+                "endTime": "06:15",
+                "session": 403
+            },
+            {
+                "startTime": "06:15",
+                "endTime": "07:00",
+                "session": 404
+            },
+            {
+                "startTime": "07:00",
+                "endTime": "07:30",
+                "session": 405
+            },
+            {
+                "startTime": "07:30",
+                "endTime": "08:00",
+                "session": 406
+            }
+        ]
+    }
+]

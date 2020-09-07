@@ -1,0 +1,338 @@
+[
+    {
+        "id": "101",
+        "slide":"",
+        "title": "Welcome Keynote",
+        "description": "",
+        "track": "Performance & Developer Tools",
+        "link": "https://www.youtube.com/embed/gFr-q9fQhh4",
+        "format": "Keynote",
+        "date": "July 09th, 2020",
+        "timeDuration": "20",
+        "speakers": [
+            119
+        ]
+    },
+    {
+        "id": "102",
+        "slide":"",
+        "title": "Javascript: Primary but Productive Concepts",
+        "description": "I'll explain some important concepts of JavaScripts that are very useful in daily life of every developer like JSON.stringify in JavaScript, Private Properties of JavaScript, Working with Arrays in JavaScript, Constants and Read-Only Properties in JavaScript, Difference between undefined and null, NaN in JavaScript.",
+        "track": "Performance & Developer Tools",
+        "link": "https://www.youtube.com/embed/EYqwpIw_tdA",
+        "format": "Talk",
+        "date": "July 09th, 2020",
+        "timeDuration": "30",
+        "speakers": [
+            109
+        ]
+    },
+    {
+        "id": "103",
+        "slide":"",
+        "title": "What's new in developer tools and web performance",
+        "description": "Learn how to use Web Vitals: essential metrics for a healthy site. Find out what's new in developer tooling, including the Chrome DevTools Issues tab.",
+        "track": "Performance & Developer Tools",
+        "link": "https://www.youtube.com/embed/1_nv57QZ2QM",
+        "format": "Talk",
+        "date": "July 09th, 2020",
+        "timeDuration": "30",
+        "speakers": [
+            107
+        ]
+    },
+    {
+        "id": "104",
+        "slide":"",
+        "title": "Web Vitals - Web Performance 2.0",
+        "description": "In this talk I'll walk the attendees through the latest performance metrics introduced which every web developer should take care of for optimal end user experience. Come and unveil the reasons why these new metrics are called 'Web Vitals'. I'm sure you'll have fun (and somehow learn a few things on the way).",
+        "track": "Performance & Developer Tools",
+        "link": "https://www.youtube.com/embed/t5BsLoy6FEs",
+        "format": "Talk",
+        "date": "July 09th, 2020",
+        "timeDuration": "30",
+        "speakers": [
+            111
+        ]
+    },
+    {
+        "id": "105",
+        "slide":"",
+        "title": "Pursuit of Performance",
+        "description": "Nykaa's journey of creating a highly performant mobile site and various learning along the way.",
+        "link": "https://www.youtube.com/embed/P9RJQpHNStg",
+        "track": "Performance & Developer Tools",
+        "format": "Talk",
+        "date": "July 09th, 2020",
+        "timeDuration": "30",
+        "speakers": [
+            112
+        ]
+    },
+    {
+        "id": "106",
+        "slide":"",
+        "title": "Q & A",
+        "description": "Here, we will answer the questions of each session from the audience along with the speakers of the day.",
+        "track": "Performance & Developer Tools",
+        "link": "https://www.youtube.com/embed/7F2eVO-cXGk",
+        "format": "AMA & Closing",
+        "date": "July 09th, 2020",
+        "timeDuration": "30",
+        "speakers": [
+            109, 107, 111, 112
+        ]
+    },
+    {
+        "id": "201",
+        "slide":"",
+        "title": "AMP-lify Your Web Applications",
+        "description": "As the title suggests 'AMP-lify' your web apps, this session is all about AMP (Accelerated Mobile Pages). A web component framework by Google in collaboration with Twitter. We will start with an introduction to AMP and we will see how it is different compared to PWA and other JS frameworks. Because both PWA and AMP are all about faster loading of web apps. So it's good to have a clear idea on when to use AMP and when to use PWA. Later we will cover important parts of AMP like AMP HTML, AMP JS and AMP Cache. We will also see components available with AMP and how you can start building with AMP. At last we will quickly go through success stories of AMP and see how it has changed the mobile web industry.",
+        "track": "Front-End & AMP",
+        "link": "https://www.youtube.com/embed/SJDB8W-IxGY",
+        "format": "Talk",
+        "date": "July 10th, 2020",
+        "timeDuration": "30",
+        "speakers": [
+            105
+        ]
+    },
+    {
+        "id": "202",
+        "slide":"",
+        "title": "Cleaner React Apps using Hooks and Context APIs",
+        "description": "Let's learn how Hooks can make your React App cleaner and more readable for humans and machines.",
+        "track": "Front-End & AMP",
+        "format": "Talk",
+        "link": "https://www.youtube.com/embed/Y30xphwaJJY",
+        "date": "July 10th, 2020",
+        "timeDuration": "30",
+        "speakers": [
+            103
+        ]
+    },
+    {
+        "id": "203",
+        "slide":"",
+        "title": "Understanding NgModules in Angular",
+        "description": "In this talk , I will share with you all about the purpose of using NgModules in angular application and “When & Why” to use them.",
+        "track": "Front-End & AMP",
+        "link": "https://www.youtube.com/embed/SnDOCVJ7LTQ",
+        "format": "Talk",
+        "date": "July 10th, 2020",
+        "timeDuration": "15",
+        "speakers": [
+            106
+        ]
+    },
+    {
+        "id": "204",
+        "slide":"",
+        "title": "AMP Everywhere",
+        "description": "Accelerated Mobile Pages capabilities beyond just web in AMP Stories, AMP Emails, AMP Ads, and more. Also, a sneak peek into what next and how to become an active member.",
+        "track": "Front-End & AMP",
+        "format": "Talk",
+        "link": "https://www.youtube.com/embed/7IZBoMSPVOs",
+        "date": "July 10th, 2020",
+        "timeDuration": "40",
+        "speakers": [
+            110
+        ]
+    },
+    {
+        "id": "205",
+        "slide":"",
+        "title": "How to Stay Fast and Fresh with Angular",
+        "description": "",
+        "track": "Front-End & AMP",
+        "format": "Talk",
+        "link": "https://www.youtube.com/embed/eWVOrRwt7mE",
+        "date": "July 10th, 2020",
+        "timeDuration": "30",
+        "speakers": [
+            113
+        ]
+    },
+    {
+        "id": "206",
+        "slide":"",
+        "title": "Q & A",
+        "description": "Here, we will answer the questions of each session from the audience along with the speakers of the day.",
+        "track": "Front-End & AMP",
+        "link": "https://www.youtube.com/embed/Z_z4GR2LPRk",
+        "format": "AMA & Closing",
+        "date": "July 10th, 2020",
+        "timeDuration": "30",
+        "speakers": [
+            105, 103, 106, 110, 113
+        ]
+    },
+    {
+        "id": "301",
+        "slide":"",
+        "title": "FUGU - Bridging the gap between native & web",
+        "description": "An ubiquitous web with app capabilities opens up plenty of opportunities. Insight into how at Goibibo we rode this wave with varied levels of success.",
+        "link": "https://www.youtube.com/embed/Am8EAjwEkwo",
+        "track": "PWA & FUGU",
+        "format": "Talk",
+        "date": "July 11th, 2020",
+        "timeDuration": "30",
+        "speakers": [
+            104
+        ]
+    },
+    {
+        "id": "302",
+        "slide":"",
+        "title": "PWA: What, Why and How?",
+        "description": "This talk is for designers of enterprise & consumer web apps who want to understand the options for installed web experiences from browsers and the Play Store. We’ll cover What, why, when, where & how to promote web install—and, once installed, best practices for UX & measuring success in installed web apps.",
+        "track": "PWA & FUGU",
+        "link": "https://www.youtube.com/embed/zFf1r3PDNiU",
+        "format": "Talk",
+        "date": "July 11th, 2020",
+        "timeDuration": "30",
+        "speakers": [
+            124
+        ]
+    },
+    {
+        "id": "303",
+        "slide":"",
+        "title": "Ice Breaker",
+        "description": "",
+        "track": "PWA & FUGU",
+        "format": "Ice Breaker",
+        "date": "July 11th, 2020",
+        "link": "https://www.youtube.com/embed/V_b6esgwqV8",
+        "timeDuration": "15",
+        "speakers": [
+            120, 124
+        ]
+    },
+    {
+        "id": "304",
+        "slide":"",
+        "title": "AMP as PWA as TWA",
+        "description": "This session will give an overview of developing PWA using AMP. We will briefly talk about 'PWA in Play' as well using TWA.",
+        "link": "https://www.youtube.com/embed/0TFtWyqrUo0",
+        "track": "PWA & FUGU",
+        "format": "Talk",
+        "date": "July 11th, 2020",
+        "timeDuration": "30",
+        "speakers": [
+            114
+        ]
+    },
+    {
+        "id": "305",
+        "slide":"",
+        "title": "All about 'Web In Play Store'",
+        "description": "This session will give an overview of TWA and developing it using bubblewrap. Oyo has launched a TWA called 'Oyo Lite', we will also learn about its approach and success story.",
+        "track": "PWA & FUGU",
+        "link": "https://www.youtube.com/embed/o_v1Bc4Igj4",
+        "format": "Talk",
+        "date": "July 11th, 2020",
+        "timeDuration": "40",
+        "speakers": [
+            114, 115
+        ]
+    },
+    {
+        "id": "306",
+        "slide":"",
+        "title": "Q & A",
+        "description": "Here, we will answer the questions of each session from the audience along with the speakers of the day.",
+        "track": "PWA & FUGU",
+        "format": "AMA & Closing",
+        "link": "https://www.youtube.com/embed/X0QaOQM3tQU",
+        "date": "July 11th, 2020",
+        "timeDuration": "30",
+        "speakers": [
+            104, 102, 114, 115
+        ]
+    },
+    {
+        "id": "401",
+        "slide":"",
+        "title": "Prepare your web app for privacy control",
+        "description": "Privacy control is something that recently became a mandatory thing that web developers should care about. With all changes in the platform to provide more control for the users to decide which information they like to share, we as web developers should be ready and adapt our web apps to provide better user experience through privacy control. This talk will give you an overview about the updates, and roadmap about privacy control and what you should do to comply.",
+        "link": "",
+        "track": "Privacy & UX",
+        "format": "Talk",
+        "date": "July 12th, 2020",
+        "timeDuration": "30",
+        "speakers": [
+            108
+        ]
+    },
+    {
+        "id": "402",
+        "slide":"",
+        "title": "Saving Millions With MicroInteractions",
+        "description": "With the use of SVG’s intuitive movements of the brain can be given a new dimension known as MicroInteraction. By making MicroInteractions, we can guide our viewers with informative UX patterns, as well as create engaging and interactive experiences. MicroInteractions introduce subtle intuitive movements which play a crucial role in reducing user acquisition cost and increasing user retention rate. This talk will discuss the principles behind the Microinteractions by discussing concepts such as the habit loop. It will help the audience to create stunning User Experiences.",
+        "track": "Privacy & UX",
+        "format": "Talk",
+        "date": "July 12th, 2020",
+        "link": "",
+        "timeDuration": "30",
+        "speakers": [
+            101
+        ]
+    },
+    {
+        "id": "403",
+        "slide":"",
+        "title": "Ice Breaker",
+        "description": "",
+        "track": "Privacy & UX",
+        "link": "",
+        "format": "Ice Breaker",
+        "date": "July 12th, 2020",
+        "timeDuration": "15",
+        "speakers": [
+            122, 123
+        ]
+    },
+    {
+        "id": "404",
+        "slide":"",
+        "title": "Learning Empathy",
+        "description": "We all know the standard definition of Empathy. Being in someone else's shoes and feeling their emotions as if they are yours. It is an essential skill in order to lead a happy life. But do you know it can also give you a competitive edge while building products? In this small exercise, We will take you through an empathy-building exercise in a fun way. We will all build superheroes along the way.",
+        "link": "",
+        "track": "Privacy & UX",
+        "format": "Talk",
+        "date": "July 12th, 2020",
+        "timeDuration": "45",
+        "speakers": [
+            126
+        ]
+    },
+    {
+        "id": "405",
+        "slide":"",
+        "title": "Developer's guide to Web {Payments, Security and Compliance}",
+        "description": "As a web developer, you will find ample frameworks and techniques to enhance the UI/UX of your application. However, real business applications often require you to have Payment integration capabilities in your Web App. The talk touches upon different aspects of the Payment ecosystem focusing on Web Payments as an emerging web standard being developed by the W3C to simplify online payments. Alongwith its security and compliance features, it is a major enabler for a broader set of players to participate easily in the payments ecosystem on the web.",
+        "track": "Privacy & UX",
+        "format": "Talk",
+        "link": "",
+        "date": "July 12th, 2020",
+        "timeDuration": "30",
+        "speakers": [
+            125
+        ]
+    },
+    {
+        "id": "406",
+        "slide":"",
+        "title": "Q & A",
+        "description": "Here, we will answer the questions of each session from the audience along with the speakers of the day.",
+        "track": "Privacy & UX",
+        "format": "AMA & Closing",
+        "link": "",
+        "date": "July 12th, 2020",
+        "timeDuration": "30",
+        "speakers": [
+            108, 101, 125, 126
+        ]
+    }
+]

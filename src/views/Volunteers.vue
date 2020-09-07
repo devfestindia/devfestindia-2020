@@ -3,27 +3,15 @@
     <v-container
       fluid
     >
-      <v-row justify="center" align="center">
-        <v-col md="8" lg="5" sm="11" cols="12">
-          <v-container>
-            <v-row class>
-              <v-col class="pb-5">
-                <h1 class="google-font mb-5" style="color:#0005DF">
-                  Our Team
-                </h1>
-                <p class="google-font">
-                  Google is known all around the world. Everyone is 'googling',
-                  checking on 'maps' and communicating in 'gmail'. For simple
-                  users, they are services that just works, but not for us.
-                  Developers see much more: APIs, scalability issues, complex
-                  technology stacks. And that is what GDG is about.
-                </p>
-
-              </v-col>
-            </v-row>
-          </v-container>
+      <v-row justify="center" align="center" class="mt-5">
+        <v-col md="7" lg="7" sm="11" cols="12" class="text-center">
+            <h1 class="google-font mb-5" style="color:#0005DF">
+                Our Volunteers
+            </h1>
+            <p class="google-font">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ad incidunt nam. Deserunt accusamus minima expedita esse labore nisi error ipsum tenetur, vero aspernatur accusantium dolorem quidem reiciendis iste sequi.
+            </p>
         </v-col>
-        <v-col md="2" lg="5" sm="11" cols="12"> </v-col>
       </v-row>
     </v-container>
 
@@ -55,7 +43,7 @@
 
 <script>
 import TeamMember from "@/components/team/TeamDetails";
-import TeamData from "@/assets/data/team.json";
+import TeamData from "@/assets/data/volunteers.json";
 export default {
   name: "TeamPage",
   components: {

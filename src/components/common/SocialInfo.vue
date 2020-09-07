@@ -2,6 +2,7 @@
   <v-container fluid class="py-0 my-0">
     <v-row class="py-0 my-0" justify="start" align="start">
       <v-col md="12" lg="12" sm="12" cols="12" class="py-0 my-0">
+        <!-- {{data.twitter}} -->
         <v-btn
           aria-label="social media btn"
           small
