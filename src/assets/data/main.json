@@ -5,11 +5,11 @@
     "badgeurl":"https://badge.devfestindia.com/",
     "mainhashtag":"DevFestIndia",
     "shortdes":"",
-    "longdes":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quibusdam natus excepturi perspiciatis vel, dignissimos tempora illo aperiam officia laborum, porro temporibus ullam laboriosam repellatet. Facilis nesciunt magni dolore. <br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quibusdam natus excepturi perspiciatis vel, dignissimos tempora illo aperiam officia laborum, porro temporibus ullam laboriosam repellatet. Facilis nesciunt magni dolore.",
+    "longdes":"Every year, dozens of communities host the mega event with talks, activities, fun & much more. Unfortunately, this year we have all been impacted by the pandemic, and as much as we’d like to meet once again for the annual conference, we can’t. Pish posh. We’re techies, we’ll do it online! <b>DevFest India 2020</b> will be one of the India’s biggest online developers conference - we will learn, we will play & we will code! <br><br>What’s more, we have three very interesting tracks lined up. Start where you are because DevFest is designed to have something for everybody. For the experts, DevFest provides a fantastic opportunity to meet fellow experts & learn about what’s going on in the world of high technology. For the beginners, there’s no better place to start! With a bunch of community members, you can start your journey, find mentors, seek motivation & collect helpful resources.",
     "stats":[
         {
-            "name":"Registration",
-            "count":"6000+"
+            "name":"Registrations",
+            "count":"6k+"
         },
         {
             "name":"Communities",
@@ -21,7 +21,7 @@
         },
         {
             "name":"Days",
-            "count":"3"
+            "count":"03"
         }
     ],
     "registrationData":{
