@@ -87,7 +87,6 @@
                     <span style="color:#ff5252;">*</span>
                   </p>
                   <v-text-field
-                    label="Email"
                     v-model="response.email"
                     placeholder="Email"
                     outlined
@@ -100,7 +99,6 @@
                     <span style="color:#ff5252;">*</span>
                   </p>
                   <v-text-field
-                    label="Name"
                     v-model="response.name"
                     placeholder="Name"
                     :rules="[rules.required]"
@@ -113,7 +111,6 @@
                     <span style="color:#ff5252;">*</span>
                   </p>
                   <v-text-field
-                    label="City"
                     v-model="response.city"
                     placeholder="City"
                     :rules="[rules.required]"
@@ -126,7 +123,6 @@
                     <span style="color:#ff5252;">*</span>
                   </p>
                   <v-text-field
-                    label="Country"
                     v-model="response.country"
                     placeholder="Country"
                     :rules="[rules.required]"
@@ -139,7 +135,6 @@
                     <span style="color:#ff5252;">*</span>
                   </p>
                   <v-text-field
-                    label="Company / Institute Name *"
                     v-model="response.org"
                     placeholder="Company / Institute Name"
                     :rules="[rules.required]"
@@ -152,9 +147,8 @@
                     <span style="color:#ff5252;">*</span>
                   </p>
                   <v-text-field
-                    label="Role / Designation *"
                     v-model="response.role"
-                    placeholder="Role / Designation *"
+                    placeholder="Role / Designation"
                     :rules="[rules.required]"
                     outlined
                   ></v-text-field>
