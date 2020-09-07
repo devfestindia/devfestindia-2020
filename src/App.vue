@@ -31,7 +31,7 @@
         </template>
     </v-snackbar>
     <Toolbar/>
-    <!-- <Drawer/> -->
+    <Drawer/>
     <BottomNav/>
     <MainView/>
     <AppFooter class="hidden-sm-and-down"/>
@@ -46,7 +46,7 @@ export default {
   components: {
     Toolbar,
     MainView,
-    // Drawer:()=> import('@/components/core/Drawer'),
+    Drawer:()=> import('@/components/core/Drawer'),
     BottomNav: ()=>import('@/components/core/BottomNav'),
     AppFooter:()=>import('@/components/core/Footer')
   },

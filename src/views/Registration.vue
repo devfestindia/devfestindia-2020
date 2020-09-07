@@ -12,7 +12,7 @@
         <v-col md="7" sm="8" lg="5" cols="12">
           <div style="padding:10px;">
             <h2 class="google-font">
-              <span style="font-size:120%">DevFest India</span>:
+              <span style="font-size:120%">{{maindata.eventname}}</span>:
               <span style="color:#0005DF">Registration</span>
             </h2>
             <p class="google-font">
@@ -464,7 +464,8 @@
                   >no-reply@devfestindia.com</span>
                 </p>
                 <v-btn
-                  href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fdevfestindia.com&ref_src=twsrc%5Etfw&text=Hi%20%23Devs%2C%0A%0AI%20registered%20to%20attend%20India%27s%20largest%20developer%20conclave%20-%20%22DevFest%20India%22.%20There%20are%20some%20amazing%20sessions%20by%20expert%20speakers%20and%20you%20can%20join%20me%20now%21%0A%0ARegister%20at%3A%20https%3A%2F%2Fdevfestindia.com%2F%0A%0A%23DevFestIndia%20%23DevFest%20%40DevFestIndia%20%20"
+                  v-if="maindata.registrationData.twittershare"
+                  :href="maindata.registrationData.twittershare"
                   target="_blank"
                   depressed
                   rel="noreferrer"
@@ -477,7 +478,8 @@
                 </v-btn>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <v-btn
-                  href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevfestindia.com%2F&quote=Hi%20%23Devs%2C%0A%0AI%20registered%20to%20attend%20India%27s%20largest%20developer%20conclave%20-%20%22DevFest%20India%22.%20There%20are%20some%20amazing%20sessions%20by%20expert%20speakers%20and%20you%20can%20join%20me%20now%21%0A%0ARegister%20here%3A%20https%3A%2F%2Fdevfestindia.com%2F%0A%0A%23DevFestIndia%20%23DevFest"
+                  v-if="maindata.registrationData.facebookshare"
+                  :href="maindata.registrationData.facebookshare"
                   target="_blank"
                   rel="noreferrer"
                   style="text-transform: capitalize;"
@@ -494,7 +496,8 @@
                   color="#0005DF"
                   style="text-transform: capitalize;border-radius:5px;border-color:#e0e0e0"
                   class="google-font mt-2"
-                  href="http://badge.devfestindia.com/"
+                  v-if="maindata.badgeurl"
+                  :href="maindata.badgeurl"
                   rel="noreferrer"
                   target="_blank"
                 >
@@ -522,7 +525,8 @@
                   <span style="color:red">no-reply@devfestindia.com</span>
                 </p>
                 <v-btn
-                  href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fdevfestindia.com&ref_src=twsrc%5Etfw&text=Hi%20%23Devs%2C%0A%0AI%20registered%20to%20attend%20India%27s%20largest%20developer%20conclave%20-%20%22DevFest%20India%22.%20There%20are%20some%20amazing%20sessions%20by%20expert%20speakers%20and%20you%20can%20join%20me%20now%21%0A%0ARegister%20at%3A%20https%3A%2F%2Fdevfestindia.com%2F%0A%0A%23DevFestIndia%20%23DevFest%20%40DevFestIndia%20%20"
+                  v-if="maindata.registrationData.twittershare"
+                  :href="maindata.registrationData.twittershare"
                   target="_blank"
                   rel="noreferrer"
                   style="text-transform: capitalize;"
@@ -535,7 +539,8 @@
                 </v-btn>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <v-btn
-                  href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevfestindia.com%2F&quote=Hi%20%23Devs%2C%0A%0AI%20registered%20to%20attend%20India%27s%20largest%20developer%20conclave%20-%20%22DevFest%20India%22.%20There%20are%20some%20amazing%20sessions%20by%20expert%20speakers%20and%20you%20can%20join%20me%20now%21%0A%0ARegister%20here%3A%20https%3A%2F%2Fdevfestindia.com%2F%0A%0A%23DevFestIndia%20%23DevFest"
+                  v-if="maindata.registrationData.facebookshare"
+                  :href="maindata.registrationData.facebookshare"
                   target="_blank"
                   rel="noreferrer"
                   style="text-transform: capitalize;"
@@ -549,7 +554,8 @@
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <v-btn
                   outlined
-                  href="http://badge.devfestindia.com/"
+                  v-if="maindata.badgeurl"
+                  :href="maindata.badgeurl"
                   rel="noreferrer"
                   target="_blank"
                   color="#0005DF"
@@ -569,9 +575,11 @@
 </template>
 
 <script>
+import maindata from '@/assets/data/main.json'
 import FDK from "../config/firebase";
 export default {
   data: () => ({
+    maindata: maindata,
     // Snackbar
     snackBarMessage: "",
     isSnackBarVisible: false,
@@ -745,9 +753,6 @@ export default {
           self.response.email = user.email;
           self.response.name = user.displayName;
 
-          // self.snackBarMessage = "Signed In with " + user.email;
-          // self.isSnackBarVisible = true;
-
           FDK.firestore
             .collection("edata")
             .doc(user.uid)
@@ -770,7 +775,6 @@ export default {
     signIn() {
       var self = this;
       var provider = new FDK.firebase.auth.GoogleAuthProvider();
-
       FDK.firebase
         .auth()
         .signInWithPopup(provider)

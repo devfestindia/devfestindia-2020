@@ -3,8 +3,8 @@
     <v-container
       fluid
     >
-      <v-row justify="center" align="center">
-        <v-col md="8" lg="5" sm="11" cols="12">
+    <v-row justify="start" align="center">
+        <v-col md="8" offset-md="1" offset-lg="1" lg="8" sm="11" cols="12">
           <v-container>
             <v-row class>
               <v-col class="pb-5">
@@ -23,7 +23,7 @@
             </v-row>
           </v-container>
         </v-col>
-        <v-col md="2" lg="5" sm="11" cols="12"> </v-col>
+        <!-- <v-col md="2" lg="5" sm="11" cols="12" class="green"> </v-col> -->
       </v-row>
     </v-container>
 

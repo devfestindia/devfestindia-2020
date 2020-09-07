@@ -46,8 +46,9 @@
 
         <v-btn
           depressed
+          v-if="maindata.badgeurl"
           style="text-transform: capitalize;border-radius:5px;border:1px solid #e0e0e0;color:#0005DF;background-color:white"
-          href="https://badge.devfestindia.com/ "
+          :href="maindata.badgeurl"
           class="google-font mr-3 mb-3"
           target="_blank"
           >Get your Profile Badge</v-btn
@@ -56,7 +57,8 @@
         <v-btn
           text
           style="text-transform: capitalize;border-radius:5px;color:#0005DF;background-color:white"
-          href="https://twitter.com/hashtag/DevFestIndia"
+          v-if="maindata.mainhashtag"
+          :href="'https://twitter.com/hashtag/'+maindata.mainhashtag"
           class="google-font mt-0 mb-3"
           target="_blank"
           >#DevFestIndia</v-btn
@@ -111,8 +113,9 @@
 
         <v-btn
           depressed
+          v-if="maindata.badgeurl"
           style="text-transform: capitalize;border-radius:5px;border:1px solid #e0e0e0;color:#0005DF;background-color:white"
-          href="https://badge.devfestindia.com/ "
+          :href="maindata.badgeurl"
           class="google-font ma-1"
           target="_blank"
           >Get your Profile Badge</v-btn
@@ -120,7 +123,8 @@
         <v-btn
           text
           style="text-transform: capitalize;border-radius:5px;color:#0005DF;background-color:white"
-          href="https://twitter.com/hashtag/DevFestIndia"
+          v-if="maindata.mainhashtag"
+          :href="'https://twitter.com/hashtag/'+maindata.mainhashtag"
           class="google-font ma-1"
           target="_blank"
           >#DevFestIndia</v-btn
@@ -131,8 +135,12 @@
 </template>
 
 <script>
+import maindata from '@/assets/data/main.json'
 export default {
   name: "HomeScreen",
+  data:()=>({
+    maindata:maindata
+  }),
   components: {
     Timer: () => import("@/components/home/Timer"),
   },

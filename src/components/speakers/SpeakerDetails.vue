@@ -12,7 +12,7 @@
         </v-avatar>
         <p class="mt-3 mb-0 google-font mb-0" style="font-size:110%">{{ data.name }}</p>
         <p class="mt-1 mb-0 google-font mt-0" style="font-size:80%">{{ data.company.name }}</p>
-        <socialMediaDetails  :data="data.social" />
+        <socialMediaDetails  :socaillinks="data.social" />
       </div>
     </template>
 
@@ -33,7 +33,7 @@
                 {{ data.company.name }}
               </p>
               <!-- {{data.social}} -->
-              <socialMediaDetails class="pl-0 ml-0" :data="data.social" />
+              <socialMediaDetails class="pl-0 ml-0" :socaillinks="data.social" />
             </v-col>
             <v-col md="8" cols="12">
               <p class="google-font" style="font-size:110%">{{ data.bio }}</p>

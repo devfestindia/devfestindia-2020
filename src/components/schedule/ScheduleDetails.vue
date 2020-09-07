@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid class="">
+  <v-container fluid class="" v-if="data">
     <v-row
       justify="center"
       align="center"

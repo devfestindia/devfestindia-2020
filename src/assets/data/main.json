@@ -1,0 +1,31 @@
+{   
+    "eventname":"DevFest India",
+    "date":"",
+    "time":"",
+    "badgeurl":"https://badge.devfestindia.com/",
+    "mainhashtag":"DevFestIndia",
+    "shortdes":"",
+    "longdes":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quibusdam natus excepturi perspiciatis vel, dignissimos tempora illo aperiam officia laborum, porro temporibus ullam laboriosam repellatet. Facilis nesciunt magni dolore. <br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quibusdam natus excepturi perspiciatis vel, dignissimos tempora illo aperiam officia laborum, porro temporibus ullam laboriosam repellatet. Facilis nesciunt magni dolore.",
+    "stats":[
+        {
+            "name":"Registration",
+            "count":"6000+"
+        },
+        {
+            "name":"Communities",
+            "count":"40+"
+        },
+        {
+            "name":"Speakers",
+            "count":"50+"
+        },
+        {
+            "name":"Days",
+            "count":"3"
+        }
+    ],
+    "registrationData":{
+        "twittershare":"https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fdevfestindia.com&ref_src=twsrc%5Etfw&text=Hi%20%23Devs%2C%0A%0AI%20registered%20to%20attend%20India%27s%20largest%20developer%20conclave%20-%20%22DevFest%20India%22.%20There%20are%20some%20amazing%20sessions%20by%20expert%20speakers%20and%20you%20can%20join%20me%20now%21%0A%0ARegister%20at%3A%20https%3A%2F%2Fdevfestindia.com%2F%0A%0A%23DevFestIndia%20%23DevFest%20%40DevFestIndia%20%20",
+        "facebookshare":"https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevfestindia.com%2F&quote=Hi%20%23Devs%2C%0A%0AI%20registered%20to%20attend%20India%27s%20largest%20developer%20conclave%20-%20%22DevFest%20India%22.%20There%20are%20some%20amazing%20sessions%20by%20expert%20speakers%20and%20you%20can%20join%20me%20now%21%0A%0ARegister%20here%3A%20https%3A%2F%2Fdevfestindia.com%2F%0A%0A%23DevFestIndia%20%23DevFest"
+    }
+}
