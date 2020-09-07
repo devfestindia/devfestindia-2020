@@ -1,7 +1,7 @@
 [
     {
         "day": "1",
-        "date": "July 9th 2020, Thursday",
+        "date":"Dates",
         "schedule": [
             {
                 "startTime": "05:00",
@@ -37,7 +37,7 @@
     },
     {
         "day": "2",
-        "date": "July 10th 2020, Friday",
+        "date":"Dates",
         "schedule": [
             {
                 "startTime": "05:00",
@@ -73,7 +73,7 @@
     },
     {
         "day": "3",
-        "date": "July 11th 2020, Saturday",
+        "date":"Dates",
         "schedule": [
             {
                 "startTime": "05:00",
@@ -109,7 +109,7 @@
     },
     {
         "day": "4",
-        "date": "July 12th 2020, Sunday",
+        "date":"Dates",
         "schedule": [
             {
                 "startTime": "05:00",
