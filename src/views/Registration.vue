@@ -34,8 +34,6 @@
                 <v-avatar color="#0005DF">
                   <v-icon dark>mdi-account-circle</v-icon>
                 </v-avatar>
-                <!-- 
-                <h2 class="google-font">Step 1</h2>-->
               </v-col>
               <v-col md="10" class="google-font" cols="10">
                 <h3 class="google-font">Login with your Google Account</h3>
@@ -57,15 +55,22 @@
                   </v-list-item-content>
                 </v-list-item>
 
-                <v-btn
-                  v-if="showLoginBtn"
-                  outlined
-                  class="mt-3"
-                  style="text-transform: capitalize"
-                  v-on:click="signIn"
-                >
-                  <v-icon size="20px" left>mdi-google</v-icon>Sign In with Google
-                </v-btn>
+                
+                
+                <div v-if="showLoginBtn">
+                  <v-btn
+                    class="mt-3"
+                    depressed
+                    style="text-transform: capitalize"
+                    v-on:click="signIn"
+                    dark color="#0005DF"
+                  >
+                    <v-icon size="20px" left>mdi-google</v-icon>Sign In with Google
+                  </v-btn>
+
+                  <p class="mt-5 google-font">If you don't have any Google account, please fill your entry in <a v-if="maindata.googlefromforregistration" target="_blank" rel="noreferrer" style="color:#0005DF" :href="maindata.googlefromforregistration">this</a> form.</p>
+                </div>
+                <!-- <EmailPass/> -->
               </v-col>
             </v-row>
             <!-- Google Sign In -->

@@ -32,15 +32,15 @@ Vue.use(VueRouter)
       color: 'white'
     }
   },
-  // {
-  //   path: '/partners',
-  //   name: 'Partners',
-  //   component: () => import(/* webpackChunkName: "partners" */ '../views/Partners.vue'),
-  //   meta: {
-  //     title: 'Partners | DevFest India',
-  //     color: 'white'
-  //   }
-  // },
+  {
+    path: '/partners',
+    name: 'Partners',
+    component: () => import(/* webpackChunkName: "partners" */ '../views/Partners.vue'),
+    meta: {
+      title: 'Partners | DevFest India',
+      color: 'white'
+    }
+  },
   {
     path: '/volunteers',
     name: 'Volunteers',
