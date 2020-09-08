@@ -34,3 +34,4 @@ const sendSendGridMail = async (snap) => {
 exports.sendConfirmationEmail = functions.firestore.document('edata/{id}').onCreate((snap, context) => {
     sendSendGridMail(snap);
 });
+
