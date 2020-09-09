@@ -17,16 +17,22 @@
         <v-container>
           <v-row>
             <v-col md="12" cols="12">
-              <v-text-field
-                    v-model="email"
-                    placeholder="Email"
-                    outlined
-              ></v-text-field>
-              <v-text-field
-                    v-model="password"
-                    placeholder="password"
-                    outlined
-              ></v-text-field>
+              <div v-if="!userCreated">
+                <v-text-field
+                      v-model="email"
+                      placeholder="Email"
+                      outlined
+                ></v-text-field>
+                <v-text-field
+                      v-model="password"
+                      placeholder="password"
+                      outlined
+                ></v-text-field>
+                <v-btn v-on:click="signup" class="indigo">Sign Up</v-btn>
+              </div>
+              <div v-else>
+                <h1>Please verify your email</h1>
+              </div>
             </v-col>
           </v-row>
         </v-container>
@@ -43,6 +49,7 @@
 </template>
 
 <script>
+import FDK from "@/config/firebase";
 export default {
   components: {},
   data() {
@@ -50,7 +57,35 @@ export default {
       email:'',
       password:'',
       dialog: false,
+      userCreated: false,
+      user:{}
     };
   },
+  methods:{
+    signup(){
+      FDK.auth.createUserWithEmailAndPassword(this.email, this.password).catch(e=>{
+        console.log(e)
+      })
+      this.checkUser()
+
+    },
+    checkUser(){
+      FDK.auth.onAuthStateChanged((user)=> {
+        console.log(user)
+        FDK.auth.sendEmailVerification().then(function() {
+        // Email sent.
+          this.userCreated = true
+        }).catch(function(error) {
+          // An error happened.
+        });
+
+      }).catch(e=>{
+        console.log(e)
+      })
+      
+      
+
+    }
+  }
 };
 </script>

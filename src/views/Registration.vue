@@ -68,6 +68,8 @@
                     <v-icon size="20px" left>mdi-google</v-icon>Sign In with Google
                   </v-btn>
 
+                  <EmailPass class="mt-5 ml-2"/>
+
                   <p class="mt-5 google-font">If you don't have any Google account, please fill your entry in <a v-if="maindata.googlefromforregistration" target="_blank" rel="noreferrer" style="color:#0005DF" :href="maindata.googlefromforregistration">this</a> form.</p>
                 </div>
                 <!-- <EmailPass/> -->
@@ -737,6 +739,7 @@ export default {
   }),
   components: {
     Snackbar: () => import("@/components/common/Snackbar"),
+    EmailPass: ()=> import("@/components/registration/emailpass")
   },
   mounted() {
     this.checkAuth();
