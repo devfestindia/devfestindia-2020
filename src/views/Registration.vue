@@ -43,7 +43,7 @@
 
                 <v-list-item v-if="userLoginIn" class="ml-0 pl-0">
                   <v-list-item-avatar size="65">
-                    <v-img :src="user.photoURL"></v-img>
+                    <v-img :src="user.photoURL? user.photoURL:'https://raw.githubusercontent.com/DevFest-India/website-data/master/defaultavatar.png'"></v-img>
                   </v-list-item-avatar>
 
                   <v-list-item-content>
@@ -59,7 +59,7 @@
                 
                 <div v-if="showLoginBtn">
                   <v-btn
-                    class="mt-3"
+                    class="mt-2"
                     depressed
                     style="text-transform: capitalize"
                     v-on:click="signIn"
@@ -67,12 +67,17 @@
                   >
                     <v-icon size="20px" left>mdi-google</v-icon>Sign In with Google
                   </v-btn>
+                  <br><br><br>
+                  <p class="google-font mb-2">No Google Account? Create an Account/ Sign in with Email.</p>
+                  <EmailPass class="mt-0 ml-2"/>
 
-                  <EmailPass class="mt-5 ml-2"/>
-
-                  <p class="mt-5 google-font">If you don't have any Google account, please fill your entry in <a v-if="maindata.googlefromforregistration" target="_blank" rel="noreferrer" style="color:#0005DF" :href="maindata.googlefromforregistration">this</a> form.</p>
+                  <!-- <p class="mt-5 google-font">If you don't have any Google account, please fill your entry in <a v-if="maindata.googlefromforregistration" target="_blank" rel="noreferrer" style="color:#0005DF" :href="maindata.googlefromforregistration">this</a> form.</p> -->
                 </div>
                 <!-- <EmailPass/> -->
+
+                <div v-if="!emailVerified">
+                  <h3>Kindly Verify your email</h3>
+                </div>
               </v-col>
             </v-row>
             <!-- Google Sign In -->
@@ -581,6 +586,7 @@ import FDK from "../config/firebase";
 export default {
   data: () => ({
     maindata: maindata,
+    emailVerified: true,
     // Snackbar
     snackBarMessage: "",
     isSnackBarVisible: false,
@@ -749,13 +755,14 @@ export default {
       var self = this;
       FDK.auth.onAuthStateChanged(function (user) {
         if (user) {
+          // console.log(user)
           self.showLoginBtn = false;
           self.userLoginIn = true;
           self.user = user;
           self.response.email = user.email;
           self.response.name = user.displayName;
-
-          FDK.firestore
+          if(user.emailVerified){
+            FDK.firestore
             .collection("edata")
             .doc(user.uid)
             .get()
@@ -771,6 +778,14 @@ export default {
             .catch((e) => {
               console.log(e);
             });
+          }else{
+            user.sendEmailVerification().then(()=>{
+              self.emailVerified = false
+            }).catch(e=>{
+              console.log(e)
+            })
+          }
+          
         }
       });
     },
@@ -808,7 +823,7 @@ export default {
           .set({
             name: this.response.name,
             email: this.response.email,
-            image: this.user.photoURL,
+            image: this.user.photoURL? this.user.photoURL:'https://raw.githubusercontent.com/DevFest-India/website-data/master/defaultavatar.png',
             city: this.response.city,
             country: this.response.country,
             gender: this.response.gender,
