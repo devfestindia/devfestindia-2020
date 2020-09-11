@@ -4,14 +4,14 @@
       fluid
     >
     <v-row justify="start" align="center">
-        <v-col md="8" offset-md="1" offset-lg="1" lg="8" sm="11" cols="12">
+        <v-col md="4" offset-md="1" offset-lg="1" lg="4" sm="11" cols="12">
           <v-container>
             <v-row class>
-              <v-col class="pb-5">
-                <h1 class="google-font mb-5" style="color:#0005DF">
+              <v-col class="">
+                <h1 class="google-font mb-5" style="color:#0005DF;">
                   Our Team
                 </h1>
-                <p class="google-font">
+                <p class="google-font" style="font-size:120%">
                   Google is known all around the world. Everyone is 'googling',
                   checking on 'maps' and communicating in 'gmail'. For simple
                   users, they are services that just works, but not for us.

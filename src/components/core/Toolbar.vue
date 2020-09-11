@@ -44,14 +44,14 @@
     </v-toolbar-title>
 
     <v-tabs
-      color="black"
+      color="#0005DF"
       right
-      slider-color="indigo"
+      slider-color="#0005DF"
       :hide-slider="getRouteName()"
       class="hidden-sm-and-down google-font"
     >
       <v-tab
-        class
+        class="google-font"
         aria-label="toolbar links"
         v-for="(link, i) in links.filter((obj) => obj.meta.showToolbar)"
         :key="i"

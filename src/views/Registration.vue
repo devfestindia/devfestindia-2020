@@ -74,9 +74,9 @@
                   <!-- <p class="mt-5 google-font">If you don't have any Google account, please fill your entry in <a v-if="maindata.googlefromforregistration" target="_blank" rel="noreferrer" style="color:#0005DF" :href="maindata.googlefromforregistration">this</a> form.</p> -->
                 </div>
                 <!-- <EmailPass/> -->
-
+                <!--  -->
                 <div v-if="!emailVerified">
-                  <h3>Kindly Verify your email</h3>
+                  <p>Kindly verify your email by clicking on the link sent to your email address. Also, do refresh this page post verification to move ahead with the registration.</p>
                 </div>
               </v-col>
             </v-row>

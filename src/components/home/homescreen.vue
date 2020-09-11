@@ -5,7 +5,6 @@
       <v-col md="6" cols="12" class="text-center">
         <v-img
           class="white"
-          transition="fade-transition"
           style="width:90%;margin-left:auto;margin-right:auto"
           :src="require('@/assets/img/cover.png')"
         >

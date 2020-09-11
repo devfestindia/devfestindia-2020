@@ -40,6 +40,24 @@
             </template>
             <span>YouTube</span>
           </v-tooltip>
+
+          <v-tooltip bottom>
+            <template v-slot:activator="{ on }">
+              <v-btn
+                text
+                icon
+                x-large
+                v-on="on"
+                rel="noreferrer"
+                href="https://www.instagram.com/devfestindia/"
+                target="_blank"
+                slot="activator"
+              >
+                <v-icon>mdi-instagram</v-icon>
+              </v-btn>
+            </template>
+            <span>Instagram</span>
+          </v-tooltip>
         </h1>
         <p class="google-font mb-2">
           Let's get connected so that we can reach out to each other via a simple notification.

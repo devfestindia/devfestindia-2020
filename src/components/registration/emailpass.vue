@@ -78,7 +78,7 @@
                       placeholder="Email"
                       class="my-0"
                       outlined
-                      :rules="[rules.required]"
+                      :rules="[rules.required, rules.gmailmatch]"
                     ></v-text-field>
 
                     <p style="font-size:105%;color:black" class="py-0 my-0">
@@ -143,7 +143,7 @@
                           placeholder="Email"
                           class="my-0"
                           outlined
-                          :rules="[rules.required]"
+                          :rules="[rules.required, rules.gmailmatch]"
                         ></v-text-field>
 
                         <p style="font-size:105%;color:black" class="py-0 my-0">
@@ -207,7 +207,7 @@ export default {
         emailMatch: () => "The email and password you entered don't match",
         gmailmatch: (v) =>
           !v.includes("gmail") ||
-          "No Gamil no accepted please login with Google Acccount",
+          "If you have Gmail account, please use 'Sign In With Google' button",
       },
       section: "signup",
       signupscreen: true,

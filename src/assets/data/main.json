@@ -6,7 +6,7 @@
     "mainhashtag":"DevFestIndia",
     "shortdes":"",
     "googlefromforregistration":"https://docs.google.com/forms/d/e/1FAIpQLSflHxrmgIkJmVFZtpXAjKz17uJB89XSgEbKRrAgme0bsvPv5w/viewform",
-    "longdes":"Every year, dozens of communities host the mega event with talks, activities, fun & much more. Unfortunately, this year we have all been impacted by the pandemic, and as much as we’d like to meet once again for the annual conference, we can’t. Pish posh. We’re techies, we’ll do it online! <b>DevFest India 2020</b> will be one of the India’s biggest online developers conference - we will learn, we will play & we will code! <br><br>What’s more, we have three very interesting tracks lined up. Start where you are because DevFest is designed to have something for everybody. For the experts, DevFest provides a fantastic opportunity to meet fellow experts & learn about what’s going on in the world of high technology. For the beginners, there’s no better place to start! With a bunch of community members, you can start your journey, find mentors, seek motivation & collect helpful resources.",
+    "longdes":"As the world is coming to terms with this new way of life, we communities are also adopting new formats and methods to bring you all India’s biggest developers conference <b>DevFest India 2020</b> online with talks, activities, fun & much more. <br><br>From beginners to experts, coders to creatives, DevFest India 2020 conference is for everyone, so come along, share your knowledge and learn something new.",
     "stats":[
         {
             "name":"Registrations",
@@ -28,5 +28,31 @@
     "registrationData":{
         "twittershare":"https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fdevfestindia.com&ref_src=twsrc%5Etfw&text=Hi%20%23Devs%2C%0A%0AI%20registered%20to%20attend%20India%27s%20largest%20developer%20conclave%20-%20%22DevFest%20India%22.%20There%20are%20some%20amazing%20sessions%20by%20expert%20speakers%20and%20you%20can%20join%20me%20now%21%0A%0ARegister%20at%3A%20https%3A%2F%2Fdevfestindia.com%2F%0A%0A%23DevFestIndia%20%23DevFest%20%40DevFestIndia%20%20",
         "facebookshare":"https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevfestindia.com%2F&quote=Hi%20%23Devs%2C%0A%0AI%20registered%20to%20attend%20India%27s%20largest%20developer%20conclave%20-%20%22DevFest%20India%22.%20There%20are%20some%20amazing%20sessions%20by%20expert%20speakers%20and%20you%20can%20join%20me%20now%21%0A%0ARegister%20here%3A%20https%3A%2F%2Fdevfestindia.com%2F%0A%0A%23DevFestIndia%20%23DevFest"
-    }
+    },
+    "theme":[
+        {
+            "name":"Platforms",
+            "content":"Utilize platforms that connect you to billions of users around the world.",
+            "color":"#D2E3FC",
+            "tcolor":"#534EA6"
+        },
+        {
+            "name":"Grow and Earn",
+            "content":"Acquire and engage new users; grow meaningful monetization streams.",
+            "color":"#FEF7E0",
+            "tcolor":"#B06000"
+        },
+        {
+            "name":"Build on Mobile",
+            "content":"Apply infrastructure and services to take your mobile apps to the next level.",
+            "color":"#FCE8E6",
+            "tcolor":"#BA1412"
+        },
+        {
+            "name":"Beyond Mobile",
+            "content":"Expand onto new screens and push the limits of what’s possible.",
+            "color":"#CEEAD6",
+            "tcolor":"#0D7A94"
+        }
+    ]
 }
