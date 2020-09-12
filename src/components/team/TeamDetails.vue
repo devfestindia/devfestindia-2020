@@ -1,17 +1,18 @@
 <template>
-  <v-dialog v-model="dialog" width="700" scrollable>
+  <v-dialog v-model="dialog" width="800" scrollable>
     <template v-slot:activator="{ on }">
       <div
         v-on="on"
         style="cursor: pointer;"
         class="text-center py-5 ma-1 fill-height whiteThemeCard"
       >
-        <v-avatar size="100">
+        <v-avatar size="100" color="mt-2">
           <img :src="getTeamImgUrl(data.image)" :lazy-src="getTeamImgUrl(data.image)" alt />
         </v-avatar>
         <p class="mt-3 mb-0 google-font mb-0" style="font-size:110%">{{ data.name }}</p>
-        <p class="mt-1 mb-0 google-font mt-0" style="font-size:80%">{{ data.company.name }}</p>
-        <socialMediaDetails :data="data.social" />
+        <p class="mt-1 mb-0 google-font mt-0" style="font-size:80%;width:95%;margin-left:auto;margin-right:auto">{{ data.company.name }}</p>
+        <!-- {{data.social}} -->
+        <socialMediaDetails :socaillinks="data.social" />
       </div>
     </template>
 
@@ -29,14 +30,14 @@
               <p class="google-font mt-1" style="font-size:100%">
                 {{ data.company.designation }}<span v-if="data.company.name">, {{ data.company.name }}</span>
               </p>
-              <socialMediaDetails class="pl-0 ml-0" :data="data.social" />
+              <socialMediaDetails class="pl-0 ml-0" :socaillinks="data.social" />
             </v-col>
             <v-col md="8" cols="12">
               <p
                 class="google-font"
                 style="font-size:110%;word-break:normal;font-weight:bold"
               >{{data.community.designation}}<span v-if="data.community.designation">,</span> {{data.community.name}}</p>
-              <p class="google-font" style="font-size:110%">{{ data.bio }}</p>
+              <p class="google-font" style="font-size:110%" v-html="data.bio"></p>
             </v-col>
           </v-row>
         </v-container>
@@ -81,9 +82,9 @@ export default {
 </script>
 
 <style>
-/* .whiteThemeCard {
+.whiteThemeCard {
   background: white;
   border: 1px solid #e0e0e0;
   border-radius: 5px;
-} */
+}
 </style>
