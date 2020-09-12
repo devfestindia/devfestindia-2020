@@ -12,11 +12,7 @@
                   Our Team
                 </h1>
                 <p class="google-font" style="font-size:120%">
-                  Google is known all around the world. Everyone is 'googling',
-                  checking on 'maps' and communicating in 'gmail'. For simple
-                  users, they are services that just works, but not for us.
-                  Developers see much more: APIs, scalability issues, complex
-                  technology stacks. And that is what GDG is about.
+                  Organisers of GDGs along with WTM ambassadors from each chapter, all over the country have gathered together to make one India DevFest a success. Meet the team right here.
                 </p>
 
               </v-col>
@@ -31,11 +27,11 @@
       <v-row justify="center" align="center" class="px-0">
         <!-- style="margin-top: -150px;" -->
         <v-col md="10" lg="10" sm="11" cols="12">
-          <v-container>
+          <v-container fluid>
             <v-row class>
               <v-col
-                md="3"
-                lg="3"
+                md="2"
+                lg="2"
                 xl="2"
                 sm="4"
                 cols="6"

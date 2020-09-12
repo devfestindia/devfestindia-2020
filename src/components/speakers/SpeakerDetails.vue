@@ -11,7 +11,7 @@
           <img :src="getImgUrl(data.image)" :lazy-src="getImgUrl(data.image)" alt />
         </v-avatar>
         <p class="mt-3 mb-0 google-font mb-0" style="font-size:110%">{{ data.name }}</p>
-        <p class="mt-1 mb-0 google-font mt-0" style="font-size:80%">{{ data.company.name }}</p>
+        <p class="mt-1 mb-0 google-font mt-0" style="font-size:80%;">{{ data.company.name }}</p>
         <socialMediaDetails  :socaillinks="data.social" />
       </div>
     </template>
