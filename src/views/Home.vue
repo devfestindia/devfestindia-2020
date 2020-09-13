@@ -22,11 +22,11 @@
       </v-row>
 
       <!-- Card -->
-      <!-- <v-row align="center" justify="center" class="" >
+      <v-row align="center" justify="center" class="" >
         <v-col md="10" lg="9" sm="12" >
           <Cards/>
         </v-col>
-      </v-row> -->
+      </v-row>
 
       <!-- Follow Us -->
       <v-row align="center" justify="center" class="" >
@@ -49,7 +49,7 @@ export default {
     HomeScreen: ()=> import('@/components/home/homescreen'),
     Stats: ()=> import('@/components/home/Stats'),
     Theme: ()=> import('@/components/home/theme'),
-    // Cards: ()=> import('@/components/home/cards'),
+    Cards: ()=> import('@/components/home/cards'),
   },
 };
 </script>
