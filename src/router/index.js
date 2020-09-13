@@ -86,15 +86,15 @@ Vue.use(VueRouter)
       color: 'white'
     }
   },
-  {
-    path: '/team',
-    name: 'Team',
-    component: () => import(/* webpackChunkName: "team" */ '../views/Team.vue'),
-    meta: {
-      title: 'Team | DevFest India',
-      color: 'white'
-    }
-  },
+  // {
+  //   path: '/team',
+  //   name: 'Team',
+  //   component: () => import(/* webpackChunkName: "team" */ '../views/Team.vue'),
+  //   meta: {
+  //     title: 'Team | DevFest India',
+  //     color: 'white'
+  //   }
+  // },
   {
     path: '/tc',
     name: 'ParticipationTerms',

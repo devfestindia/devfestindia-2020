@@ -34,15 +34,15 @@ export default new Vuex.Store({
       //     showBottomNav: true,
       //   },
       // },
-      {
-        text: "Team",
-        to: "/team",
-        icon: "mdi-account-multiple",
-        meta: {
-          showToolbar: true,
-          showBottomNav: false,
-        },
-      },
+      // {
+      //   text: "Team",
+      //   to: "/team",
+      //   icon: "mdi-account-multiple",
+      //   meta: {
+      //     showToolbar: true,
+      //     showBottomNav: false,
+      //   },
+      // },
       // {
       //   text: "Volunteers",
       //   to: "/volunteers",
@@ -67,7 +67,7 @@ export default new Vuex.Store({
         icon: "mdi-star",
         meta: {
           showToolbar: true,
-          showBottomNav: false,
+          showBottomNav: true,
         },
       }
     ],
