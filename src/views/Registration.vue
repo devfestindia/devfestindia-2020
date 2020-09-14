@@ -238,7 +238,7 @@
                     label="Machine Learning"
                     value="Machine Learning"
                   ></v-checkbox>
-                  <v-checkbox
+                  <!-- <v-checkbox
                     class="my-0"
                     v-model="response.theme"
                     color="#0005DF"
@@ -246,7 +246,7 @@
                     :rules="[rules.checkboxbtn]"
                     label="Design [UI/UX]"
                     value="Design [UI/UX]"
-                  ></v-checkbox>
+                  ></v-checkbox> -->
                   <!-- Area of Interest -->
 
                   <!-- Experience -->
