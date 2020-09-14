@@ -53,6 +53,15 @@ export default new Vuex.Store({
       //   },
       // },
       {
+        text: "Communities",
+        to: "/communities",
+        icon: "mdi-star",
+        meta: {
+          showToolbar: true,
+          showBottomNav: true,
+        },
+      },
+      {
         text: "Register",
         to: "/registration",
         icon: "mdi-account-circle",
@@ -69,7 +78,8 @@ export default new Vuex.Store({
           showToolbar: true,
           showBottomNav: true,
         },
-      }
+      },
+      
     ],
   },
   getters:{

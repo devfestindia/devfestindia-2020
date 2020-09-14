@@ -32,6 +32,15 @@ Vue.use(VueRouter)
       color: 'white'
     }
   },
+  {
+    path: '/communities',
+    name: 'Communities',
+    component: () => import(/* webpackChunkName: "Community Guidelines" */ '../views/Communities.vue'),
+    meta: {
+      title: 'Communities | DevFest India',
+      color: 'white'
+    }
+  },
   // {
   //   path: '/partners',
   //   name: 'Partners',

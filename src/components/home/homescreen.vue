@@ -46,6 +46,7 @@
         <v-btn
           depressed
           v-if="maindata.badgeurl"
+          rel=”noreferrer”
           style="text-transform: capitalize;border-radius:5px;border:1px solid #e0e0e0;color:#0005DF;background-color:white"
           :href="maindata.badgeurl"
           class="google-font mr-3 mb-3"
