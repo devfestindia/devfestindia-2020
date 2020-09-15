@@ -40,7 +40,7 @@
               >
                 <div class="py-auto my-auto ma-1 whiteThemeCard community-card">
                   <a v-bind:href="item.link" target="_blank" class="my-2">
-                    <v-tooltip bottom open-delay = "400">
+                    <v-tooltip bottom open-delay = "350">
                       <template v-slot:activator="{ on }">
                         <v-img
                           v-on="on"
