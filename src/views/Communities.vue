@@ -38,9 +38,9 @@
                 v-for="(item, index) in CommunityData"
                 :key="index"
               >
-                <div class="py-auto my-auto ma-1 fill-height whiteThemeCard">
+                <div class="py-auto my-auto ma-1 whiteThemeCard community-card">
                   <a v-bind:href="item.link" target="_blank" class="my-2">
-                    <v-tooltip bottom>
+                    <v-tooltip bottom open-delay = "400">
                       <template v-slot:activator="{ on }">
                         <v-img
                           v-on="on"
@@ -79,5 +79,22 @@ export default {
   background: white;
   border: 1px solid #e0e0e0;
   border-radius: 5px;
+}
+
+.community-card {
+  height: 100px;
+}
+
+.community-card:hover {
+  transition:0.3s all ease-in-out;
+  box-shadow: 0 2px 6px 0 rgba(0,0,0,.12);
+}
+
+.community-card .v-responsive {
+  height:100%;
+}
+
+.community-card .v-image__image--cover {
+  background-size: contain;
 }
 </style>
