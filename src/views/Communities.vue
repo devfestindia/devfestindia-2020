@@ -10,7 +10,9 @@
                   Our Communities
                 </h1>
                 <p class="google-font" style="font-size:120%">
-                  Communities from each chapter, all over the India have gethered together to make India DevFest a success. Locate your nearest google developer group and join them right here!
+                  Communities from each chapter, all over the India have
+                  gethered together to make India DevFest a success. Locate your
+                  nearest google developer group and join them right here!
                 </p>
               </v-col>
             </v-row>
@@ -36,25 +38,19 @@
                 v-for="(item, index) in CommunityData"
                 :key="index"
               >
-                  <div class="py-5 ma-1 fill-height whiteThemeCard">
-                    <!-- <v-img
-                      :src="require('@/assets/img/communities/' + item.logo)"
-                    ></v-img> -->
-                    <p
-                      class="google-font my-0 mx-3 mt-2"
-                      style="color:black;font-size:110%"
-                    >
-                      {{ item.name }}
-                    </p>
-                    <a
-                      class="google-font my-0 mx-3 mb-0"
-                      :href="item.link"
-                      target="_blank"
-                      rel=”noreferrer”
-                      style="color:#0005DF;text-decoration: none;"
-                      ><u>Join Group</u></a
-                    >
-                  </div>
+                <div class="py-auto my-auto ma-1 fill-height whiteThemeCard">
+                  <a v-bind:href="item.link" target="_blank" class="my-2">
+                    <v-tooltip bottom>
+                      <template v-slot:activator="{ on }">
+                        <v-img
+                          v-on="on"
+                          :src="require('@/assets/img/communities/' + item.logo)"
+                        ></v-img>
+                      </template>
+                      <span class="google-font">{{item.name}}</span>
+                    </v-tooltip>
+                  </a>
+                </div>
               </v-col>
             </v-row>
           </v-container>
