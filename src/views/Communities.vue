@@ -36,18 +36,18 @@
                 v-for="(item, index) in CommunityData"
                 :key="index"
               >
-                  <div class="py-2 ma-1 fill-height whiteThemeCard">
-                    <v-img
+                  <div class="py-5 ma-1 fill-height whiteThemeCard">
+                    <!-- <v-img
                       :src="require('@/assets/img/communities/' + item.logo)"
-                    ></v-img>
+                    ></v-img> -->
                     <p
-                      class="google-font my-0 mx-3"
+                      class="google-font my-0 mx-3 mt-2"
                       style="color:black;font-size:110%"
                     >
-                      {{ item.city }}
+                      {{ item.name }}
                     </p>
                     <a
-                      class="google-font my-0 mx-3"
+                      class="google-font my-0 mx-3 mb-0"
                       :href="item.link"
                       target="_blank"
                       rel=”noreferrer”
