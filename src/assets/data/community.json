@@ -84,6 +84,12 @@
     "link": "https://gdg.community.dev/gdg-cloud-indore/"
   },
   {
+    "name": "GDG Cloud Kolkata",
+    "city": "Kolkata",
+    "logo": "gdgcloudkolkata.jpg",
+    "link": "https://gdg.community.dev/gdg-cloud-kolkata/"
+  },
+  {
     "name": "GDG Cloud Mumbai",
     "city": "Mumbai",
     "logo": "gdgcloudmumbai.jpg",
