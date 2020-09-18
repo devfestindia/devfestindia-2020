@@ -9,18 +9,18 @@
 
       <!-- style="background:#f8f9fa" -->
       <!-- style="background:#0cad4d" -->
-      <v-row align="center" justify="center" class="" style="background:#f8f9fa" >
+      <!-- <v-row align="center" justify="center" class="" style="background:#f8f9fa" >
         <v-col md="10" lg="9" sm="12" class="my-4">
         <Stats/>
         </v-col>
-      </v-row>
+      </v-row> -->
 
       <!-- Theme -->
-      <v-row align="center" justify="center" class="" >
+      <!-- <v-row align="center" justify="center" class="" >
         <v-col md="10" lg="9" sm="12" >
           <Theme/>
         </v-col>
-      </v-row>
+      </v-row> -->
 
       <!-- Card -->
       <!-- <v-row align="center" justify="center" class="" >
@@ -48,8 +48,8 @@ export default {
   components: {
     FollowUs: () => import("@/components/home/follow"),
     HomeScreen: ()=> import('@/components/home/homescreen'),
-    Stats: ()=> import('@/components/home/Stats'),
-    Theme: ()=> import('@/components/home/theme'),
+    // Stats: ()=> import('@/components/home/Stats'),
+    // Theme: ()=> import('@/components/home/theme'),
     // Cards: ()=> import('@/components/home/cards'),
   },
 };

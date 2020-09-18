@@ -69,7 +69,7 @@ export default {
   }),
   mounted() {
     this.CommunityData = this.sortByName(CommunityData);
-    console.log(this.CommunityData);
+    // console.log(this.CommunityData);
   },
 };
 </script>
