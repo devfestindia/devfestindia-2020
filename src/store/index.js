@@ -55,7 +55,7 @@ export default new Vuex.Store({
       {
         text: "Communities",
         to: "/communities",
-        icon: "mdi-star",
+        icon: "mdi-form-select",
         meta: {
           showToolbar: true,
           showBottomNav: true,

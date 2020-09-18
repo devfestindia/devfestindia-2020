@@ -9,7 +9,7 @@
 
       <!-- style="background:#f8f9fa" -->
       <!-- style="background:#0cad4d" -->
-      <v-row align="center" justify="center" class=""  >
+      <v-row align="center" justify="center" class="" style="background:#f8f9fa" >
         <v-col md="10" lg="9" sm="12" class="my-4">
         <Stats/>
         </v-col>
