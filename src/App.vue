@@ -41,8 +41,12 @@
 <script>
 import Toolbar from '@/components/core/Toolbar'
 import MainView from '@/components/core/Views'
+import FDK from "@/config/firebase";
 export default {
   name: 'App',
+  mounted(){
+    FDK.firebase.performance()
+  },
   components: {
     Toolbar,
     MainView,

@@ -2,6 +2,7 @@
 import firebase from 'firebase/app';
 import 'firebase/auth';   
 import 'firebase/firestore';
+import 'firebase/performance'
 
 const firebaseConfig = {
   apiKey: "AIzaSyA6qChimnN-IuqH--uKK09_Xhg38EP0YBg",
@@ -18,5 +19,5 @@ firebase.firestore().enablePersistence({synchronizeTabs:!0}).catch(()=>{console.
 export default{
   firestore: firebase.firestore(),
   auth:firebase.auth(),
-  firebase:firebase
+  firebase:firebase,
 };
