@@ -69,7 +69,7 @@
         ]
     },
     {
-        "id": "106",
+        "id": "105",
         "name":"Sriyank Siddhartha",
         "company": {
             "designation":"Android Developer and Author",
@@ -86,7 +86,7 @@
         ]
     },
     {
-        "id": "107",
+        "id": "106",
         "name":"Akanshi Srivastava",
         "company": {
             "designation":"Product Engineer (UXE - Android)",
@@ -97,6 +97,108 @@
         "social": {
             "linkedin": "https://www.linkedin.com/in/akanshi32/",
             "twitter": "https://twitter.com/akanshi_s"
+        },
+        "sessionId": [
+            101
+        ]
+    },
+    {
+        "id": "107",
+        "name":"Usha Rengaraju",
+        "company": {
+            "designation":"Data Science Global Ambassador",
+            "name":"HP and NVIDIA"
+        },
+        "image": "",
+        "bio": "",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/usha-rengaraju-b570b7a2/",
+            "twitter": "https://twitter.com/URengaraju"
+        },
+        "sessionId": [
+            101
+        ]
+    },
+    {
+        "id": "108",
+        "name":"Akshay Bahadur",
+        "company": {
+            "designation":"",
+            "name":""
+        },
+        "image": "",
+        "bio": "",
+        "social": {
+            "linkedin": "",
+            "twitter": ""
+        },
+        "sessionId": [
+            101
+        ]
+    },
+    {
+        "id": "108",
+        "name":"Savvy Jain",
+        "company": {
+            "designation":"CEO and Founder",
+            "name":"Cofiato"
+        },
+        "image": "",
+        "bio": "Savvy loves data and everything around it. She used to be a data scientist and has experience working in various domains. She is currently CEO and Founder of Cofiato, which is a Hardware Intelligence firm. Her second love is community evangelism. She's associated with many technical and networking communities like GDG, GCDC, WTM, Linkedin Local, BNI etc. She is also Women in Data Science Regional Ambassador. She likes innovation, creativity, and coffee",
+        "social": {
+            "linkedin": "https://linkedin.com/in/savvyjain",
+            "twitter": "https://twitter.com/savvyjain"
+        },
+        "sessionId": [
+            101
+        ]
+    },
+    {
+        "id": "110",
+        "name":"Bhavani Ravi",
+        "company": {
+            "designation":"Research Engineer",
+            "name":"Saama Technologies"
+        },
+        "image": "",
+        "bio": "",
+        "social": {
+            "linkedin": "https://linkedin.com/in/bhavanir/",
+            "twitter": "https://twitter.com/geeky_bhavani"
+        },
+        "sessionId": [
+            101
+        ]
+    },
+    {
+        "id": "111",
+        "name":"Shweta Bhatt",
+        "company": {
+            "designation":"Data Scientist",
+            "name":"Jupiter"
+        },
+        "image": "",
+        "bio": "",
+        "social": {
+            "linkedin": "https://linkedin.com/in/shweta-bhatt-1a930b12/",
+            "twitter": "https://www.linkedin.com/in/sathishvj/"
+        },
+        "sessionId": [
+            101
+        ]
+    },
+    {
+        "id": "112",
+        "name":"Senthilkumar M",
+        "company": {
+            "designation":"CEO CO-FOUNDER",
+            "name":"Jiovio healthcare"
+        },
+        "image": "",
+        "bio": "I am Senthil Kumar M. I hail from Madurai, Tamilnadu-India with a great passion for innovating through technology to solve real life problems. I have innovated in fields like wireless network, defence, maternal healthcare, and safety solutions and filed nearly 10 patents for the same.Though I began my career as an engineer in Samsung | Qualcomm Fortune 500 companies, I realised that I am called to be an entrepreneur. I quit my job to found two tech startups, Geomeo and JioVio, in urban infrastructure and healthcare sector respectively",
+        "social": {
+            "linkedin": "https://in.linkedin.com/in/senthilkumar-murugesan",
+            "twitter": "https://twitter.com/sentenwin"
         },
         "sessionId": [
             101
