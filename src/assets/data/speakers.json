@@ -1,138 +1,105 @@
 [
     {
         "id": "101",
-        "name":"Speaker Name",
+        "name":"Himanshu Singh",
         "company": {
-            "name":"Company Name",
-            "designation": "Founder & CEO"
+            "name":"Roomi Inc.",
+            "designation": "Sr. Android Engineer"
         },
-        "bio": "Speaker's Bio",
-        "image": "",
+        "bio": "",
+        "image": "himanshu.jpg",
         "sessionId": [
-            402
+            103
         ],
         "social": {
-            "twitter": "https://twitter.com/",
-            "linkedin": "https://www.linkedin.com/in"
+            "linkedin": "https://www.linkedin.com/in/himanshoe-singh/",
+            "twitter": "https://twitter.com/hi_man_shoe"
+        }
+    },
+    {
+        "id": "102",
+        "name":"Prachi Durge",
+        "company": {
+            "name":"AV Devs. Pvt. Ltd",
+            "designation": "Android Team Lead"
+        },
+        "bio": "",
+        "image": "prachi.jpg",
+        "sessionId": [
+            103
+        ],
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/prachi-d-158965b/",
+            "twitter": "https://twitter.com/PrachiSSD"
         }
     },
     {
         "id": "103",
-        "name":"Speaker Name",
+        "name":"Niharika Arora",
         "company": {
-            "name":"Company Name",
-            "designation":"Designation"
+            "name":"1mg",
+            "designation":"Senior Software Engineer"
         },
-        "image": "",
-        "bio": "Speaker's Bio",
+        "image": "niharika.jpg",
+        "bio": "",
         "social": {
-            "twitter": "https://twitter.com/",
-            "linkedin": "https://www.linkedin.com/in"
-        },
-        "sessionId": [
-            202
-        ]
-    },
-    {
-        "id": "104",
-        "name":"Speaker Name",
-        "company": {
-            "name":"Company Name",
-            "designation":"Designation"
-        },
-        "image": "",
-        "bio": "Speaker's Bio",
-        "social": {
-            "twitter": "https://twitter.com/",
-            "linkedin": "https://www.linkedin.com/in"
-        },
-        "sessionId": [
-            301
-        ]
-    },
-    {
-        "id": "106",
-        "name":"Speaker Name",
-        "company": {
-            "designation":"Designation",
-            "name":"Company Name"
-        },
-        "image": "",
-        "bio": "Speaker's Bio",
-        "social": {
-            "linkedin": "https://www.linkedin.com/in",
-            "twitter": "https://twitter.com/"
-        },
-        "sessionId": [
-            203
-        ]
-    },
-    {
-        "id": "107",
-        "name":"Speaker Name",
-        "company": {
-            "designation":"Designation",
-            "name":"Company Name"
-        },
-        "image": "",
-        "bio": "Speaker's Bio",
-        "social": {
-            "linkedin": "",
-            "twitter": "https://twitter.com/"
-        },
-        "sessionId": [
-            103
-        ]
-    },
-    {
-        "id": "108",
-        "name":"Speaker Name",
-        "company": {
-            "designation":"Designation",
-            "name":"Company Name"
-        },
-        "image": "",
-        "bio": "Speaker's Bio",
-        "social": {
-            "linkedin": "",
-            "twitter": "https://twitter.com/"
-        },
-        "sessionId": [
-            401
-        ]
-    },
-    {
-        "id": "109",
-        "name":"Speaker Name",
-        "company": {
-            "designation": "Sr. Software Engineer",
-            "name":"Company Name"
-        },
-        "image": "",
-        "bio": "Speaker's Bio",
-        "social": {
-            "linkedin": "https://linkedin.com/in",
-            "twitter": "https://twitter.com/"
+            "linkedin": "https://www.linkedin.com/in/thedroidlady/",
+            "twitter": "https://twitter.com/theDroidLady"
+            
         },
         "sessionId": [
             102
         ]
     },
     {
-        "id": "110",
-        "name":"Speaker Name",
+        "id": "104",
+        "name":"Sagar Viradiya",
         "company": {
-            "designation":"Designation",
-            "name":"Company Name"
+            "name":"BookMyShow",
+            "designation":"Android Engineer (SDE - II)"
         },
-        "image": "",
-        "bio": "Speaker's Bio",
+        "image": "sagar.jpg",
+        "bio": "",
         "social": {
-            "linkedin": "",
-            "twitter": "https://twitter.com/"
+            "linkedin": "https://www.linkedin.com/in/sagarviradiya/",
+            "twitter": "https://twitter.com/viradiya_sagar"
         },
         "sessionId": [
-            204
+            101
+        ]
+    },
+    {
+        "id": "106",
+        "name":"Sriyank Siddhartha",
+        "company": {
+            "designation":"Android Developer and Author",
+            "name":"Pluralsight"
+        },
+        "image": "sriyank.jpg",
+        "bio": "",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/sriyank/",
+            "twitter": "https://twitter.com/sriyanksid"
+        },
+        "sessionId": [
+            102
+        ]
+    },
+    {
+        "id": "107",
+        "name":"Akanshi Srivastava",
+        "company": {
+            "designation":"Product Engineer (UXE - Android)",
+            "name":"Gojek"
+        },
+        "image": "akanshi.jpg",
+        "bio": "",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/akanshi32/",
+            "twitter": "https://twitter.com/akanshi_s"
+        },
+        "sessionId": [
+            101
         ]
     }
 ]

@@ -14,7 +14,7 @@
           :class="$vuetify.theme.dark==true?'grey darken-4':'white'">
             <v-toolbar-title
               class="google-font my-5"
-              style="font-weight: 900;font-size:180%;color:#0005DF"
+              style="font-size: 3.5vh;line-height: 1.22;font-weight:500"
               >Schedules
             </v-toolbar-title>
             <template v-slot:extension>

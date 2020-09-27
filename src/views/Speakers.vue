@@ -10,7 +10,7 @@
           <v-container fluid class="my-2">
             <v-row justify="start" align="center" class="">
               <v-col md="12" class="text-center" >
-                <h1 class="google-font mb-0" style="font-size:180%;color:#0005DF">Check out our speaker lineup</h1>
+                <p class="google-font mb-0" style="font-size: 3.5vh;line-height: 1.22;font-weight:500;color:#0005DF">Check out our speaker lineup</p>
                 <p class="google-font" style="width:80%;margin-left:auto;margin-right:auto;font-size:110%">Whatever your challenge, see how these leaders on the front line of transformation, innovation, and exploration can help solve it with you. Get to know the inspiring minds right here.</p>
               </v-col>
             </v-row>

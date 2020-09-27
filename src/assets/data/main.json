@@ -10,7 +10,7 @@
     "stats":[
         {
             "name":"Registrations",
-            "count":"9k+"
+            "count":"10k+"
         },
         {
             "name":"Communities",
@@ -18,7 +18,7 @@
         },
         {
             "name":"Tracks",
-            "count":"4"
+            "count":"05"
         },
         {
             "name":"Days",
@@ -34,25 +34,29 @@
             "name":"Platforms",
             "content":"Utilize platforms that connect you to billions of users around the world.",
             "color":"#D2E3FC",
-            "tcolor":"#534EA6"
+            "tcolor":"#534EA6",
+            "img":"https://domains.google/static/images/homepage/step-2.webp"
         },
         {
             "name":"Grow and Earn",
             "content":"Acquire and engage new users; grow meaningful monetization streams.",
             "color":"#FEF7E0",
-            "tcolor":"#B06000"
+            "tcolor":"#B06000",
+            "img":"https://domains.google/static/images/homepage/step-1.webp"
         },
         {
             "name":"Build on Mobile",
             "content":"Apply infrastructure and services to take your mobile apps to the next level.",
             "color":"#FCE8E6",
-            "tcolor":"#BA1412"
+            "tcolor":"#BA1412",
+            "img":"https://domains.google/static/images/homepage/step-4.webp"
         },
         {
             "name":"Beyond Mobile",
             "content":"Expand onto new screens and push the limits of what’s possible.",
             "color":"#CEEAD6",
-            "tcolor":"#0D7A94"
+            "tcolor":"#0D7A94",
+            "img":"https://domains.google/static/images/advanced-features/tout-1.webp"
         }
     ]
 }

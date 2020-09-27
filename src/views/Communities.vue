@@ -6,9 +6,9 @@
           <v-container class="mb-0 pb-0">
             <v-row class>
               <v-col class="">
-                <h1 class="google-font mb-5" style="color:#0005DF;">
+                <p class="google-font mb-5" style="font-size: 3.5vh;line-height: 1.22;font-weight:500;color:#0005DF">
                   Our Communities
-                </h1>
+                </p>
                 <p class="google-font" style="font-size:120%">
                   Communities from each chapter, all over the India have
                   gethered together to make India DevFest a success. Locate your
@@ -28,6 +28,9 @@
         <v-col md="10" lg="10" sm="11" cols="12" class="my-0 py-0">
           <v-container fluid class="my-0 py-0">
             <v-row class>
+              <!-- <v-col md="12">
+                <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1F9Lyn8xgdMJwGUWr-BC1rjKVVeZTlv3A" width="100%" height="480"></iframe>
+              </v-col> -->
               <v-col
                 md="3"
                 lg="3"

@@ -1,11 +1,12 @@
 <template>
-  <v-container fluid>
+  <v-container fluid class="">
     <v-row justify="center" align="center">
-      <v-col md="7" lg="8" sm="12" cols="12">
-        <h1 class="google-font mb-2" style="color:#0005DF;">{{maindata.eventname}}</h1>
-        <p v-html="maindata.longdes" class="google-font" style="font-size:120%">
+      <v-col md="7" lg="8" sm="12" cols="12" class="pa-5 " >
+        <p class="google-font mb-2" style="font-size: 3.5vh;line-height: 1.22;font-weight:500">{{maindata.eventname}}</p>
+        <!-- <h1 class="google-font mb-2" style="color:#0005DF;">{{maindata.eventname}}</h1> -->
+        <p v-html="maindata.longdes" class="google-font" style="font-size:110%">
         </p>
-
+        <devfest/>
       </v-col>
       <v-col md="5" lg="4" class="pa-2" sm="12" cols="12">
         <v-container fluid>
@@ -26,6 +27,9 @@
 <script>
 import maindata from '@/assets/data/main.json'
   export default {
+    components:{
+      devfest:()=>import('../common/AboutDevFest')
+    },
     data:()=>({
       maindata:maindata
     })

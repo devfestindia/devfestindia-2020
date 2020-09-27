@@ -136,6 +136,7 @@ export default {
 .whiteThemeCard {
   background: white;
   border: 1px solid #e0e0e0;
+  /* border-top: 4px solid #0005DF; */
   border-radius: 5px;
 }
 </style>

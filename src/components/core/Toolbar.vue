@@ -57,14 +57,14 @@
         :key="i"
         :to="link.to"
         @click="onClick($event, link)"
-        style="text-transform: capitalize;"
+        style="text-transform: capitalize;font-size:100%"
         >{{ link.text }}</v-tab
       >
     </v-tabs>
     <!--  -->
     <v-spacer></v-spacer>
-    
-    <!-- <v-btn style="text-transform: capitalize;border-radius:5px;" v-if="!(this.$route.name === 'Registration')" dark color="#0005DF" class="ml-4 google-font hidden-md-and-down" to="/registration" depressed
+    <!-- v-if="!(this.$route.name === 'Registration')"  -->
+    <!-- <v-btn style="text-transform: capitalize;border-radius:5px;padding:00% 40px;" dark color="#0005DF" class="ml-4 google-font hidden-md-and-down" to="/registration" depressed
       >Register</v-btn> -->
     <v-btn
       aria-label="Share Button"

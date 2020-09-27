@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid class="py-0">
+  <v-container fluid class="py-0 ">
     <!-- Desktop Screen -->
     <v-row justify="center" align="center" class="hidden-sm-and-down py-8">
       <v-col md="6" cols="12" class="text-center">
@@ -32,7 +32,7 @@
           biggest developer conclave with 40+ GDG communities. <br />Separated
           by distance, united by passion.
         </p>
-
+        <!-- <Timer deadline="October 16, 2020" />  -->
         <v-btn
           dark
           color="#0005DF"
@@ -64,8 +64,14 @@
           >#DevFestIndia</v-btn
         >
       </v-col>
-      <v-col md="6" cols="12" class="text-center">
-        <Timer deadline="October 16, 2020" />
+      <v-col md="6" cols="12" class="text-center" >
+        <!-- <Timer deadline="October 16, 2020" /> -->
+        <!-- <v-img
+          class="white"
+          style="width:90%;margin-left:auto;margin-right:auto"
+          :src="require('@/assets/img/Website.png')"
+        ></v-img> -->
+        <iframe width="90%" height="360px" class="elevation-2" src="https://www.youtube.com/embed/5eKnpn77a-s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </v-col>
     </v-row>
     <!-- Desktop Screen -->
@@ -93,7 +99,7 @@
           <br />
           <v-icon class="mb-1">mdi-access-point</v-icon>&nbsp;Online
         </p>
-        <Timer deadline="October 16, 2020" />
+        <!-- <Timer deadline="October 16, 2020" /> -->
 
         <p class="google-font mt-4 mb-5">
           <b style="color:#0005DF;font-size:120%">DevFest India</b> - India's
@@ -142,7 +148,7 @@ export default {
     maindata:maindata
   }),
   components: {
-    Timer: () => import("@/components/home/Timer"),
+    // Timer: () => import("@/components/home/Timer"),
   },
 };
 </script>
