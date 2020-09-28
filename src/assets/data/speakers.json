@@ -109,14 +109,14 @@
             "designation":"Data Science Global Ambassador",
             "name":"HP and NVIDIA"
         },
-        "image": "",
+        "image": "usha.jpg",
         "bio": "",
         "social": {
             "linkedin": "https://www.linkedin.com/in/usha-rengaraju-b570b7a2/",
             "twitter": "https://twitter.com/URengaraju"
         },
         "sessionId": [
-            101
+            106
         ]
     },
     {
@@ -126,14 +126,14 @@
             "designation":"",
             "name":""
         },
-        "image": "",
-        "bio": "",
+        "image": "akshya.jpg",
+        "bio": "My interest towards computer science sparked when I was working on a women's safety application aimed towards the women welfare in India and since then I have been incessantly working on improving my skills. I stumbled upon machine learning then. I have made several open-source contributions in the field of ML and would continue to do so. I have made successful prototypes like autonomous car, alphabet recognition, cancer classification, gesture recognition using learning models. My ambition is to make valuable contribution towards ML community and leave a message of perseverance and tenacity. Currently, I am working as a software engineer at Symantec, India. I am also deeply influenced by literature especially Shakespeare's work. Favorite quote : The evil that men do lives after them; the good is oft interred with their bones Julius Caesar (Act III, Scene II) Favorite equation : x²-x+41=0",
         "social": {
-            "linkedin": "",
-            "twitter": ""
+            "linkedin": "https://www.linkedin.com/in/akshaybahadur21/",
+            "twitter": "https://twitter.com/AkshayBahadur3"
         },
         "sessionId": [
-            101
+            106
         ]
     },
     {
@@ -143,14 +143,14 @@
             "designation":"CEO and Founder",
             "name":"Cofiato"
         },
-        "image": "",
+        "image": "savy.jpg",
         "bio": "Savvy loves data and everything around it. She used to be a data scientist and has experience working in various domains. She is currently CEO and Founder of Cofiato, which is a Hardware Intelligence firm. Her second love is community evangelism. She's associated with many technical and networking communities like GDG, GCDC, WTM, Linkedin Local, BNI etc. She is also Women in Data Science Regional Ambassador. She likes innovation, creativity, and coffee",
         "social": {
             "linkedin": "https://linkedin.com/in/savvyjain",
             "twitter": "https://twitter.com/savvyjain"
         },
         "sessionId": [
-            101
+            104
         ]
     },
     {
@@ -160,14 +160,14 @@
             "designation":"Research Engineer",
             "name":"Saama Technologies"
         },
-        "image": "",
+        "image": "bhawani.jpg",
         "bio": "",
         "social": {
             "linkedin": "https://linkedin.com/in/bhavanir/",
             "twitter": "https://twitter.com/geeky_bhavani"
         },
         "sessionId": [
-            101
+            105
         ]
     },
     {
@@ -177,14 +177,14 @@
             "designation":"Data Scientist",
             "name":"Jupiter"
         },
-        "image": "",
+        "image": "sweta.jpg",
         "bio": "",
         "social": {
             "linkedin": "https://linkedin.com/in/shweta-bhatt-1a930b12/",
             "twitter": "https://www.linkedin.com/in/sathishvj/"
         },
         "sessionId": [
-            101
+            104
         ]
     },
     {
@@ -194,14 +194,14 @@
             "designation":"CEO CO-FOUNDER",
             "name":"Jiovio healthcare"
         },
-        "image": "",
+        "image": "senthik.jpg",
         "bio": "I am Senthil Kumar M. I hail from Madurai, Tamilnadu-India with a great passion for innovating through technology to solve real life problems. I have innovated in fields like wireless network, defence, maternal healthcare, and safety solutions and filed nearly 10 patents for the same.Though I began my career as an engineer in Samsung | Qualcomm Fortune 500 companies, I realised that I am called to be an entrepreneur. I quit my job to found two tech startups, Geomeo and JioVio, in urban infrastructure and healthcare sector respectively",
         "social": {
             "linkedin": "https://in.linkedin.com/in/senthilkumar-murugesan",
             "twitter": "https://twitter.com/sentenwin"
         },
         "sessionId": [
-            101
+            105
         ]
     }
 ]

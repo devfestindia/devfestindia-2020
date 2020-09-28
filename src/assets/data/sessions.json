@@ -43,12 +43,12 @@
     {
         "id": "104",
         "slide":"",
-        "title":"Session Title",
+        "title":"Learn to build an end-to-end predictive modelling pipeline",
         "description":"",
-        "track": "Day 1 Track",
+        "track": "ML",
         "link": "",
-        "format": "Talk",
-        "date": "July 09th, 2020",
+        "format": "Day 1",
+        "date": "October 16th, 2020",
         "timeDuration": "30",
         "speakers": [
             111
@@ -57,12 +57,12 @@
     {
         "id": "105",
         "slide":"",
-        "title":"Session Title",
+        "title":"Learn to productionize models though CI/CD design",
         "description":"",
         "link": "",
-        "track": "Day 1 Track",
-        "format": "Talk",
-        "date": "July 09th, 2020",
+        "track": "ML",
+        "format": "Day 2",
+        "date": "October 17th, 2020",
         "timeDuration": "30",
         "speakers": [
             112
@@ -71,12 +71,12 @@
     {
         "id": "106",
         "slide":"",
-        "title":"Session Title",
+        "title":"Advanced : SIIM-ISIC Melanoma Classification using TF 2.0",
         "description":"",
-        "track": "Day 1 Track",
+        "track": "ML",
         "link": "",
-        "format": "AMA & Closing",
-        "date": "July 09th, 2020",
+        "format": "Day 3",
+        "date": "October 18th, 2020",
         "timeDuration": "30",
         "speakers": [
             109, 107, 111, 112
