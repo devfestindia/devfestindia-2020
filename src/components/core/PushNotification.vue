@@ -70,7 +70,7 @@ export default {
                   .then((currentToken) => {
                     if (currentToken) {
                       FDK.firestore
-                        .collection("pushNotificationKeys")
+                        .collection("pushNotificationTokens")
                         .add({
                           token: currentToken,
                         })
