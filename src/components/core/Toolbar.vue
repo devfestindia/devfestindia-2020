@@ -17,12 +17,12 @@
       @click="toggleDrawer"
       class="d-md-none d-lg-none"
     ></v-app-bar-nav-icon>
-    
+
     <div class="d-flex align-center">
       <router-link
         to="/"
         class="google-font grey--text text--darken-2"
-        style="text-decoration:none;font-size:110%"
+        style="text-decoration: none; font-size: 110%"
       >
         <v-img
           alt="Vuetify Logo"
@@ -34,11 +34,11 @@
         />
       </router-link>
     </div>
-    <v-toolbar-title class="google-font px-0" style="width:250px">
+    <v-toolbar-title class="google-font px-0" style="width: 250px">
       <router-link
         to="/"
         class="google-font grey--text text--darken-2"
-        style="text-decoration:none;font-size:110%"
+        style="text-decoration: none; font-size: 110%"
         >DevFest India</router-link
       >
     </v-toolbar-title>
@@ -57,10 +57,11 @@
         :key="i"
         :to="link.to"
         @click="onClick($event, link)"
-        style="text-transform: capitalize;font-size:100%"
+        style="text-transform: capitalize; font-size: 100%"
         >{{ link.text }}</v-tab
       >
     </v-tabs>
+    <PushNotification />
     <!--  -->
     <!-- v-if="!(this.$route.name === 'Registration')"  -->
     <!-- <v-btn style="text-transform: capitalize;border-radius:5px;padding:00% 40px;" dark color="#0005DF" class="ml-4 google-font hidden-md-and-down" to="/registration" depressed
@@ -79,12 +80,16 @@
 <script>
 // import FDK from "@/config/firebase";
 import { mapGetters, mapMutations } from "vuex";
+import PushNotification from "./PushNotification";
 export default {
   data: () => ({
     timeout: 6000,
     user: {},
     menu: false,
   }),
+  components: {
+    PushNotification,
+  },
   computed: {
     ...mapGetters(["links"]),
   },
@@ -96,7 +101,10 @@ export default {
       this.$vuetify.goTo(item.href);
     },
     getRouteName() {
-      if (this.$route.name === "CodeofConducts" || this.$route.name === "ParticipationTerms") {
+      if (
+        this.$route.name === "CodeofConducts" ||
+        this.$route.name === "ParticipationTerms"
+      ) {
         return true;
       } else {
         return false;
@@ -118,7 +126,7 @@ export default {
       } else {
         alert("Not supporting in your browser");
       }
-    }
+    },
   },
 };
 </script>
