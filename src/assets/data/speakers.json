@@ -137,7 +137,7 @@
         ]
     },
     {
-        "id": "108",
+        "id": "109",
         "name":"Savvy Jain",
         "company": {
             "designation":"CEO and Founder",
@@ -202,6 +202,91 @@
         },
         "sessionId": [
             105
+        ]
+    },
+    {
+        "id": "113",
+        "name":"Sathish VJ",
+        "company": {
+            "designation":"",
+            "name":""
+        },
+        "image": "sathishvj.jpg",
+        "bio": "",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/sathishvj/",
+            "twitter": "https://twitter.com/sathishvj"
+        },
+        "sessionId": [
+            107
+        ]
+    },
+    {
+        "id": "114",
+        "name":"Shilpa Garg",
+        "company": {
+            "designation":"AI Consultant",
+            "name":"Magic Software"
+        },
+        "image": "shilpa.jpg",
+        "bio": "Shilpa is a Software Engineer presently working in the field of Machine Learning(NLP). She is a Tech Speaker, Google MLCC Facilitator, python mentor at 1 million Women to Tech by Oxford Entreprenurers & presently working as Lead AI Consultant in Edtech. Company, with a toal experience of 5+ years in the Industry. She is organiser of GDG New Delhi & WTM Ambassador as well. She loves community building, Innovation and empowering Women in Tech.",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/shilpagarg13/",
+            "twitter": "https://twitter.com/shilpa1994"
+        },
+        "sessionId": [
+            108
+        ]
+    },
+    {
+        "id": "115",
+        "name":"Dharmesh Vaya",
+        "company": {
+            "designation":"Director - Technology",
+            "name":"Agrahyah Technologies"
+        },
+        "image": "dhramesh.jpg",
+        "bio": "",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/dharmeshvaya/",
+            "twitter": "https://twitter.com/drvaya"
+        },
+        "sessionId": [
+            108
+        ]
+    },
+    {
+        "id": "116",
+        "name":"Maitreyi",
+        "company": {
+            "designation":"Data Engineer",
+            "name":"Vimana"
+        },
+        "image": "maitreyi.jpg",
+        "bio": "",
+        "social": {
+            "linkedin": "https://in.linkedin.com/in/maitreyi-kv",
+            "twitter": "https://twitter.com/maitreyi_kv"
+        },
+        "sessionId": [
+            109
+        ]
+    },
+    {
+        "id": "117",
+        "name":"Rushabh Vasa",
+        "company": {
+            "designation":"CTO",
+            "name":"Agrahyah Technologies"
+        },
+        "image": "rushabh.jpg",
+        "bio": "Rushabh Vasa is a serial entrepreneur by profession. Rushabh is currently Co-founder and CTO of Agrahyah Technologies and aawaz.com. Agrahyah builds AI enabled Voice tech solutions and Aawaz.com, which is the largest podcast network in Indian languages. Rushabh is listed as Google Developer Expert for Cloud Technology and Mentor for Google for Startups.. Beyond technology, Rushabh believes in building a better tomorrow, he does this by being involved in communities including GBG Mumbai, Rotary Club, Green India and also serves as Director at Ruggedian, a Fitness and Wellness Startup. ",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/rushabhvasa/",
+            "twitter": "https://twitter.com/rushabh69"
+        },
+        "sessionId": [
+            109
         ]
     }
 ]

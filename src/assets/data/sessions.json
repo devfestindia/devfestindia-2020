@@ -2,7 +2,7 @@
     {
         "id": "101",
         "slide":"",
-        "title":"Building BookMyShow Clone - 101",
+        "title":"101 : Android basics and Building UI",
         "description":"",
         "track": "Mobile",
         "link": "",
@@ -16,7 +16,7 @@
     {
         "id": "102",
         "slide":"",
-        "title":"Building BookMyShow Clone - 102",
+        "title":"201: Building dynamic UI with RESTful API Call",
         "description":"",
         "track": "Mobile",
         "link": "",
@@ -29,7 +29,7 @@
     {
         "id": "103",
         "slide":"",
-        "title":"Building BookMyShow Clone - 103",
+        "title":"301 : Building a Offline First Architecture",
         "description":"",
         "track": "Mobile",
         "link": "",
@@ -79,231 +79,48 @@
         "date": "October 18th, 2020",
         "timeDuration": "30",
         "speakers": [
-            109, 107, 111, 112
         ]
     },
     {
-        "id": "201",
+        "id": "107",
         "slide":"",
-        "title":"Session Title",
+        "title":"Cloud 101: Every Cloud App Starts Here",
         "description":"",
-        "track": "Day 2",
+        "track": "Cloud",
         "link": "",
-        "format": "Talk",
-        "date": "July 10th, 2020",
+        "format": "Day 1",
+        "date": "October 16th, 2020",
         "timeDuration": "30",
         "speakers": [
-            105
+            
         ]
     },
     {
-        "id": "202",
+        "id": "108",
         "slide":"",
-        "title":"Session Title",
+        "title":"Cloud 201: Deploy your Apps to Google Cloud",
         "description":"",
-        "track": "Day 2",
-        "format": "Talk",
+        "track": "Cloud",
         "link": "",
-        "date": "July 10th, 2020",
+        "format": "Day 2",
+        "date": "October 17th, 2020",
         "timeDuration": "30",
         "speakers": [
-            103
+            
         ]
     },
     {
-        "id": "203",
+        "id": "109",
         "slide":"",
-        "title":"Session Title",
+        "title":"Cloud 301: Analyzing Big Data on Google Cloud",
         "description":"",
-        "track": "Day 2",
+        "track": "Cloud",
         "link": "",
-        "format": "Talk",
-        "date": "July 10th, 2020",
-        "timeDuration": "15",
-        "speakers": [
-            106
-        ]
-    },
-    {
-        "id": "204",
-        "slide":"",
-        "title":"Session Title",
-        "description":"",
-        "track": "Day 2",
-        "format": "Talk",
-        "link": "",
-        "date": "July 10th, 2020",
-        "timeDuration": "40",
-        "speakers": [
-            110
-        ]
-    },
-    {
-        "id": "205",
-        "slide":"",
-        "title":"Session Title",
-        "description":"",
-        "track": "Day 2",
-        "format": "Talk",
-        "link": "",
-        "date": "July 10th, 2020",
+        "format": "Day 3",
+        "date": "October 18th, 2020",
         "timeDuration": "30",
         "speakers": [
-            113
-        ]
-    },
-    {
-        "id": "206",
-        "slide":"",
-        "title":"Session Title",
-        "description":"",
-        "track": "Day 2",
-        "link": "",
-        "format": "AMA & Closing",
-        "date": "July 10th, 2020",
-        "timeDuration": "30",
-        "speakers": [
-            105, 103, 106, 110, 113
-        ]
-    },
-    {
-        "id": "301",
-        "slide":"",
-        "title":"Session Title",
-        "description":"",
-        "link": "",
-        "track": "Day 3",
-        "format": "Talk",
-        "date": "July 11th, 2020",
-        "timeDuration": "30",
-        "speakers": [
-            104
-        ]
-    },
-    {
-        "id": "303",
-        "slide":"",
-        "title":"Session Title",
-        "description":"",
-        "track": "Day 3",
-        "format": "Ice Breaker",
-        "date": "July 11th, 2020",
-        "link": "",
-        "timeDuration": "15",
-        "speakers": [
-            120, 124
-        ]
-    },
-    {
-        "id": "304",
-        "slide":"",
-        "title":"Session Title",
-        "description":"",
-        "link": "",
-        "track": "Day 3",
-        "format": "Talk",
-        "date": "July 11th, 2020",
-        "timeDuration": "30",
-        "speakers": [
-            114
-        ]
-    },
-    {
-        "id": "305",
-        "slide":"",
-        "title":"Session Title",
-        "description":"",
-        "track": "Day 3",
-        "link": "",
-        "format": "Talk",
-        "date": "July 11th, 2020",
-        "timeDuration": "40",
-        "speakers": [
-            114, 115
-        ]
-    },
-    {
-        "id": "306",
-        "slide":"",
-        "title":"Session Title",
-        "description":"",
-        "track": "Day 3",
-        "format": "AMA & Closing",
-        "link": "",
-        "date": "July 11th, 2020",
-        "timeDuration": "30",
-        "speakers": [
-            104, 102, 114, 115
-        ]
-    },
-    {
-        "id": "401",
-        "slide":"",
-        "title":"Session Title",
-        "description":"",
-        "link": "",
-        "track": "Day 4",
-        "format": "Talk",
-        "date": "July 12th, 2020",
-        "timeDuration": "30",
-        "speakers": [
-            108
-        ]
-    },
-    {
-        "id": "402",
-        "slide":"",
-        "title":"Session Title",
-        "description":"",
-        "track": "Day 4",
-        "format": "Talk",
-        "date": "July 12th, 2020",
-        "link": "",
-        "timeDuration": "30",
-        "speakers": [
-            101
-        ]
-    },
-    {
-        "id": "403",
-        "slide":"",
-        "title":"Session Title",
-        "description":"",
-        "track": "Day 4",
-        "link": "",
-        "format": "Ice Breaker",
-        "date": "July 12th, 2020",
-        "timeDuration": "15",
-        "speakers": [
-            122, 123
-        ]
-    },
-    {
-        "id": "404",
-        "slide":"",
-        "title":"Session Title",
-        "description":"",
-        "link": "",
-        "track": "Day 4",
-        "format": "Talk",
-        "date": "July 12th, 2020",
-        "timeDuration": "45",
-        "speakers": [
-            126
-        ]
-    },
-    {
-        "id": "406",
-        "slide":"",
-        "title":"Session Title",
-        "description":"",
-        "track": "Day 4",
-        "format": "AMA & Closing",
-        "link": "",
-        "date": "July 12th, 2020",
-        "timeDuration": "30",
-        "speakers": [
-            108, 101, 125, 126
+            
         ]
     }
 ]
