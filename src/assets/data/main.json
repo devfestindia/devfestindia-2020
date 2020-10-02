@@ -10,7 +10,7 @@
     "stats":[
         {
             "name":"Registrations",
-            "count":"10k+"
+            "count":"16k+"
         },
         {
             "name":"Communities",
@@ -21,7 +21,19 @@
             "count":"05"
         },
         {
-            "name":"Days",
+            "name":"Expert Speakers",
+            "count":"26"
+        },
+        {
+            "name":"Exclusive Sessions",
+            "count":"15+"
+        },
+        {
+            "name":"Live Activities",
+            "count":"10"
+        },
+        {
+            "name":"Days Full of Fun",
             "count":"03"
         }
     ],
@@ -31,32 +43,29 @@
     },
     "theme":[
         {
-            "name":"Platforms",
-            "content":"Utilize platforms that connect you to billions of users around the world.",
-            "color":"#D2E3FC",
-            "tcolor":"#534EA6",
-            "img":"https://domains.google/static/images/homepage/step-2.webp"
+            "name":"Mobile",
+            "content":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore etundened",
+            "img":"Mobile.svg"
         },
         {
-            "name":"Grow and Earn",
-            "content":"Acquire and engage new users; grow meaningful monetization streams.",
-            "color":"#FEF7E0",
-            "tcolor":"#B06000",
-            "img":"https://domains.google/static/images/homepage/step-1.webp"
+            "name":"Web",
+            "content":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore etundened",
+            "img":"Web.svg"
         },
         {
-            "name":"Build on Mobile",
-            "content":"Apply infrastructure and services to take your mobile apps to the next level.",
-            "color":"#FCE8E6",
-            "tcolor":"#BA1412",
-            "img":"https://domains.google/static/images/homepage/step-4.webp"
+            "name":"Cloud",
+            "content":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore etundened",
+            "img":"Cloud.svg"
         },
         {
-            "name":"Beyond Mobile",
-            "content":"Expand onto new screens and push the limits of what’s possible.",
-            "color":"#CEEAD6",
-            "tcolor":"#0D7A94",
-            "img":"https://domains.google/static/images/advanced-features/tout-1.webp"
+            "name":"Machine Learning",
+            "content":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore etundened",
+            "img":"MachineLearning.svg"
+        },
+        {
+            "name":"Flutter for Web",
+            "content":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore etundened",
+            "img":"FlutterWeb.svg"
         }
     ]
 }

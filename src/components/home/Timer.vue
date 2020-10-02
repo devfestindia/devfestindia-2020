@@ -1,61 +1,28 @@
 <template>
-    <v-container>
-        <!-- For Desktop -->
-        <v-row justify="center" align="center" class="hidden-sm-and-down" >
-            <v-col md="6" cols="3">
-                <div v-if="days > 0">
-                    <p class="devfest-font mb-0" style="font-size:500%;color:#0005DF;">{{ days | twoDigits }}</p>
-                    <p class="google-font mt-0">{{ days > 1 ? 'Days' : 'Day' }}</p>
-                </div>
+    <v-container fluid class="ma-0 pa-0">
+        <!-- For Desktop hidden-sm-and-down-->
+        <v-row justify="center" align="center" class="ma-0 pa-0" >
+            <v-col md="12" class="ma-0 pa-0">
+                <p class="devfest-font my-0 py-0" style="font-size: 2.0vh;line-height: 1.22;font-weight:500"> 
+                    <!-- Days -->
+                    <span style="color:#0005DF;"><b>{{ days | twoDigits }}</b></span> 
+                    {{ days > 1 ? 'Days' : 'Day' }}
+
+                    <!-- Hours -->
+                    <span style="color:#0005DF;"><b>{{ hours | twoDigits }}</b></span>
+                    {{ hours > 1 ? 'Hours' : 'Hour' }}
+
+                    <!-- Min -->
+                    <span style="color:#0005DF;"><b>{{ minutes | twoDigits }}</b></span> 
+                    {{ minutes > 1 ? 'Minutes' : 'Minute' }}
+
+                    <!-- Sec -->
+                    <span style="color:#0005DF;"><b>{{ seconds | twoDigits }}</b></span>
+                    {{ seconds > 1 ? 'Seconds' : 'Second' }}
+                </p>
             </v-col>
-            <v-col md="6" cols="3">
-                <div>
-                    <p class="devfest-font mb-0" style="font-size:500%;color:#0005DF;">{{ hours | twoDigits }}</p>
-                    <p class="text">{{ hours > 1 ? 'Hours' : 'Hour' }}</p>
-                </div>
-            </v-col>
-            
-            <v-col md="6" cols="3">
-                <div>
-                    <p class="devfest-font mb-0" style="font-size:500%;color:#0005DF;">{{ minutes | twoDigits }}</p>
-                    <p class="text">{{ minutes > 1 ? 'Minutes' : 'Minute' }}</p>
-                </div>
-            </v-col>
-            <v-col md="6" cols="3">
-                <div>
-                    <p class="devfest-font mb-0" style="font-size:500%;color:#0005DF;">{{ seconds | twoDigits }}</p>
-                    <p class="text">{{ seconds > 1 ? 'Seconds' : 'Second' }}</p>
-                </div>
-            </v-col>
-        </v-row>
-        
-        <!-- For Mobile -->
-        <v-row justify="center" align="center" class="hidden-md-and-up">
-            <v-col md="6" cols="3">
-                <div v-if="days > 0">
-                    <p class="devfest-font mb-0" style="font-size:250%;color:#0005DF;">{{ days | twoDigits }}</p>
-                    <p class="google-font mt-0">{{ days > 1 ? 'Days' : 'Day' }}</p>
-                </div>
-            </v-col>
-            <v-col md="6" cols="3">
-                <div>
-                    <p class="devfest-font mb-0" style="font-size:250%;color:#0005DF;">{{ hours | twoDigits }}</p>
-                    <p class="text">{{ hours > 1 ? 'Hours' : 'Hour' }}</p>
-                </div>
-            </v-col>
-            
-            <v-col md="6" cols="3">
-                <div>
-                    <p class="devfest-font mb-0" style="font-size:250%;color:#0005DF;">{{ minutes | twoDigits }}</p>
-                    <p class="text">{{ minutes > 1 ? 'Minutes' : 'Minute' }}</p>
-                </div>
-            </v-col>
-            <v-col md="6" cols="3">
-                <div>
-                    <p class="devfest-font mb-0" style="font-size:250%;color:#0005DF;">{{ seconds | twoDigits }}</p>
-                    <p class="text">{{ seconds > 1 ? 'Seconds' : 'Second' }}</p>
-                </div>
-            </v-col>
+
+
         </v-row>
     </v-container>
 </template>

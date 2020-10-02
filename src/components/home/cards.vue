@@ -1,19 +1,39 @@
 <template>
-  <v-container fluid class="red">
+  <v-container fluid class="">
     <v-row>
-      <v-col>
-        <v-slide-group v-model="model" class="pa-4" center-active show-arrows>
+      <v-col class="">
+        <p
+          class="google-font mb-2"
+          style="font-size: 3.5vh;line-height: 1.22;font-weight:500"
+        >
+          DevFest Shots
+        </p>
+        <p class="google-font" style="font-size: 2.0vh">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis repellendus, impedit quae animi corrupti reprehenderit odio ipsa magni aliquam error fugiat exercitationem obcaecati adipisci ducimus illum repudiandae nisi numquam laborum.
+        </p>
+      </v-col>
+    </v-row>
+    <v-row class="ma-0 pa-0">
+      <v-col md="12">
+        <v-slide-group
+          v-model="model"
+          prev-icon="mdi-arrow-left-bold-circle-outline"
+          next-icon="mdi-arrow-right-bold-circle-outline"
+          class="pa-4"
+          center-active
+          show-arrows
+        >
           <v-slide-item
-            v-for="(item,index) in imgs"
+            v-for="(item, index) in imgs"
             :key="index"
-            v-slot:default="{ active, toggle }"
+            class="red"
+            style="height:auto"
           >
-            <!-- <d
-              :color="active ? 'primary' : 'grey lighten-1'"
+            <v-img
               class="ma-4"
-              @click="toggle"
-            > -->
-              <v-img class="ma-4" :color="active ? 'primary' : 'grey lighten-1'" @click="toggle" :src="item.img"></v-img>
+              :src="item.img"
+              style="height:auto"
+            ></v-img>
             <!-- </d> -->
           </v-slide-item>
         </v-slide-group>
@@ -31,6 +51,7 @@ export default {
         name: "",
         img:
           "https://storage.googleapis.com/io-19-assets/images/recap/carousels/carousel-1_1x.jpg",
+        
       },
       {
         name: "",

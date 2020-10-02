@@ -122,5 +122,48 @@
         "speakers": [
             
         ]
+    },
+    {
+        "id": "110",
+        "slide":"",
+        "title":"101: Fery Pokemon on Firebase with Angular",
+        "description":"",
+        "track": "Web",
+        "link": "",
+        "format": "Day 1",
+        "date": "October 16th, 2020",
+        "timeDuration": "30",
+        "speakers": [
+            
+        ]
+    },
+    {
+        "id": "111",
+        "slide":"",
+        "title":"201: Add FIRE (Fast Integrated Reliable Engaging) to your site with PWA & SEO",
+        "description":"",
+        "track": "Web",
+        "link": "",
+        "format": "Day 2",
+        "date": "October 17th, 2020",
+        "timeDuration": "30",
+        "speakers": [
+            
+        ]
+    },
+    {
+        "id": "112",
+        "slide":"",
+        "title":"301: Perf time for Pokemons!",
+        "description":"",
+        "track": "Web",
+        "link": "",
+        "format": "Day 3",
+        "date": "October 18th, 2020",
+        "timeDuration": "30",
+        "speakers": [
+            
+        ]
     }
+
 ]

@@ -288,5 +288,90 @@
         "sessionId": [
             109
         ]
+    },
+    {
+        "id": "118",
+        "name":"Srashti Jain",
+        "company": {
+            "designation":"Senior Developer",
+            "name":"HVantage Technologies"
+        },
+        "image": "srashti.jpg",
+        "bio": "Angular GDE and Microsoft MVP Have more than 5 years of experience in application development. Have knowledge about .NET, SQL Server, Power BI Embedded, Azure, Angular. Co-organiser Indore Technical Community (#ngIndore) & All About Web",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/srashtisj/",
+            "twitter": "https://twitter.com/srashtisj"
+        },
+        "sessionId": [
+            110
+        ]
+    },
+    {
+        "id": "119",
+        "name":"Varsha Jaiswal",
+        "company": {
+            "designation":"Software Engineer",
+            "name":"Edfora Infotech Pvt. Ltd."
+        },
+        "image": "varsha.jpg",
+        "bio": "Enthusiasm to Learn' defines me in a nutshell. Aiming towards a goal and making continuous effort to achieve it is what I believe. I am a girl who puts thinking into each step towards giving back to the community by sharing the knowledge with everyone who is in the quest for it. Working as a Software Engineer, I have keen interest in working on new technologies. Being the facilitator of the #IamRemarkable initiative by Google, I always give my best to motivate people around me. Despite busy schedules, I never miss an opportunity to help, travel and eat.",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/varshajaiswal/",
+            "twitter": "https://twitter.com/_varshajaiswal_"
+        },
+        "sessionId": [
+            110
+        ]
+    },
+    {
+        "id": "120",
+        "name":"Ashok Vishwakarma",
+        "company": {
+            "designation":"Principal Architect",
+            "name":"Naukri.com"
+        },
+        "image": "ashok.jpg",
+        "bio": "Driving technology for Products used by Millions of people • 13+ Years of Experience • Organizer @itsAllAboutWeb • @GoogleDevExpert • #Writes at @Medium • #Entrepreneur • #TechEnthusiast • #Speaker",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/ashokvishwakarmaa",
+            "twitter": "https://twitter.com/_avishwakarma"
+        },
+        "sessionId": [
+            111
+        ]
+    },
+    {
+        "id": "121",
+        "name":"Vrijraj Singh",
+        "company": {
+            "designation":"Organizer",
+            "name":"GDG Jalandhar"
+        },
+        "image": "vrijraj.jpg",
+        "bio": "Vrijraj is a front-end developer by profession and a community champion by passion. He is an organizer for GDG Jalandhar and a Google Developers Expert for Firebase and Web Technologies. He has given 50+ talks and workshops for communities over the past 5 years. His areas of expertise are around Web, Firebase, Google Cloud Platform, and UI/UX Design. He is always eager to learn new technologies and develop solutions based on them. He enjoys mentoring people and  nurturing communities. Outside work, he is a foodie and enjoys watching YouTube videos.",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/vrijraj",
+            "twitter": "https://twitter.com/VrijrajSingh"
+        },
+        "sessionId": [
+            111
+        ]
+    },
+    {
+        "id": "122",
+        "name":"Santosh Yadav",
+        "company": {
+            "designation":"Software Consultant",
+            "name":"Consultant"
+        },
+        "image": "santosh.jpg",
+        "bio": "Santosh is a GDE for Angular and loves contributing to Angular and NgRx. He works as a software consultant and writes for indepth.dev and mentors for DotNetTricks. He is also the author of the Ngx-Builders package and part of NestJsAddOns core Team. He is also running Tech Talks with Santosh talk show, where he invites the industry experts to discuss different technologies.",
+        "social": {
+            "linkedin": "linkedin.com/in/yadavsantosh",
+            "twitter": "https://twitter.com/SantoshYadavDev"
+        },
+        "sessionId": [
+            112
+        ]
     }
 ]

@@ -19,14 +19,15 @@
           >#DevFestIndia</a>
           for the updates and news.
         </p>
-        <v-tooltip bottom>
+        <v-tooltip bottom >
           <template v-slot:activator="{ on }">
             <v-btn
               text
               icon
-              x-large
+              style="background:#0005DF"
+              class="mx-2"
               v-on="on"
-              color="#00acee"
+              color="white"
               rel="noreferrer"
               href="https://twitter.com/DevfestIndia"
               target="_blank"
@@ -43,8 +44,9 @@
               <v-btn
                 text
                 icon
-                x-large
-                color="#FF0000"
+                style="background:#0005DF"
+                class="mx-2"
+                color="white"
                 v-on="on"
                 rel="noreferrer"
                 href="https://www.youtube.com/channel/UCJsZoFDt7rfxPBI1esak8JQ/"
@@ -62,9 +64,10 @@
               <v-btn
                 text
                 icon
-                x-large
                 v-on="on"
-                color="#405DE6"
+                style="background:#0005DF"
+                class="mx-2"
+                color="white"
                 rel="noreferrer"
                 href="https://www.instagram.com/devfestindia/"
                 target="_blank"
