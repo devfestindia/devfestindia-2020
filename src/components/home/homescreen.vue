@@ -1,7 +1,7 @@
 <template>
   <v-container fluid class="py-0 ">
     <!-- Desktop Screen -->
-    <v-row justify="center" align="center" class="hidden-sm-and-down py-8">
+  <v-row justify="center" align="center" class="p py-8">
       <v-col md="6" cols="12" class="text-center">
         <v-img
           class="white"

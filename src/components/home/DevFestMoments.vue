@@ -1,7 +1,7 @@
 <template>
-  <v-container fluid class="py-10">
+  <v-container fluid class="py-10 mx-0 px-2">
     <v-row justify="center" align="center">
-      <v-col md="12" lg="12" cols="12" class="">
+      <v-col md="12" lg="12" cols="12">
         <p
           class="google-font mb-2"
           style="font-size: 3.5vh;line-height: 1.22;font-weight:500"
@@ -14,8 +14,7 @@
       </v-col>
     </v-row>
     <v-row>
-      <v-col md="4" lg="3" v-for="(item, index) in contents" :key="index">
-        
+      <v-col md="4" lg="3" cols="12" v-for="(item, index) in contents" :key="index" >
           <v-img
             :src="item.image"
             :lazy-src="item.image"
@@ -44,6 +43,8 @@
                   x-small
                   color="white"
                   text
+                  target="_blank"
+                  :href="item.link"
                   style="padding-left:0;font-weight: bold;"
                 >
                   <v-icon x-small left>
@@ -105,24 +106,24 @@ export default {
     model: null,
     contents:[
         {
-            "community":"Community 1",
-            "link":"",
+            "community":" GDG | Andhra Pradesh",
+            "link":"https://youtu.be/-GceZHG-4gQ",
             "image":"https://img.youtube.com/vi/Jdxw5E7sDwE/mqdefault.jpg"
         },
         {
-            "community":"Community 2",
-            "link":"",
-            "image":"https://img.youtube.com/vi/Jdxw5E7sDwE/mqdefault.jpg"
+            "community":"GDG | New Delhi",
+            "link":"https://youtu.be/dZoS5WEHgNo",
+            "image":"https://img.youtube.com/vi/dZoS5WEHgNo/mqdefault.jpg"
         },
         {
-            "community":"Community 3",
-            "link":"",
-            "image":"https://img.youtube.com/vi/Jdxw5E7sDwE/mqdefault.jpg"
+            "community":"GDG | Punjab",
+            "link":"https://youtu.be/NPd6ENnKDbc",
+            "image":"https://img.youtube.com/vi/NPd6ENnKDbc/mqdefault.jpg"
         },
         {
-            "community":"Community 4",
-            "link":"",
-            "image":"https://img.youtube.com/vi/Jdxw5E7sDwE/mqdefault.jpg"
+            "community":"GDG | Tamil Nadu",
+            "link":"https://youtu.be/qs8w9BjhXjE",
+            "image":"https://img.youtube.com/vi/qs8w9BjhXjE/mqdefault.jpg"
         }
     ]
   })

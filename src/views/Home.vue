@@ -10,7 +10,7 @@
           <Theme class="mt-md-8 mb-md-0 my-xs-0 py-xs-0" />
           <Stats class="mt-md-8 mb-md-0 my-xs-0 py-xs-0"/>
           <DevFestMoments class="mt-md-8 mb-md-0 my-xs-0 py-xs-0"/>
-          <card class="mt-md-8 mb-md-0 my-xs-0 py-xs-0"/>
+          <card class="mt-md-8 mb-md-0 my-xs-0 py-xs-0 hidden-sm-and-down"/>
           
 
         </v-col>

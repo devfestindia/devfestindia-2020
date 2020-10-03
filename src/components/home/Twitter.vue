@@ -1,9 +1,9 @@
 <template>
-  <v-container fluid class="my-0">
-    <v-row justify="center" align="center">
-      <v-col md="10">
+  <v-container fluid class="ma-0 pa-0 px-2">
+    <v-row justify="center" align="center" class="pa-0">
+      <v-col md="10" cols="12" class="ma-0 pa-0">
         <p
-          class="google-font mb-2"
+          class="google-font mb-2 ml-3"
           style="font-size: 3.5vh;line-height: 1.22;font-weight:500"
         >
           #DevFest Twets
