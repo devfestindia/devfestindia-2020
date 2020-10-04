@@ -10,7 +10,7 @@
     "stats":[
         {
             "name":"Registrations",
-            "count":"16k+"
+        "count":"17k+"
         },
         {
             "name":"Communities",
@@ -44,27 +44,27 @@
     "theme":[
         {
             "name":"Mobile",
-            "content":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore etundened",
+            "content":"We will  build a clone of BookMyShow App using UI basics, loading dynamic content from the server and how to make the app available run offline.",
             "img":"Mobile.svg"
         },
         {
             "name":"Web",
-            "content":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore etundened",
+            "content":"We will build a cute Pokemon website from scratch. It'd be more than just a plain site. It'd be Fast, Integrated, Reliable and  Engaging Progressive Web App deployed over FIRE base!",
             "img":"Web.svg"
         },
         {
             "name":"Cloud",
-            "content":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore etundened",
+            "content":"We will take you through a tour of GCP followed by  deploying applications and analysing data on with Big Query and ML, all on Google Cloud.",
             "img":"Cloud.svg"
         },
         {
             "name":"Machine Learning",
-            "content":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore etundened",
+            "content":"We will build an end to end predictive model pipeline using colab for starters then will learn to use DevOps for Machine Learning and conclude it with an image classification case study to classify tumors in health reports using TensorFlow.",
             "img":"MachineLearning.svg"
         },
         {
-            "name":"Flutter for Web",
-            "content":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore etundened",
+            "name":"Cross Platform",
+            "content":"We will build a cross platform application for mobile and web covering the concepts of  end to end UI development with responsive layouts, navigation concepts and API management.",
             "img":"FlutterWeb.svg"
         }
     ]

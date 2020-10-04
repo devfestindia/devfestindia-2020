@@ -1,19 +1,18 @@
 <template>
   <v-container fluid class="py-10 my-10">
     <v-row justify="start" align="start">
-      <v-col md="4" lg="4" sm="12" cols="12" class="mt-2">
+      <v-col md="3" lg="3" sm="12" cols="12" class="mt-2">
         <p
           class="google-font mb-2"
           style="font-size: 3.5vh;line-height: 1.22;font-weight:500"
         >
           Explore Tracks
         </p>
-        <p class="google-font" style="font-size: 2.0vh">
-          From beginners to experts, coders to creatives, DevFest India
-          conference is for everyone.
+        <p class="google-font" style="font-size: 110%">
+          Learn how to build the next generation of apps with more than 25 technical sessions by developers and engineers.
         </p>
       </v-col>
-      <v-col md="8" lg="8" sm="12" cols="12" class="">
+      <v-col md="9" lg="9" sm="12" cols="12" class="">
         <v-container fluid class="pa-0 ma-0">
           <v-row>
             <v-col

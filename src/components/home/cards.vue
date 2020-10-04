@@ -9,7 +9,7 @@
           DevFest Shots
         </p>
         <p class="google-font" style="font-size: 2.0vh">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis repellendus, impedit quae animi corrupti reprehenderit odio ipsa magni aliquam error fugiat exercitationem obcaecati adipisci ducimus illum repudiandae nisi numquam laborum.
+         DevFest is a tech fest & welcoming event, made for and run by developers to bring community-led technical learning to energize your mind and put on an even better event.
         </p>
       </v-col>
     </v-row>
@@ -17,29 +17,63 @@
       <v-col md="12">
         <v-slide-group
           v-model="model"
-          prev-icon="mdi-arrow-left-bold-circle-outline"
-          next-icon="mdi-arrow-right-bold-circle-outline"
           class="pa-4"
-          center-active
+          active-class="success"
           show-arrows
         >
           <v-slide-item
             v-for="(item, index) in imgs"
             :key="index"
-            class="red"
-            style="height:auto"
+            v-slot:default="{ active, toggle }"
           >
             <v-img
               class="ma-4"
+              :color="active ? undefined : 'grey lighten-1'"
               :src="item.img"
-              style="height:auto"
+              style="width: 1%"
+              @click="toggle"
             ></v-img>
-            <!-- </d> -->
+
+            <!-- <v-card
+          :color="active ? undefined : 'grey lighten-1'"
+          class="ma-4"
+          height="200"
+          width="100"
+          @click="toggle"
+        >
+          <v-row
+            class="fill-height"
+            align="center"
+            justify="center"
+          >
+            <v-scale-transition>
+              <v-icon
+                v-if="active"
+                color="white"
+                size="48"
+                v-text="'mdi-close-circle-outline'"
+              ></v-icon>
+            </v-scale-transition>
+          </v-row>
+        </v-card> -->
           </v-slide-item>
         </v-slide-group>
       </v-col>
     </v-row>
   </v-container>
+
+  <!-- <v-slide-item
+            v-for="(item, index) in imgs"
+            :key="index"
+            v-slot:default="{ active }"
+          >
+            <v-img
+              class="ma-4"
+              :color="active ? undefined : 'grey lighten-1'"
+              :src="item.img"
+              style="height:auto"
+            ></v-img>
+          </v-slide-item> -->
 </template>
 
 <script>
@@ -51,7 +85,6 @@ export default {
         name: "",
         img:
           "https://storage.googleapis.com/io-19-assets/images/recap/carousels/carousel-1_1x.jpg",
-        
       },
       {
         name: "",

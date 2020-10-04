@@ -11,7 +11,9 @@
             <v-row justify="start" align="center" class="">
               <v-col md="12" class="text-center" >
                 <p class="google-font mb-0" style="font-size: 3.5vh;line-height: 1.22;font-weight:500;color:#0005DF">Check out our speaker lineup</p>
-                <p class="google-font" style="width:80%;margin-left:auto;margin-right:auto;font-size:110%">Whatever your challenge, see how these leaders on the front line of transformation, innovation, and exploration can help solve it with you. Get to know the inspiring minds right here.</p>
+                <p class="google-font" style="width:80%;margin-left:auto;margin-right:auto;font-size:110%">Interested in Android, Flutter, Web, Cloud, ML technologies? <br>
+                  Join the vibrant and divrse set of speakers where you can learn, network, share knowledge and enjoy the experience.
+                </p>
               </v-col>
             </v-row>
           </v-container>
@@ -37,16 +39,15 @@
               >
                 <Speakers :data="item" :SessionDetails="SessionDetails" />
               </v-col>
-              <!-- <ComingSoon class="text-center" /> -->
             </v-row>
           </v-container>
         </v-col>
       </v-row>
-      <v-row justify="center" align="center">
+      <!-- <v-row justify="center" align="center">
         <v-col md="8" xl="7">
           <SocialShare/>
         </v-col>
-      </v-row>
+      </v-row> -->
     </v-container>
   </v-main>
 </template>
@@ -58,8 +59,7 @@ export default {
   name: "SpeakersPage",
   components: {
     Speakers:()=>import('@/components/speakers/SpeakerDetails'),
-    // ComingSoon:()=>import('@/components/common/ComingSoon'),
-    SocialShare: () => import("@/components/common/SocialInfo")
+    // SocialShare: () => import("@/components/common/SocialInfo")
   },
   data: () => ({
     SpeakersData: [],

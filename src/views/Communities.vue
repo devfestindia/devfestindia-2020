@@ -11,7 +11,7 @@
                 </p>
                 <p class="google-font" style="font-size:120%">
                   Communities from each chapter, all over the India have
-                  gethered together to make India DevFest a success. Locate your
+                  gathered together to make India DevFest a success. Locate your
                   nearest google developer group and join them right here!
                 </p>
               </v-col>

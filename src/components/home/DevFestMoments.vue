@@ -9,7 +9,7 @@
           DevFest Moments
         </p>
         <p class="google-font" style="font-size: 2.0vh">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis repellendus, impedit quae animi corrupti reprehenderit odio ipsa magni aliquam error fugiat exercitationem obcaecati adipisci ducimus illum repudiandae nisi numquam laborum.
+         The DevFest is powered by a shared belief that when developers come together to exchange ideas, amazing things can happen! And here are our community trails having tons of amazing people, sessions, knowledge and just that spirit.
         </p>
       </v-col>
     </v-row>

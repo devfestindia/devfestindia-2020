@@ -3,15 +3,15 @@
     <v-dialog v-model="dialog" width="500">
       <template v-slot:activator="{ on }">
         <v-btn icon text v-on="on" aria-label="Push Notification">
-          <v-icon>mdi-bell</v-icon>
+          <v-icon>mdi-bell-outline</v-icon>
         </v-btn>
       </template>
 
       <v-card>
-        <v-card-title>Allow Us to send Push Notification</v-card-title>
+        <v-card-title>Allow us to send Notification</v-card-title>
 
         <v-card-text>
-          <p>We never spam you by sending unnecessary Push Notification.</p>
+          <p>We never spam you by sending unnecessary Notification.</p>
           <p>
             <span class="font-weight-bold text--primary">Status:</span>
             {{ token }}
