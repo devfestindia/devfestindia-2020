@@ -4,8 +4,8 @@
       <div v-on="on" style="cursor: pointer;" class="py-3 ma-1 fill-height">
         <p style="font-size:130%" class="mb-0 google-font">{{ data.title }}</p>
         <!-- <p style="font-size:100%" class="mb-0 google-font">{{data.description}}</p> -->
-        <!-- <v-chip class="mt-2 mr-2" label small>{{ data.track }}</v-chip> -->
-        <v-chip class="mt-2 mr-2" label small>{{ data.format }}</v-chip>
+        <v-chip class="mt-2 mr-2" label small>{{ data.track }}</v-chip>
+        <!-- <v-chip class="mt-2 mr-2" label small>{{ data.format }}</v-chip> -->
         <span v-for="(itemp, indexp) in speakers" :key="indexp">
           <v-chip class="mt-2 mr-2" outlined label small>
             <v-avatar left>

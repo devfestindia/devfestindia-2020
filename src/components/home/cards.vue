@@ -29,8 +29,8 @@
             <v-img
               class="ma-4"
               :color="active ? undefined : 'grey lighten-1'"
-              :src="item.img"
-              style="width: 1%"
+              :src="require('@/assets/img/2019/'+item.img)"
+              style="width: 10%"
               @click="toggle"
             ></v-img>
 
@@ -84,22 +84,27 @@ export default {
       {
         name: "",
         img:
-          "https://storage.googleapis.com/io-19-assets/images/recap/carousels/carousel-1_1x.jpg",
+          "1.jpg",
       },
       {
         name: "",
         img:
-          "https://storage.googleapis.com/io-19-assets/images/recap/carousels/carousel-2_1x.jpg",
+          "2.jpg",
       },
       {
         name: "",
         img:
-          "https://storage.googleapis.com/io-19-assets/images/recap/carousels/carousel-3_1x.jpg",
+          "3.jpg",
       },
       {
         name: "",
         img:
-          "https://storage.googleapis.com/io-19-assets/images/recap/carousels/carousel-4_1x.jpg",
+          "4.jpeg",
+      },
+      {
+        name: "",
+        img:
+          "5.jpeg",
       },
     ],
   }),

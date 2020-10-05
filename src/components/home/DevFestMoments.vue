@@ -10,7 +10,9 @@
         </p>
         <p class="google-font" style="font-size: 2.0vh">
          The DevFest is powered by a shared belief that when developers come together to exchange ideas, amazing things can happen! And here are our community trails having tons of amazing people, sessions, knowledge and just that spirit.
+         <a href="https://www.youtube.com/watch?v=i4C1s_bhYJs&list=PLlaYvYzhTrYkP9wuA32SW9Cz0f6g5JmFd" target="_blank" style="color:#0005DF">See More videos</a>
         </p>
+        
       </v-col>
     </v-row>
     <v-row>

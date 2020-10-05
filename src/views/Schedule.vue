@@ -35,16 +35,13 @@
                 slider-color="#0005DF"
               >
                 <v-tab href="#day1">
-                  July 9
+                  October 16
                 </v-tab>
                 <v-tab href="#day2">
-                  July 10
+                  October 17
                 </v-tab>
                 <v-tab href="#day3">
-                  July 11
-                </v-tab>
-                <v-tab href="#day4">
-                  July 12
+                  October 18
                 </v-tab>
               </v-tabs>
             </template>
@@ -64,10 +61,10 @@
               <v-container>
                 <v-row>
                   <v-col>
-                    <h3 class="google-font">Performance & Developer Tools</h3>
+                    <!-- <h3 class="google-font">Performance & Developer Tools</h3>
                     <p class="google-font" style="text-align:justify;">
                       Runtime performance is how your page performs when it is running, as opposed to loading. Users expect pages to be interactive and smooth. Each stage in the pixel pipeline represents an opportunity to introduce jank. Learn about tools and strategies to identify and fix common problems that slow down runtime performance.
-                    </p>
+                    </p> -->
               <!-- <ComingSoon /> -->
 
                     <ScheduleDetails :data="ScheduleData[0]" />
@@ -79,10 +76,10 @@
               <v-container>
                 <v-row>
                   <v-col>
-                    <h3 class="google-font">Front-end & AMP</h3>
+                    <!-- <h3 class="google-font">Front-end & AMP</h3>
                     <p class="google-font" style="text-align:justify;">
                       AMP is an open-source HTML framework that provides a straightforward way to create web pages that are fast, smooth-loading and prioritize the user-experience above all else. Can't believe it? Try it out.
-                    </p>
+                    </p> -->
               <!-- <ComingSoon /> -->
 
                     <ScheduleDetails :data="ScheduleData[1]" />
@@ -94,31 +91,15 @@
               <v-container>
                 <v-row>
                   <v-col>
-                    <h3 class="google-font">PWA & FUGU</h3>
+                    <!-- <h3 class="google-font">PWA & FUGU</h3>
                     <p class="google-font" style="text-align:justify;">
                      Progressive Web Apps are web apps that use emerging web browser APIs and features along with traditional progressive enhancement strategy to bring a native app-like user experience to cross-platform web applications.
                      <br>
                      Project Fugu 🐡 is an effort to close gaps in the web's capabilities enabling new classes of applications to run on the web. The developer-friendly landing page of the project is <a href="https://web.dev/fugu-status/" rel="noreferrer" target="_blank" style="text-decoration:none;">https://web.dev/fugu-status/</a>.
-                    </p>
+                    </p> -->
               <!-- <ComingSoon /> -->
 
                     <ScheduleDetails :data="ScheduleData[2]" />
-                  </v-col>
-                </v-row>
-              </v-container>
-            </v-tab-item>
-            <v-tab-item value="day4" :class="$vuetify.theme.dark ? 'black' : 'white'">
-              <v-container>
-                <v-row>
-                  <v-col>
-                    <h3 class="google-font">Privacy & UX</h3>
-                    <p class="google-font" style="text-align:justify;">
-                      Taking best practices from the field of user experience and human-centered design and applying them to data collection and privacy interactions. <br>
-                      Once you start looking for ways to optimize your opt-ins or reduce the bounce rates that have increased due to your consent experience, you’re already starting to think of the Privacy UX.
-                    </p>
-              <!-- <ComingSoon /> -->
-
-                    <ScheduleDetails :data="ScheduleData[3]" />
                   </v-col>
                 </v-row>
               </v-container>

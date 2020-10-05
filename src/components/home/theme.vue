@@ -9,7 +9,7 @@
           Explore Tracks
         </p>
         <p class="google-font" style="font-size: 110%">
-          Learn how to build the next generation of apps with more than 25 technical sessions by developers and engineers.
+          #YouCanBeAnArtistToo as you follow the code demonstration by our expert speakers
         </p>
       </v-col>
       <v-col md="9" lg="9" sm="12" cols="12" class="">

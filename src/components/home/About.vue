@@ -18,9 +18,12 @@
         </v-img>
       </v-col>
       <v-col md="6" cols="12" class="py-7" > 
-        <p class="google-font" style="font-size: 2.0vh;line-height: 1.22;font-weight:300;line-height: 1.6;">As the world is coming to terms with this new way of life, we communities are also adopting new formats and methods to bring you all India’s biggest developers conference DevFest India 2020 online with talks, activities, fun & much more.</p>
+        <p class="google-font" style="font-size: 110%;line-height: 1.22;font-weight:300;line-height: 1.6;">As the world is coming to terms with this new way of life, we communities are also adopting new formats and methods to bring you all India’s biggest Code Concert : DevFest India 2020 with code demonstrations, activities, fun & much more.</p>
 
-        <p class="google-font" style="font-size: 2.0vh;line-height: 1.22;font-weight:300;line-height: 1.6;">From beginners to experts, coders to creatives, DevFest India 2020 conference is for everyone, so come along, share your knowledge and learn something new.</p>
+        <p class="google-font" style="font-size: 110%;line-height: 1.22;font-weight:300;line-height: 1.6;">From beginners to experts, DevFest India 2020 Code Concert is for everyone, so come along, share your knowledge and learn something new.
+          <br><br>
+          Certificate of participation will be provided per track at the end of third day!
+        </p>
 
         <v-btn
           depressed

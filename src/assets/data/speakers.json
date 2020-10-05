@@ -181,7 +181,7 @@
         "bio": "",
         "social": {
             "linkedin": "https://linkedin.com/in/shweta-bhatt-1a930b12/",
-            "twitter": "https://www.linkedin.com/in/sathishvj/"
+            "twitter": ""
         },
         "sessionId": [
             104
@@ -208,8 +208,8 @@
         "id": "113",
         "name":"Sathish VJ",
         "company": {
-            "designation":"",
-            "name":""
+            "designation":"GDE For GCP",
+            "name":"GDE"
         },
         "image": "sathishvj.jpg",
         "bio": "",
@@ -372,6 +372,74 @@
         },
         "sessionId": [
             112
+        ]
+    },
+    {
+        "id": "123",
+        "name":"Kamal Shree",
+        "company": {
+            "designation":"Freelancer, Youtuber",
+            "name":"Whatsupcoders"
+        },
+        "image": "kamal.png",
+        "bio": "",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/kamalshree/",
+            "twitter": "https://twitter.com/whatsupcoders"
+        },
+        "sessionId": [
+            113
+        ]
+    },
+    {
+        "id": "124",
+        "name":"Pooja Bhaumik",
+        "company": {
+            "designation":"Senior Engineer",
+            "name":"Bounceshare"
+        },
+        "image": "pooja.jpg",
+        "bio": "",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/poojab26/",
+            "twitter": "https://twitter.com/pblead26"
+        },
+        "sessionId": [
+            113
+        ]
+    },
+    {
+        "id": "125",
+        "name":"Pawan Kumar",
+        "company": {
+            "designation":"Head of Mobile Engineering ",
+            "name":"Frontier"
+        },
+        "image": "pawan.jpg",
+        "bio": "",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/imthepk",
+            "twitter": "https://twitter.com/imthepk"
+        },
+        "sessionId": [
+            114
+        ]
+    },
+    {
+        "id": "126",
+        "name":"Deven Joshi",
+        "company": {
+            "designation":"Flutter Developer",
+            "name":"Stream"
+        },
+        "image": "deven.jpg",
+        "bio": "",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/deven-joshi-815725b8/",
+            "twitter": "https://twitter.com/DevenJoshi7"
+        },
+        "sessionId": [
+            114
         ]
     }
 ]

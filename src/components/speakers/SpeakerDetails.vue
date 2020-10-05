@@ -72,6 +72,13 @@
                               class="mt-2 mb-0"
                               x-small
                             >{{ item.format }}</v-chip>
+                            <v-chip
+                              color="#00BFA5"
+                              label
+                              outlined
+                              class="mt-2 mb-0 ml-2"
+                              x-small
+                            >{{ item.track }}</v-chip>
                           </v-list-item-subtitle>
                         </v-list-item-content>
                       </v-list-item>

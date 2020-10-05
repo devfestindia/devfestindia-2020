@@ -10,7 +10,7 @@
     "stats":[
         {
             "name":"Registrations",
-        "count":"17k+"
+        "count":"19k+"
         },
         {
             "name":"Communities",
@@ -59,12 +59,12 @@
         },
         {
             "name":"Machine Learning",
-            "content":"We will build an end to end predictive model pipeline using colab for starters then will learn to use DevOps for Machine Learning and conclude it with an image classification case study to classify tumors in health reports using TensorFlow.",
+            "content":"We will build an end to end predictive model pipeline using colab then will learn to use DevOps for ML and conclude it with an image classification case study to classify tumors in health reports using TensorFlow",
             "img":"MachineLearning.svg"
         },
         {
             "name":"Cross Platform",
-            "content":"We will build a cross platform application for mobile and web covering the concepts of  end to end UI development with responsive layouts, navigation concepts and API management.",
+            "content":"We will build a cross-platform application covering the concepts of UI development with responsive layouts, navigation concepts and API management.",
             "img":"FlutterWeb.svg"
         }
     ]

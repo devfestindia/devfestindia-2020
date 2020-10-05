@@ -14,15 +14,15 @@ Vue.use(VueRouter)
       color: 'white'
     }
   },
-  // {
-  //   path: '/schedule',
-  //   name: 'Schedule',
-  //   component: () => import(/* webpackChunkName: "agenda" */ '../views/Schedule.vue'),
-  //   meta: {
-  //     title: 'Schedule | DevFest India',
-  //     color: 'white'
-  //   }
-  // },
+  {
+    path: '/schedule',
+    name: 'Schedule',
+    component: () => import(/* webpackChunkName: "agenda" */ '../views/Schedule.vue'),
+    meta: {
+      title: 'Schedule | DevFest India',
+      color: 'white'
+    }
+  },
   {
     path: '/community-guidelines',
     name: 'Community Guidelines',

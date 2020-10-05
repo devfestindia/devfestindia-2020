@@ -16,15 +16,15 @@ export default new Vuex.Store({
           showBottomNav: true,
         },
       },
-      // {
-      //   text: "Schedule",
-      //   to: "/schedule",
-      //   icon: 'mdi-format-float-left',
-      //   meta: {
-      //     showToolbar: true,
-      //     showBottomNav: true,
-      //   },
-      // },
+      {
+        text: "Schedule",
+        to: "/schedule",
+        icon: 'mdi-format-float-left',
+        meta: {
+          showToolbar: true,
+          showBottomNav: true,
+        },
+      },
       {
         text: "Speakers",
         to: "/speakers",

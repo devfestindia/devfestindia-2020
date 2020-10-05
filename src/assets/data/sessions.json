@@ -10,7 +10,7 @@
         "date": "October 16th, 2020",
         "timeDuration": "45",
         "speakers": [
-            
+            104, 106
         ]
     },
     {
@@ -24,6 +24,7 @@
         "date": "October 17th, 2020",
         "timeDuration": "30",
         "speakers": [
+            103, 105
         ]
     },
     {
@@ -37,7 +38,7 @@
         "date": "October 18th, 2020",
         "timeDuration": "30",
         "speakers": [
-            
+            101,102
         ]
     },
     {
@@ -51,7 +52,7 @@
         "date": "October 16th, 2020",
         "timeDuration": "30",
         "speakers": [
-            111
+            111,109
         ]
     },
     {
@@ -65,7 +66,7 @@
         "date": "October 17th, 2020",
         "timeDuration": "30",
         "speakers": [
-            112
+            112, 110
         ]
     },
     {
@@ -79,48 +80,49 @@
         "date": "October 18th, 2020",
         "timeDuration": "30",
         "speakers": [
+            107, 108
         ]
     },
     {
         "id": "107",
         "slide":"",
         "title":"Cloud 101: Every Cloud App Starts Here",
-        "description":"",
+        "description":"Google Cloud Platform is Google’s attempt at bringing the best of its technology and experience in building large, globally scalable applications that touch billions of lives everyday to the public domain. Join Sathish VJ as he simplifies complex concepts such as Network, Load Balancing, Storage, CDN, Firewalls and IAM for the everyday developer and walks you through the essentials of cloud computing along with everything you need to get started on Google Cloud Platform.",
         "track": "Cloud",
         "link": "",
         "format": "Day 1",
         "date": "October 16th, 2020",
         "timeDuration": "30",
         "speakers": [
-            
+            113
         ]
     },
     {
         "id": "108",
         "slide":"",
         "title":"Cloud 201: Deploy your Apps to Google Cloud",
-        "description":"",
+        "description":"App Engine, Google Cloud’s first product brought serverless to the world back in 2008, well before the term ‘serverless’ was cool. Building on the same principles, Google introduced Cloud Run and Cloud Build during Google Cloud Next’19, its annual conference for cloud computing allowing for serverless containers and serverless deployments. Watch Shilpa Garg and Dharmesh Vaya as they demonstrate how to take an app to the world using an end-to-end serverless deployment pipeline.",
         "track": "Cloud",
         "link": "",
         "format": "Day 2",
         "date": "October 17th, 2020",
         "timeDuration": "30",
         "speakers": [
-            
+            114,115
         ]
     },
     {
         "id": "109",
         "slide":"",
         "title":"Cloud 301: Analyzing Big Data on Google Cloud",
-        "description":"",
+        "description":"BigQuery is one such product of Google’s data excellence. With over a decade of experience building a mature enterprise-ready data warehouse, BigQuery is a fan favourite for data folks across the globe. Simply bring your data from as many data sources and start turning it into insights in seconds using Standard ANSI SQL. The love data science community has shown to BigQuery reflects in the fact that Google extended BigQuery from just a simple data warehousing solution to a full fledged tool with ML, GIS analytics, ETL and BI capabilities. Not only users can now analyse petabytes of data in seconds but also build machine learning models on top using popular algorithms without switching to another console or exporting data outside to a secondary storage. Catch Maitreyi KV and Rushabh Vasa as they take you through a data science experience, the Google way.",
         "track": "Cloud",
         "link": "",
         "format": "Day 3",
         "date": "October 18th, 2020",
         "timeDuration": "30",
         "speakers": [
-            
+            116, 117
         ]
     },
     {
@@ -134,7 +136,7 @@
         "date": "October 16th, 2020",
         "timeDuration": "30",
         "speakers": [
-            
+            118, 119
         ]
     },
     {
@@ -148,7 +150,7 @@
         "date": "October 17th, 2020",
         "timeDuration": "30",
         "speakers": [
-            
+            120, 121
         ]
     },
     {
@@ -160,9 +162,455 @@
         "link": "",
         "format": "Day 3",
         "date": "October 18th, 2020",
+        "timeDuration": "45",
+        "speakers": [
+            122
+        ]
+    },
+    {
+        "id": "113",
+        "slide":"",
+        "title":"101: Flutter app for everyone",
+        "description":"",
+        "track": "Web",
+        "link": "",
+        "format": "Day 2",
+        "date": "October 17th, 2020",
+        "timeDuration": "45",
+        "speakers": [
+            123, 124
+        ]
+    },
+    {
+        "id": "114",
+        "slide":"",
+        "title":"201: Flutter app for everyone",
+        "description":"",
+        "track": "Web",
+        "link": "",
+        "format": "Day 3",
+        "date": "October 18th, 2020",
+        "timeDuration": "30",
+        "speakers": [
+            125,126
+        ]
+    },
+    {
+        "id": "115",
+        "slide":"",
+        "title":"Welcome Keynote",
+        "description":"Welcome Keynote",
+        "track": "General",
+        "link": "",
+        "format": "Day 1",
+        "date": "October 16th, 2020",
         "timeDuration": "30",
         "speakers": [
             
+        ]
+    },
+    {
+        "id": "116",
+        "slide":"",
+        "title":"ML : Q+A",
+        "description":"",
+        "track": "ML",
+        "link": "",
+        "format": "Day 1",
+        "date": "October 16th, 2020",
+        "timeDuration": "10",
+        "speakers": [
+            111,109
+        ]
+    },
+    {
+        "id": "117",
+        "slide":"",
+        "title":"Ice Breakers",
+        "description":"",
+        "track": "General",
+        "link": "",
+        "format": "Day 1",
+        "date": "October 16th, 2020",
+        "timeDuration": "5",
+        "speakers": [
+        ]
+    },
+    {
+        "id": "118",
+        "slide":"",
+        "title":"Mobile : Q+A",
+        "description":"",
+        "track": "Mobile",
+        "link": "",
+        "format": "Day 1",
+        "date": "October 16th, 2020",
+        "timeDuration": "10",
+        "speakers": [
+            104,106
+        ]
+    },
+    {
+        "id": "119",
+        "slide":"",
+        "title":"Ice Breakers",
+        "description":"",
+        "track": "General",
+        "link": "",
+        "format": "Day 1",
+        "date": "October 16th, 2020",
+        "timeDuration": "5",
+        "speakers": [
+        ]
+    },
+    {
+        "id": "120",
+        "slide":"",
+        "title":"Panel Discussion",
+        "description":"",
+        "track": "General",
+        "link": "",
+        "format": "Day 1",
+        "date": "October 16th, 2020",
+        "timeDuration": "40",
+        "speakers": [
+        ]
+    },
+    {
+        "id": "121",
+        "slide":"",
+        "title":"Ice Breakers",
+        "description":"",
+        "track": "General",
+        "link": "",
+        "format": "Day 1",
+        "date": "October 16th, 2020",
+        "timeDuration": "20",
+        "speakers": [
+        ]
+    },
+    {
+        "id": "122",
+        "slide":"",
+        "title":"Web : Q+A",
+        "description":"",
+        "track": "Web",
+        "link": "",
+        "format": "Day 1",
+        "date": "October 16th, 2020",
+        "timeDuration": "10",
+        "speakers": [
+            118, 119
+        ]
+    },
+    {
+        "id": "123",
+        "slide":"",
+        "title":"Ice Breakers",
+        "description":"",
+        "track": "General",
+        "link": "",
+        "format": "Day 1",
+        "date": "October 16th, 2020",
+        "timeDuration": "5",
+        "speakers": [
+        ]
+    },
+    {
+        "id": "124",
+        "slide":"",
+        "title":"Cloud : Q+A",
+        "description":"",
+        "track": "Cloud",
+        "link": "",
+        "format": "Day 1",
+        "date": "October 16th, 2020",
+        "timeDuration": "10",
+        "speakers": [
+            113
+        ]
+    },
+    {
+        "id": "125",
+        "slide":"",
+        "title":"Closing Note",
+        "description":"",
+        "track": "General",
+        "link": "",
+        "format": "Day 1",
+        "date": "October 16th, 2020",
+        "timeDuration": "5",
+        "speakers": [
+        ]
+    },
+    {
+        "id": "126",
+        "slide":"",
+        "title":"ML : Q+A",
+        "description":"",
+        "track": "ML",
+        "link": "",
+        "format": "Day 2",
+        "date": "October 17th, 2020",
+        "timeDuration": "10",
+        "speakers": [
+            112,110
+        ]
+    },
+    {
+        "id": "127",
+        "slide":"",
+        "title":"Ice Breakers",
+        "description":"",
+        "track": "General",
+        "link": "",
+        "format": "Day 2",
+        "date": "October 16th, 2020",
+        "timeDuration": "5",
+        "speakers": [
+        ]
+    },
+    {
+        "id": "128",
+        "slide":"",
+        "title":"Mobile : Q+A",
+        "description":"",
+        "track": "Mobile",
+        "link": "",
+        "format": "Day 2",
+        "date": "October 17th, 2020",
+        "timeDuration": "10",
+        "speakers": [
+            103, 105
+        ]
+    },
+    {
+        "id": "129",
+        "slide":"",
+        "title":"Ice Breakers",
+        "description":"",
+        "track": "General",
+        "link": "",
+        "format": "Day 2",
+        "date": "October 16th, 2020",
+        "timeDuration": "5",
+        "speakers": [
+        ]
+    },
+    {
+        "id": "130",
+        "slide":"",
+        "title":"Flutter : Q+A",
+        "description":"",
+        "track": "Flutter",
+        "link": "",
+        "format": "Day 2",
+        "date": "October 17th, 2020",
+        "timeDuration": "10",
+        "speakers": [
+            123, 124
+        ]
+    },
+    {
+        "id": "131",
+        "slide":"",
+        "title":"Ice Breakers",
+        "description":"",
+        "track": "General",
+        "link": "",
+        "format": "Day 2",
+        "date": "October 16th, 2020",
+        "timeDuration": "5",
+        "speakers": [
+        ]
+    },
+    {
+        "id": "132",
+        "slide":"",
+        "title":"Web : Q+A",
+        "description":"",
+        "track": "Web",
+        "link": "",
+        "format": "Day 2",
+        "date": "October 17th, 2020",
+        "timeDuration": "10",
+        "speakers": [
+            120, 121
+        ]
+    },
+    {
+        "id": "133",
+        "slide":"",
+        "title":"Ice Breakers",
+        "description":"",
+        "track": "General",
+        "link": "",
+        "format": "Day 2",
+        "date": "October 16th, 2020",
+        "timeDuration": "5",
+        "speakers": [
+        ]
+    },
+    {
+        "id": "134",
+        "slide":"",
+        "title":"Cloud : Q+A",
+        "description":"",
+        "track": "Cloud",
+        "link": "",
+        "format": "Day 2",
+        "date": "October 17th, 2020",
+        "timeDuration": "10",
+        "speakers": [
+            114, 115
+        ]
+    },
+    {
+        "id": "135",
+        "slide":"",
+        "title":"Closing Note",
+        "description":"",
+        "track": "General",
+        "link": "",
+        "format": "Day 2",
+        "date": "October 17th, 2020",
+        "timeDuration": "5",
+        "speakers": [
+        ]
+    },
+    {
+        "id": "136",
+        "slide":"",
+        "title":"ML : Q+A",
+        "description":"",
+        "track": "ML",
+        "link": "",
+        "format": "Day 3",
+        "date": "October 18th, 2020",
+        "timeDuration": "10",
+        "speakers": [
+            107, 108
+        ]
+    },
+    {
+        "id": "137",
+        "slide":"",
+        "title":"Ice Breakers",
+        "description":"",
+        "track": "General",
+        "link": "",
+        "format": "Day 3",
+        "date": "October 18th, 2020",
+        "timeDuration": "5",
+        "speakers": [
+        ]
+    },
+    {
+        "id": "138",
+        "slide":"",
+        "title":"Mobile : Q+A",
+        "description":"",
+        "track": "Mobile",
+        "link": "",
+        "format": "Day 3",
+        "date": "October 18th, 2020",
+        "timeDuration": "10",
+        "speakers": [
+            101,102
+        ]
+    },
+    {
+        "id": "139",
+        "slide":"",
+        "title":"Ice Breakers",
+        "description":"",
+        "track": "General",
+        "link": "",
+        "format": "Day 3",
+        "date": "October 18th, 2020",
+        "timeDuration": "5",
+        "speakers": [
+        ]
+    },
+    {
+        "id": "140",
+        "slide":"",
+        "title":"Flutter : Q+A",
+        "description":"",
+        "track": "Flutter",
+        "link": "",
+        "format": "Day 3",
+        "date": "October 18th, 2020",
+        "timeDuration": "10",
+        "speakers": [
+            125,126
+        ]
+    },
+    {
+        "id": "141",
+        "slide":"",
+        "title":"Ice Breakers",
+        "description":"",
+        "track": "General",
+        "link": "",
+        "format": "Day 3",
+        "date": "October 18th, 2020",
+        "timeDuration": "5",
+        "speakers": [
+        ]
+    },
+    {
+        "id": "142",
+        "slide":"",
+        "title":"Web : Q+A",
+        "description":"",
+        "track": "Web",
+        "link": "",
+        "format": "Day 3",
+        "date": "October 18th, 2020",
+        "timeDuration": "10",
+        "speakers": [
+            122
+        ]
+    },
+    {
+        "id": "143",
+        "slide":"",
+        "title":"Ice Breakers",
+        "description":"",
+        "track": "General",
+        "link": "",
+        "format": "Day 3",
+        "date": "October 18th, 2020",
+        "timeDuration": "5",
+        "speakers": [
+        ]
+    },
+    {
+        "id": "144",
+        "slide":"",
+        "title":"Cloud : Q+A",
+        "description":"",
+        "track": "Cloud",
+        "link": "",
+        "format": "Day 3",
+        "date": "October 18th, 2020",
+        "timeDuration": "10",
+        "speakers": [
+            116,117
+        ]
+    },
+    {
+        "id": "145",
+        "slide":"",
+        "title":"Closing Note",
+        "description":"",
+        "track": "General",
+        "link": "",
+        "format": "Day 3",
+        "date": "October 18th, 2020",
+        "timeDuration": "5",
+        "speakers": [
         ]
     }
 
