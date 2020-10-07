@@ -24,13 +24,14 @@
           <v-slide-item
             v-for="(item, index) in imgs"
             :key="index"
+            style="height:400px"
             v-slot:default="{ active, toggle }"
           >
             <v-img
               class="ma-4"
               :color="active ? undefined : 'grey lighten-1'"
               :src="require('@/assets/img/2019/'+item.img)"
-              style="width: 10%"
+              style="width: 10%;"
               @click="toggle"
             ></v-img>
 
