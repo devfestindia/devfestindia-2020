@@ -6,7 +6,7 @@
           class="google-font mb-2 ml-3"
           style="font-size: 3.5vh;line-height: 1.22;font-weight:500"
         >
-          #DevFest Twets
+          #DevFest Tweets
         </p>
         <v-container fluid>
           <v-row>
