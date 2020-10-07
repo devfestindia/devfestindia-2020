@@ -76,7 +76,7 @@ export default new Vuex.Store({
         icon: "mdi-star",
         meta: {
           showToolbar: true,
-          showBottomNav: true,
+          showBottomNav: false,
         },
       },
       
