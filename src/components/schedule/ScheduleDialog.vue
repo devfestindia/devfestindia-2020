@@ -29,7 +29,7 @@
           <v-chip pill class="mt-2 mr-2" outlined small>
             <v-avatar left>
               <!-- <v-icon small>mdi-account-circle-outline</v-icon> -->
-               <img :src="getImgUrl(itemp.image)" />
+              <img :src="getImgUrl(itemp.image)" />
             </v-avatar>
             {{ itemp.name }}
           </v-chip>
@@ -188,7 +188,7 @@ export default {
       trackColors: {
         ML: { color: "#fbbc04", svg: "MachineLearning.svg" },
         General: {
-          color: "pink",
+          color: "#424242",
           icon: "mdi-account-supervisor-circle-outline",
         },
         Cloud: { color: "#eb4b3d", svg: "Cloud.svg" },
