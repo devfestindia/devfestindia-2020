@@ -9,10 +9,10 @@
       class="pa-0 my-0 "
     >
       <v-col md="2" cols="3" class="text-right my-0 py-0">
-        <p style="font-size:150%" class="mb-0 google-font">
-          {{ item.startTime }}
+        <p style="font-size:130%" class="mb-0 google-font">
+          {{ item.startTime }} PM
         </p>
-        <p style="font-size:80%" class="ma-0 google-font">{{ item.endTime }}</p>
+        <p style="font-size:80%" class="ma-0 google-font">{{ item.endTime }} PM</p>
         <p class="mt-1 google-font" style="font-size:70%">
           <b style="color:grey">GMT (+05:30)</b>
         </p>

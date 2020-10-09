@@ -18,15 +18,7 @@
               class="google-font my-5"
               style="font-size: 3.5vh; line-height: 1.22; font-weight: 500"
               >Schedules
-            </v-toolbar-title>
-            <template v-slot:extension>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Voluptatibus atque dolorum sequi ex cumque praesentium, quaerat
-                molestias? Earum quod libero sit veniam. Dolorem provident
-                quibusdam, necessitatibus laborum perspiciatis ipsam laudantium.
-              </p>
-            </template>
+            </v-toolbar-title>  
 
             <template v-slot:extension>
               <v-tabs

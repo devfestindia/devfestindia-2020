@@ -34,47 +34,11 @@
               style="width: 10%;"
               @click="toggle"
             ></v-img>
-
-            <!-- <v-card
-          :color="active ? undefined : 'grey lighten-1'"
-          class="ma-4"
-          height="200"
-          width="100"
-          @click="toggle"
-        >
-          <v-row
-            class="fill-height"
-            align="center"
-            justify="center"
-          >
-            <v-scale-transition>
-              <v-icon
-                v-if="active"
-                color="white"
-                size="48"
-                v-text="'mdi-close-circle-outline'"
-              ></v-icon>
-            </v-scale-transition>
-          </v-row>
-        </v-card> -->
           </v-slide-item>
         </v-slide-group>
       </v-col>
     </v-row>
   </v-container>
-
-  <!-- <v-slide-item
-            v-for="(item, index) in imgs"
-            :key="index"
-            v-slot:default="{ active }"
-          >
-            <v-img
-              class="ma-4"
-              :color="active ? undefined : 'grey lighten-1'"
-              :src="item.img"
-              style="height:auto"
-            ></v-img>
-          </v-slide-item> -->
 </template>
 
 <script>
@@ -85,7 +49,7 @@ export default {
       {
         name: "",
         img:
-          "1.jpg",
+          "3.jpg",
       },
       {
         name: "",
@@ -95,7 +59,7 @@ export default {
       {
         name: "",
         img:
-          "3.jpg",
+          "6.jpg",
       },
       {
         name: "",
