@@ -2,18 +2,21 @@
   <v-main class="">
     <v-container fluid>
       <v-row justify="start" align="center">
-        <v-col md="4" offset-md="1" offset-lg="1" lg="4" sm="11" cols="12">
+        <v-col md="10" offset-md="1" offset-lg="1" lg="10" sm="10" cols="12">
           <v-container class="mb-0 pb-0">
             <v-row class>
               <v-col class="">
                 <p class="google-font mb-5" style="font-size: 3.5vh;line-height: 1.22;font-weight:500;color:#0005DF">
                   Our Communities
                 </p>
-                <p class="google-font" style="font-size:120%">
+                <p class="google-font mb-10" style="font-size:120%">
                   Communities from each chapter, all over the India have
                   gathered together to make India DevFest a success. Locate your
-                  nearest google developer group and join them right here!
+                  nearest google developer group and join them right here! <br><br>
+                  The community prides itself on being an inclusive environment where everyone and anyone interested in tech - from beginner developers to experienced professionals - all are welcome to join.
                 </p>
+                  <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1F9Lyn8xgdMJwGUWr-BC1rjKVVeZTlv3A" width="100%" height="480"></iframe>
+
               </v-col>
             </v-row>
           </v-container>
@@ -28,10 +31,9 @@
         <v-col md="10" lg="10" sm="11" cols="12" class="my-0 py-0">
           <v-container fluid class="my-0 py-0">
             <v-row class>
-              <!-- <v-col md="12">
-                <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1F9Lyn8xgdMJwGUWr-BC1rjKVVeZTlv3A" width="100%" height="480"></iframe>
-              </v-col> -->
-              <v-col
+                <v-col md="12" class="my-0">
+                </v-col>
+              <!-- <v-col
                 md="3"
                 lg="3"
                 xl="2"
@@ -54,7 +56,7 @@
                     </v-tooltip>
                   </a>
                 </div>
-              </v-col>
+              </v-col> -->
             </v-row>
           </v-container>
         </v-col>
