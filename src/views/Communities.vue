@@ -12,8 +12,7 @@
                 <p class="google-font mb-10" style="font-size:120%">
                   Communities from each chapter, all over the India have
                   gathered together to make India DevFest a success. Locate your
-                  nearest google developer group and join them right here! <br><br>
-                  The community prides itself on being an inclusive environment where everyone and anyone interested in tech - from beginner developers to experienced professionals - all are welcome to join.
+                  nearest google developer group and join them right here! 
                 </p>
                   <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1F9Lyn8xgdMJwGUWr-BC1rjKVVeZTlv3A" width="100%" height="480"></iframe>
 
@@ -25,15 +24,14 @@
       </v-row>
     </v-container>
 
-    <v-container fluid class="mb-5 pb-5 py-0 my-0">
+    <!-- <v-container fluid class="mb-5 pb-5 py-0 my-0">
       <v-row justify="center" align="center" class="px-0 my-0">
-        <!-- style="margin-top: -150px;" -->
         <v-col md="10" lg="10" sm="11" cols="12" class="my-0 py-0">
           <v-container fluid class="my-0 py-0">
             <v-row class>
                 <v-col md="12" class="my-0">
                 </v-col>
-              <!-- <v-col
+              <v-col
                 md="3"
                 lg="3"
                 xl="2"
@@ -56,12 +54,12 @@
                     </v-tooltip>
                   </a>
                 </div>
-              </v-col> -->
+              </v-col>
             </v-row>
           </v-container>
         </v-col>
       </v-row>
-    </v-container>
+    </v-container> -->
   </v-main>
 </template>
 

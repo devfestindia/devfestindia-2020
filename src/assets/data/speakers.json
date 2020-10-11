@@ -367,7 +367,7 @@
         "image": "santosh.jpg",
         "bio": "Santosh is a GDE for Angular and loves contributing to Angular and NgRx. He works as a software consultant and writes for indepth.dev and mentors for DotNetTricks. He is also the author of the Ngx-Builders package and part of NestJsAddOns core Team. He is also running Tech Talks with Santosh talk show, where he invites the industry experts to discuss different technologies.",
         "social": {
-            "linkedin": "linkedin.com/in/yadavsantosh",
+            "linkedin": "https://www.linkedin.com/in/yadavsantosh",
             "twitter": "https://twitter.com/SantoshYadavDev"
         },
         "sessionId": [

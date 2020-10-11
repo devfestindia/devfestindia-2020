@@ -16,11 +16,11 @@
               color: #0005df;
             "
           >
-            Schedules
+            Schedule
           </p>
           <p class="google-font mb-10" style="font-size: 120%">
             Follow code demonstrations by our expert speakers on 5  different tracks. Check out the schedule below and don't forget to mark your calendar so that you don't miss out on any sessions. <br /><br />
-            <b>Add <a :href="calanderEvents['Mobile'].link" target="_blank">Mobile</a>, <a :href="calanderEvents['Web'].link" target="_blank">Web</a>, <a :href="calanderEvents['Cloud'].link" target="_blank">Cloud</a>, <a :href="calanderEvents['Flutter'].link" target="_blank">Flutter</a>, and <a :href="calanderEvents['ML'].link" target="_blank">Machine Learning</a> Track to you Google Calendar.</b>
+            Add <a :href="calanderEvents['Mobile'].link" target="_blank">Mobile</a>, <a :href="calanderEvents['Web'].link" target="_blank">Web</a>, <a :href="calanderEvents['Cloud'].link" target="_blank">Cloud</a>, <a :href="calanderEvents['Flutter'].link" target="_blank">Flutter</a>, and <a :href="calanderEvents['ML'].link" target="_blank">Machine Learning</a> Track to your Google Calendar.
           </p>
           <v-tabs
             v-model="model"
@@ -182,4 +182,10 @@ export default {
 .v-slide-group__prev {
   display: none !important;
 }
+</style>
+
+<style scoped>
+  a{
+    /* color:black */
+  }
 </style>
