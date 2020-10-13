@@ -78,6 +78,66 @@
             </template>
             <span>Instagram</span>
           </v-tooltip>
+
+          <v-tooltip bottom>
+            <template v-slot:activator="{ on }">
+              <v-btn
+                text
+                icon
+                v-on="on"
+                style="background:#0005DF"
+                class="mx-2"
+                color="white"
+                rel="noreferrer"
+                href="https://www.linkedin.com/events/devfestindia6717758014834696192/"
+                target="_blank"
+                slot="activator"
+              >
+                <v-icon>mdi-linkedin</v-icon>
+              </v-btn>
+            </template>
+            <span>Linkedin</span>
+          </v-tooltip>
+
+          <v-tooltip bottom>
+            <template v-slot:activator="{ on }">
+              <v-btn
+                text
+                icon
+                v-on="on"
+                style="background:#0005DF"
+                class="mx-2"
+                color="white"
+                rel="noreferrer"
+                href="https://www.facebook.com/events/705286906861605/"
+                target="_blank"
+                slot="activator"
+              >
+                <v-icon>mdi-facebook</v-icon>
+              </v-btn>
+            </template>
+            <span>Facebook</span>
+          </v-tooltip>
+
+          <v-tooltip bottom>
+            <template v-slot:activator="{ on }">
+              <v-btn
+                text
+                icon
+                v-on="on"
+                style="background:#0005DF"
+                class="mx-2"
+                color="white"
+                rel="noreferrer"
+                href="https://github.com/DevFest-India"
+                target="_blank"
+                slot="activator"
+              > 
+                <v-icon>mdi-github</v-icon>
+              </v-btn>
+            </template>
+            <span>Github</span>
+          </v-tooltip>
       </v-col>
     </v-row>
   </v-container>
