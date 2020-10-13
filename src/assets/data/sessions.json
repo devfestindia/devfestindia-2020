@@ -31,7 +31,7 @@
         "id": "103",
         "slide":"",
         "title":"301 : Building a Offline First Architecture",
-        "description":"",
+        "description":"In the expert track, you are going to learn how to use Jetpack components like ViewModel, RoomDB etc. We are also going to integrate MVVM architecture and help you understand how to build offline first architecture which would help you build an app and make it functional even without internet. We are going to also help you understand how lambda works and a lot of amazing other stuff.",
         "track": "Mobile",
         "link": "",
         "format": "Day 3",
@@ -73,7 +73,7 @@
         "id": "106",
         "slide":"",
         "title":"Advanced : SIIM-ISIC Melanoma Classification using TF 2.0",
-        "description":"",
+        "description":"Skin cancer is the most prevalent type of cancer. Melanoma, specifically, is responsible for 75% of skin cancer deaths, despite being the least common skin cancer. The American Cancer Society estimates over 100,000 new melanoma cases will be diagnosed in 2020. It's also expected that almost 7,000 people will die from the disease. As with other cancers, early and accurate detection—potentially aided by data science—can make treatment more effective. TensorFlow is a fast, flexible, and scalable open-source machine learning library for research and production .TPUs, unlike GPUs, are custom-designed to handle operations like matrix multiplications in neural network training. In this workshop we will use TensorFlow APIs and TPU runtime accelerator to identify melanoma from Lesion Images in Kaggle .",
         "track": "ML",
         "link": "",
         "format": "Day 3",
@@ -86,8 +86,8 @@
     {
         "id": "107",
         "slide":"",
-        "title":"Cloud 101: Every Cloud App Starts Here",
-        "description":"Google Cloud Platform is Google’s attempt at bringing the best of its technology and experience in building large, globally scalable applications that touch billions of lives everyday to the public domain. Join Sathish VJ as he simplifies complex concepts such as Network, Load Balancing, Storage, CDN, Firewalls and IAM for the everyday developer and walks you through the essentials of cloud computing along with everything you need to get started on Google Cloud Platform.",
+        "title":"101: Every Cloud App Starts Here",
+        "description":"All cloud apps start from a few foundational blocks. Understanding them gives you an always important view into how resources like compute, storage, and memory are provisioned from data centers all across the world, how they are costed, and how access is managed through access control and networking.",
         "track": "Cloud",
         "link": "",
         "format": "Day 1",
@@ -100,7 +100,7 @@
     {
         "id": "108",
         "slide":"",
-        "title":"Cloud 201: Deploy your Apps to Google Cloud",
+        "title":"201: Deploy your Apps to Google Cloud",
         "description":"App Engine, Google Cloud’s first product brought serverless to the world back in 2008, well before the term ‘serverless’ was cool. Building on the same principles, Google introduced Cloud Run and Cloud Build during Google Cloud Next’19, its annual conference for cloud computing allowing for serverless containers and serverless deployments. Watch Shilpa Garg and Dharmesh Vaya as they demonstrate how to take an app to the world using an end-to-end serverless deployment pipeline.",
         "track": "Cloud",
         "link": "",
@@ -114,8 +114,8 @@
     {
         "id": "109",
         "slide":"",
-        "title":"Cloud 301: Analyzing Big Data on Google Cloud",
-        "description":"BigQuery is one such product of Google’s data excellence. With over a decade of experience building a mature enterprise-ready data warehouse, BigQuery is a fan favourite for data folks across the globe. Simply bring your data from as many data sources and start turning it into insights in seconds using Standard ANSI SQL. The love data science community has shown to BigQuery reflects in the fact that Google extended BigQuery from just a simple data warehousing solution to a full fledged tool with ML, GIS analytics, ETL and BI capabilities. Not only users can now analyse petabytes of data in seconds but also build machine learning models on top using popular algorithms without switching to another console or exporting data outside to a secondary storage. Catch Maitreyi KV and Rushabh Vasa as they take you through a data science experience, the Google way.",
+        "title":"301: Analyzing Big Data on Google Cloud",
+        "description":"Analyzing large amounts of data? Use BQ and BQML to analyze data, build ML models and visualize data at scale ",
         "track": "Cloud",
         "link": "",
         "format": "Day 3",
@@ -171,7 +171,7 @@
         "id": "113",
         "slide":"",
         "title":"101: Flutter app for everyone",
-        "description":"",
+        "description":"Flutter has become one of the most hot mobile frameworks to learn! Did you know Flutter is also making its way to all platform? In this track we will explore how to design and develop flutter apps for mobile and then deploy them to the web. Also covering concepts of end to end UI development with responsive layouts,navigation concepts and API management.",
         "track": "Flutter",
         "link": "",
         "format": "Day 2",
@@ -207,33 +207,6 @@
         "timeDuration": "30",
         "speakers": [
             
-        ]
-    },
-    {
-        "id": "116",
-        "slide":"",
-        "title":"ML : Q+A",
-        "description":"",
-        "track": "ML",
-        "link": "",
-        "format": "Day 1",
-        "date": "October 16th, 2020",
-        "timeDuration": "10",
-        "speakers": [
-            111,109
-        ]
-    },
-    {
-        "id": "117",
-        "slide":"",
-        "title":"Ice Breakers",
-        "description":"",
-        "track": "General",
-        "link": "",
-        "format": "Day 1",
-        "date": "October 16th, 2020",
-        "timeDuration": "5",
-        "speakers": [
         ]
     },
     {
