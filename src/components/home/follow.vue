@@ -132,7 +132,7 @@
                 href="https://github.com/DevFest-India"
                 target="_blank"
                 slot="activator"
-              >
+              > 
                 <v-icon>mdi-github</v-icon>
               </v-btn>
             </template>
