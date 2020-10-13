@@ -109,7 +109,7 @@
             "designation":"Data Science Global Ambassador",
             "name":"HP and NVIDIA"
         },
-        "image": "",
+        "image": "usha.jpg",
         "bio": "Usha is India’s first women Kaggle Grandmaster and she is ranked as top ten Data Scientists in India for the year 2020 by Analytics India Magazine.She is Data Science Global Ambassador for ZbyHP and NVIDIA.She organised NeuroAI (www.neuroai.in) which is India’s first-ever research symposium in the interface of Neuroscience and Data Science. She specialises in Probabilistic Graphical Models, Machine Learning and Deep Learning. She has prepared curriculum for BITS Pilani’s masters in Data Science program (consumed by 20,000+ students ) and Upgrad’s PGP program in DS(consumed by 10,000+ students).She leads 8 communities across two cities Bangalore and Mysuru ( TensorFlow User Group(TFUG Mysuru) , Google Developer Group (GDG Mysuru) , Women TechMakers Ambassador for Mysuru , Women in Data Science Ambassador (Mysuru) , Women in Machine Learning and Data Science (WiMLDS - Bangalore and Mysore) , Lean in Bangalore AI circle and AIMed Ambassador.Some of the above communities have grown to become the biggest chapters in India .",
         "social": {
             "linkedin": "https://www.linkedin.com/in/usha-rengaraju-b570b7a2/",
@@ -126,24 +126,24 @@
             "designation":"Senior Data Scientist",
             "name":""
         },
-        "image": "",
+        "image": "akshya.jpg",
         "bio": "Akshay is currently working as a Senior Data Scientist at Lowe's, tackling problems on Machine Learning in the e-commerce space. As an ML GDE, he is currently collaborating with Google's developer community to make an Indian sign language recognition system (ISLAR) specifically aimed at running on low resource environments for developing countries. Akshay's works and efforts have been well received internationally as well, he has received \"The Most Influential Young Data Scientist of the Year 2019\" by The International Society of Data Scientists for my contributions in the field of Machine Learning.",
         "social": {
-            "linkedin": "",
-            "twitter": ""
+            "linkedin": "https://www.linkedin.com/in/akshaybahadur21/",
+            "twitter": "https://twitter.com/AkshayBahadur3"
         },
         "sessionId": [
             106
         ]
     },
     {
-        "id": "108",
+        "id": "109",
         "name":"Savvy Jain",
         "company": {
             "designation":"CEO and Founder",
             "name":"Cofiato"
         },
-        "image": "",
+        "image": "savy.jpg",
         "bio": "Savvy loves data and everything around it. She used to be a data scientist and has experience working in various domains. She is currently CEO and Founder of Cofiato, which is a Hardware Intelligence firm. Her second love is community evangelism. She's associated with many technical and networking communities like GDG, GCDC, WTM, Linkedin Local, BNI etc. She is also Women in Data Science Regional Ambassador. She likes innovation, creativity, and coffee",
         "social": {
             "linkedin": "https://linkedin.com/in/savvyjain",
@@ -160,7 +160,7 @@
             "designation":"Research Engineer",
             "name":"Saama Technologies"
         },
-        "image": "",
+        "image": "bhawani.jpg",
         "bio": "Bhavani Ravi is a Research Engineer at  Saama Technologies, Opensource contributor for Rasa and Pandas. She is a WomenTechMakers Chennai ambassador. She is also a blogger, bibliophile, artist, and aspiring entrepreneur. You can find more about her at bhavaniravi.com",
         "social": {
             "linkedin": "https://linkedin.com/in/bhavanir/",
@@ -177,11 +177,11 @@
             "designation":"Data Scientist",
             "name":"Jupiter"
         },
-        "image": "",
+        "image": "sweta.jpg",
         "bio": "Shweta works as a Data Scientist at Jupiter. She is a GDE for Machine Learning and an AI/ML mentor at Springboard. Her interests within AI include Natural Language Processing, Deep Learning, Reinforcement Learning and Game Theory. She holds a Master's degree from King's College London in Artificial Intelligence and an undergraduate degree from BITS Pilani in Information Systems. She loves travelling and exploring new places and cultures and is a tea enthusiast.",
         "social": {
             "linkedin": "https://linkedin.com/in/shweta-bhatt-1a930b12/",
-            "twitter": "https://www.linkedin.com/in/sathishvj/"
+            "twitter": ""
         },
         "sessionId": [
             104
@@ -194,7 +194,7 @@
             "designation":"CEO CO-FOUNDER",
             "name":"Jiovio healthcare"
         },
-        "image": "",
+        "image": "senthik.jpg",
         "bio": "I am Senthil Kumar M. I hail from Madurai, Tamilnadu-India with a great passion for innovating through technology to solve real life problems. I have innovated in fields like wireless network, defence, maternal healthcare, and safety solutions and filed nearly 10 patents for the same.Though I began my career as an engineer in Samsung | Qualcomm Fortune 500 companies, I realised that I am called to be an entrepreneur. I quit my job to found two tech startups, Geomeo and JioVio, in urban infrastructure and healthcare sector respectively",
         "social": {
             "linkedin": "https://in.linkedin.com/in/senthilkumar-murugesan",
@@ -456,6 +456,7 @@
             "twitter": ""
         },
         "sessionId": [
+            120
         ]
     }
 ]
