@@ -17,11 +17,11 @@
 
       <!-- style="background:#f8f9fa" -->
       <!-- style="background:#0cad4d" -->
-      <v-row align="center" justify="center" style="border-top:1px solid #e0e0e0" >
+      <!-- <v-row align="center" justify="center" style="border-top:1px solid #e0e0e0" >
         <v-col md="10" lg="10" sm="12" >
           <Twitter class="mt-md-8 mb-md-0 my-xs-0 py-xs-0" />
         </v-col>
-      </v-row>
+      </v-row> -->
 
       <!-- Theme -->
       <!-- <v-row align="center" justify="center" class="py-0 my-0" >
@@ -51,7 +51,7 @@ export default {
     About:()=> import("@/components/home/About"),
     DevFestMoments: () => import("@/components/home/DevFestMoments"),
     FollowUs: () => import("@/components/home/follow"),
-    Twitter: () => import("@/components/home/Twitter"),
+    // Twitter: () => import("@/components/home/Twitter"),
     // HomeScreen: ()=> import('@/components/home/homescreen'),
     Stats: ()=> import('@/components/home/Stats'),
     Theme: ()=> import('@/components/home/theme'),

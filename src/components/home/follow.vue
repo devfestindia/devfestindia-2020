@@ -19,7 +19,7 @@
           >#DevFestIndia</a>
           for the updates and news.
         </p>
-        <v-tooltip bottom >
+        <!-- <v-tooltip bottom >
           <template v-slot:activator="{ on }">
             <v-btn
               text
@@ -37,7 +37,7 @@
             </v-btn>
           </template>
           <span>Twitter</span>
-        </v-tooltip>
+        </v-tooltip> -->
 
          <v-tooltip bottom>
             <template v-slot:activator="{ on }">

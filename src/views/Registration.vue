@@ -469,7 +469,7 @@
                     style="color:red"
                   >no-reply@devfestindia.com</span>
                 </p>
-                <v-btn
+                <!-- <v-btn
                   v-if="maindata.registrationData.twittershare"
                   :href="maindata.registrationData.twittershare"
                   target="_blank"
@@ -481,7 +481,7 @@
                   class="google-font mt-2"
                 >
                   <v-icon size="20px" left>mdi-twitter</v-icon>Tweet your excitement
-                </v-btn>
+                </v-btn> -->
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <v-btn
                   v-if="maindata.registrationData.facebookshare"
@@ -530,7 +530,7 @@
                   <br />
                   <span style="color:red">no-reply@devfestindia.com</span>
                 </p>
-                <v-btn
+                <!-- <v-btn
                   v-if="maindata.registrationData.twittershare"
                   :href="maindata.registrationData.twittershare"
                   target="_blank"
@@ -542,7 +542,7 @@
                   class="google-font mt-2"
                 >
                   <v-icon size="20px" left>mdi-twitter</v-icon>Tweet your excitement
-                </v-btn>
+                </v-btn> -->
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <v-btn
                   v-if="maindata.registrationData.facebookshare"
