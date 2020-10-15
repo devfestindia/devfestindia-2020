@@ -6,6 +6,7 @@
         <v-col md="10" lg="10" sm="12" class="my-4" >
           <Hero class="mt-md-8 mb-md-0 my-xs-0 py-xs-0"/>
           <Countdown class="mt-md-8 mb-md-0 my-xs-0 py-xs-0"/>
+          <!-- <YoutubeLinks class="mt-md-8 mb-md-0 my-xs-0 py-xs-0"/> -->
           <About class="mt-md-8 mb-md-0 my-xs-0 py-xs-0"/>
           <Theme class="mt-md-8 mb-md-0 my-xs-0 py-xs-0" />
           <Stats class="mt-md-8 mb-md-0 my-xs-0 py-xs-0"/>
@@ -48,6 +49,7 @@ export default {
   components: {
     Hero:()=> import("@/components/home/Hero"),
     Countdown:()=> import("@/components/home/Countdown"),
+    // YoutubeLinks:()=> import("@/components/home/YoutubeLinks"),
     About:()=> import("@/components/home/About"),
     DevFestMoments: () => import("@/components/home/DevFestMoments"),
     FollowUs: () => import("@/components/home/follow"),
