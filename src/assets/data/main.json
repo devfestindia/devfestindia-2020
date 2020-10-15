@@ -7,10 +7,7 @@
     "shortdes": "",
     "googlefromforregistration": "https://docs.google.com/forms/d/e/1FAIpQLSflHxrmgIkJmVFZtpXAjKz17uJB89XSgEbKRrAgme0bsvPv5w/viewform",
     "longdes": "As the world is coming to terms with this new way of life, we communities are also adopting new formats and methods to bring you all India’s biggest developers conference <b>DevFest India 2020</b> online with talks, activities, fun & much more. <br><br>From beginners to experts, coders to creatives, DevFest India 2020 conference is for everyone, so come along, share your knowledge and learn something new.",
-    "stats": [{
-            "name": "Registrations",
-            "count": "20k+"
-        },
+    "stats": [
         {
             "name": "Communities",
             "count": "40+"
@@ -52,7 +49,7 @@
         },
         {
             "name": "Cloud",
-            "content": "We will take you through a tour of GCP followed by  deploying applications and analysing data on with Big Query and ML, all on Google Cloud.",
+            "content": "We will take you through a tour of GCP and follow it by a demonstration on deploying applications and finally conclude with analysing big data and building ML models using BigQuery, all on Google Cloud.",
             "img": "Cloud.svg"
         },
         {

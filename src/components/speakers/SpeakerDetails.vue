@@ -49,22 +49,23 @@
                 v-for="(itemp) in data.sessionId"
                 :key="itemp.id"
               >
-                <div v-for="(item) in binarySearchSession(itemp)" :key="item.id" class="">
+                <div v-for="(item) in binarySearchSession(itemp)" :key="item.id" class="" style="width:100%">
                     <v-list
                       two-line
                       subheader
                       class="pa-0 ma-0"
                       :class="theme.isDark ? 'grey darken-3' : 'white'"
+                      style="width:100%"
                     >
-                      <v-list-item class="pa-0">
+                      <v-list-item class="pa-0" style="width:100%">
                         <v-list-item-content>
                           <v-list-item-title
                             class="google-font text-wrap"
                             style="text-align:left;"
                           >{{ item.title }}</v-list-item-title>
                           <v-list-item-subtitle class="google-font">
-                            {{ item.track }}
-                            <br />
+                            <!-- {{ item.track }} -->
+                            <!-- <br /> -->
                             <v-chip
                               color="#00BFA5"
                               label
