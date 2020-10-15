@@ -62,6 +62,15 @@ export default new Vuex.Store({
         },
       },
       {
+        text: "Resources",
+        to: "/resources",
+        icon: "mdi-folder-outline",
+        meta: {
+          showToolbar: true,
+          showBottomNav: false,
+        },
+      },
+      {
         text: "Register",
         to: "/registration",
         icon: "mdi-account-circle",

@@ -41,6 +41,15 @@ Vue.use(VueRouter)
       color: 'white'
     }
   },
+  {
+    path: '/resources',
+    name: 'Resources',
+    component: () => import(/* webpackChunkName: "Resources" */ '../views/Resources.vue'),
+    meta: {
+      title: 'Resources | DevFest India',
+      color: 'white'
+    }
+  },
   // {
   //   path: '/partners',
   //   name: 'Partners',

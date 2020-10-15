@@ -17,7 +17,7 @@
         "id": "102",
         "slide":"",
         "title":"201: Building dynamic UI with RESTful API Call",
-        "description":"",
+        "description":"Talking about the practical world, where you build an application to show some content to the users, that content is never static. It must be coming from some source which gives you dynamic data. Consider any application in your device like Facebook, Music or News app - the content never remains the same. In this session, we are going to show how to render that dynamic data into a Dynamic UI and build an application on it. You will also get to know some cool stuff around Kotlin.",
         "track": "Mobile",
         "link": "",
         "format": "Day 2",
@@ -220,7 +220,7 @@
         "date": "October 16th, 2020",
         "timeDuration": "40",
         "speakers": [
-            127,112,123,115,111,103
+            127,122,123,115,111,103
         ]
     }
 

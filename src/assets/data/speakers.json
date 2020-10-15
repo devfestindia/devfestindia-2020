@@ -446,13 +446,13 @@
         "id": "127",
         "name":"Biswajeet Mallik",
         "company": {
-            "designation":"Program Manager , Google",
+            "designation":"Program Manager",
             "name":"Google"
         },
         "image": "biswajeet.jpeg",
-        "bio": "Program Manager at Google (India lead for Developer Community Programs)",
+        "bio": "Google India",
         "social": {
-            "linkedin": "https://www.linkedin.com/in/biswajeetmallik/",
+            "linkedin": "",
             "twitter": ""
         },
         "sessionId": [
