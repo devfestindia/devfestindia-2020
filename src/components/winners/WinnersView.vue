@@ -14,10 +14,10 @@
       :search="search"
       mobile-breakpoint="no"
       :headers="headers"
-      no-results-text="Result Not Decleared"
-      no-data-text="Result Not Decleared"
+      no-results-text="Result Not Declared"
+      no-data-text="Result Not Declared"
       :items="userData"
-      items-per-page="100"
+      items-per-page="20"
     >
     </v-data-table>
   </div>

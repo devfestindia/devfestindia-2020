@@ -42,8 +42,8 @@
               :class="$vuetify.theme.dark ? 'black' : 'white'"
             >
               <v-container>
-                <v-row>
-                  <v-col>
+                <v-row align="center" justify="center">
+                  <v-col md="10">
                     <WinnerList :userData="day1" />
                   </v-col>
                 </v-row>
