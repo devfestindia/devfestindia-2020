@@ -104,6 +104,15 @@ Vue.use(VueRouter)
       color: 'white'
     }
   },
+  {
+    path: '/winners',
+    name: 'Quiz Winners',
+    component: () => import(/* webpackChunkName: "speakers" */ '../views/Winners.vue'),
+    meta: {
+      title: 'Winners | DevFest India',
+      color: 'white'
+    }
+  },
   // {
   //   path: '/team',
   //   name: 'Team',

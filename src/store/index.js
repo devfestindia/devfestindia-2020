@@ -80,6 +80,15 @@ export default new Vuex.Store({
         },
       },
       {
+        text: "Quiz Winner",
+        to: "/winners",
+        icon: "mdi-trophy-variant",
+        meta: {
+          showToolbar: true,
+          showBottomNav: false,
+        },
+      },
+      {
         text: "FAQ",
         to: "/faq",
         icon: "mdi-star",
