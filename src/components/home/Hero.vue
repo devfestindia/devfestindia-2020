@@ -21,16 +21,16 @@
         <br><br>
         While learning, you can also win exciting prizes by answering questions and participating in numerous contests that will happen over the 3 days. Register now to be a part of the exciting event planned for you!
         </p>
-        <v-btn
+        <!-- <v-btn
           dark
           color="#0005DF"
           large
           depressed
           style="text-transform: capitalize;border-radius:5px;padding:00% 10%;"
-          to="/registration"
+          href="https://feedback.devfestindia.com/"
           class="google-font mr-3 mb-3"
-          >Register</v-btn
-        >
+          >Feedback</v-btn
+        > -->
 
         <v-btn
           depressed

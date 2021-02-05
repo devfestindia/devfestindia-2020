@@ -12,12 +12,12 @@
     <v-data-table
       class="mt-3"
       :search="search"
-      mobile-breakpoint="no"
+      mobile-breakpoint="0"
       :headers="headers"
       no-results-text="Result Not Declared"
       no-data-text="Result Not Declared"
       :items="userData"
-      items-per-page="20"
+      :items-per-page="20"
     >
     </v-data-table>
   </div>

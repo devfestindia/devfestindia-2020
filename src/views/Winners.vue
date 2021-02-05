@@ -54,8 +54,8 @@
               :class="$vuetify.theme.dark ? 'black' : 'white'"
             >
               <v-container>
-                <v-row>
-                  <v-col>
+                <v-row align="center" justify="center">
+                  <v-col md="10">
                     <WinnerList :userData="day2" />
                   </v-col>
                 </v-row>
@@ -66,8 +66,8 @@
               :class="$vuetify.theme.dark ? 'black' : 'white'"
             >
               <v-container>
-                <v-row>
-                  <v-col>
+                <v-row align="center" justify="center">
+                  <v-col md="10">
                     <WinnerList :userData="day3" />
                   </v-col>
                 </v-row>
@@ -99,7 +99,7 @@ export default {
   mounted() {
     this.day1 = Day1Data;
     this.day2 = Day2Data;
-    this.day2 = Day2Data;
+    this.day3 = Day3Data;
   },
   methods: {
     getMobileTab() {

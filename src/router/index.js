@@ -68,15 +68,15 @@ Vue.use(VueRouter)
   //     color: 'white'
   //   }
   // },
-  {
-    path: '/registration',
-    name: 'Registration',
-    component: () => import(/* webpackChunkName: "registration" */ '../views/Registration.vue'),
-    meta: {
-      title: 'Registration | DevFest India',
-      color: 'white'
-    }
-  },
+  // {
+  //   path: '/registration',
+  //   name: 'Registration',
+  //   component: () => import(/* webpackChunkName: "registration" */ '../views/Registration.vue'),
+  //   meta: {
+  //     title: 'Registration | DevFest India',
+  //     color: 'white'
+  //   }
+  // },
   {
     path: '/speakers',
     name: 'Speakers',

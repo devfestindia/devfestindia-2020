@@ -48,7 +48,7 @@
         width="100%"
         height="315"
         style="border: none"
-        :src="data.link"
+        :src="'https://www.youtube.com/embed/'+data.link"
       >
       </iframe>
       <v-card-title

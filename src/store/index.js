@@ -70,15 +70,15 @@ export default new Vuex.Store({
           showBottomNav: false,
         },
       },
-      {
-        text: "Register",
-        to: "/registration",
-        icon: "mdi-account-circle",
-        meta: {
-          showToolbar: true,
-          showBottomNav: true,
-        },
-      },
+      // {
+      //   text: "Register",
+      //   to: "/registration",
+      //   icon: "mdi-account-circle",
+      //   meta: {
+      //     showToolbar: true,
+      //     showBottomNav: true,
+      //   },
+      // },
       {
         text: "Winner",
         to: "/winners",

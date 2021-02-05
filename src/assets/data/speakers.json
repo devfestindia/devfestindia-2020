@@ -458,5 +458,107 @@
         "sessionId": [
             120
         ]
+    },
+    {
+        "id": "128",
+        "name":"Syed Adil Hassan",
+        "company": {
+            "designation":"Marketing Specialist",
+            "name":"Google"
+        },
+        "image": "adil.jpeg",
+        "bio": "Adil is a Marketing specialist working with Google. With 8+years of experience in marketing and communications, he has worked with Intel Technology as a community manager and also been associated with brands like Nike , Volvo , Fujitsu , IBM , Microsoft , Dell etc in his  portfolio.",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/adil8812",
+            "twitter": "https://twitter.com/sdhassan"
+        },
+        "sessionId": [
+            121
+        ]
+    },
+    {
+        "id": "129",
+        "name":"Priyal Jain",
+        "company": {
+            "designation":"Co-organizer of GDG Cloud Indore and Organizer of WTM Indore",
+            "name":"GDG WTM Indore"
+        },
+        "image": "priyal.jpeg",
+        "bio": "I'm Priyal Jain. Currently, I am UI developer and keen to learn new things, explore about new technologies and challenges. Also, love to contribute in open source communities. Enthusiast tech lover, community lover, dreamer and achiever.",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/priyaljain919/",
+            "twitter": "https://twitter.com/priyaljain919"
+        },
+        "sessionId": [
+            121
+        ]
+    },
+    {
+        "id": "130",
+        "name":"Shantanu Vishwanadha",
+        "company": {
+            "designation":"CTO",
+            "name":"Procohat"
+        },
+        "image": "sha.jpg",
+        "bio": "I am a blockchain evangelist and AI enthusiast with 4 years of experience building enterprise grid applications. Avidly contributing to the Linux Foundation and other Open Source Communities. ",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/thecoderpanda",
+            "twitter": "https://twitter.com/thecoderpanda/"
+        },
+        "sessionId": [
+            121
+        ]
+    },
+    {
+        "id": "131",
+        "name":"Amen Tyagi",
+        "company": {
+            "designation":"UX Designer",
+            "name":"UX Gorilla"
+        },
+        "image": "amen.jpeg",
+        "bio": "Amen is the Co-organiser of GDG Cloud New Delhi. He works as a Product Designer at UXGorilla.com.",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/amentyagi",
+            "twitter": "https://twitter.com/amentyagi"
+        },
+        "sessionId": [
+            121
+        ]
+    },
+    {
+        "id": "132",
+        "name":"Madhav Reddy",
+        "company": {
+            "designation":"RedMad Learnings & Organizer",
+            "name":"GDG Vizag"
+        },
+        "image": "madhav.jpeg",
+        "bio": "Madhav is a self-taught entrepreneur, training professional & leadership coach with over 18 years of corporate exposure. He is a Certified Lean Six Sigma Black Belt & Startup mentor. He is also a proud recipient of 'Bharat Shiromani Award'",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/reddymadhav/",
+            "twitter": "https://twitter.com/rmadhav9"
+        },
+        "sessionId": [
+            121
+        ]
+    },
+    {
+        "id": "133",
+        "name":"Harsh Akshit",
+        "company": {
+            "designation":"Co-Organizer",
+            "name":"GDG Ranchi"
+        },
+        "image": "harsh.jpeg",
+        "bio": "Harsh Akshit is Co-Organizer at GDG Ranchi, currently pursuing a Bachelor's from Birla Institute of Technology, Mesra. An active community speaker and also contributing to Information Security Domain. Apart from this, he also likes to explore developer technologies.",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/harshakshit",
+            "twitter": "https://twitter.com/marshmello_in"
+        },
+        "sessionId": [
+            121
+        ]
     }
 ]

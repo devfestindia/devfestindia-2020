@@ -72,10 +72,10 @@ export default {
       {
         day: "DevFest India 2020 | Day 03",
         date: "October 18",
-        type: "Set Reminder",
+        type: "Watch Now",
         link: "http://bit.ly/devfestin03",
         time: "04:00 PM - 09:00 PM (IST)",
-        img:"https://img.youtube.com/vi/DjrFOHcy8ts/mqdefault.jpg"
+        img:"https://img.youtube.com/vi/WrSvFgvEyKY/mqdefault.jpg"
       },
     ],
   }),
