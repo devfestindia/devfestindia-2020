@@ -3,7 +3,7 @@ const admin = require("firebase-admin");
 // SandGrid
 const sgMail = require("@sendgrid/mail");
 sgMail.setApiKey(
-  "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"
+  "Sendgrid_Key"
 );
 
 admin.initializeApp();
